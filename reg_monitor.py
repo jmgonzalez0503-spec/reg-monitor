@@ -342,9 +342,9 @@ def f_page_version(f, src):
     m = re.search(f["marker_regex"], text) if f.get("marker_regex") else None
     if m:
         marker = m.group(0).strip()
-        return [item(f"{f['url']}|{marker.lower()}", f"{f['title']}: {marker}", f["url"], TODAY)], 1
+        return [item(f"{f['url']}|{marker.lower()}", f"{f['title']}: {marker}", f["url"], "")], 1
     digest = hashlib.sha256(text.encode()).hexdigest()[:12]
-    return [item(f"{f['url']}|{digest}", f"{f['title']}: page content changed", f["url"], TODAY)], 1
+    return [item(f"{f['url']}|{digest}", f"{f['title']}: page content changed", f["url"], "")], 1
 
 
 def _congress_key():
@@ -417,7 +417,7 @@ def f_pdf_reports(f, src):
         if not m:
             raise RuntimeError(f"{rep['label']}: could not find the report date")
         asof = re.sub(r"\s+", " ", m.group(1))
-        out.append(item(f"{rep['label']}|{asof}", f"{rep['label']} updated, as of {asof}", rep["url"], TODAY))
+        out.append(item(f"{rep['label']}|{asof}", f"{rep['label']} updated, as of {asof}", rep["url"], ""))
     return out, len(out)
 
 
