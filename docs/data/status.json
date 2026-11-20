@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T02:08:17Z",
+ "generated_at": "2026-11-20T02:09:28Z",
  "new_total": 0,
  "counts": {
   "none": 17,
@@ -21,9 +21,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 2,
@@ -36,11 +36,11 @@
    "route": "DARS class deviations page",
    "items_read": 111,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 3,
@@ -55,9 +55,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 4,
@@ -70,11 +70,11 @@
    "route": "DPCAP policy page",
    "items_read": 34,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 5,
@@ -87,11 +87,11 @@
    "route": "DPCAP prototype OT guide page",
    "items_read": 1,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 6,
@@ -106,9 +106,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 7,
@@ -121,11 +121,11 @@
    "route": "EveryCRSReport feed",
    "items_read": 0,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 8,
@@ -140,9 +140,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 9,
@@ -157,9 +157,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 10,
@@ -172,11 +172,11 @@
    "route": "",
    "items_read": 0,
    "new_count": 0,
-   "message": "DoD IG reports page: robots.txt does not allow automated access to this page | DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries | Oversight.gov (Defense OIG reports): site returned HTTP 406",
+   "message": "DoD IG reports page: robots.txt does not allow automated access to this page | DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries | DoD IG audits and evaluations page: robots.txt does not allow automated access to this page | DoD IG reports feed (alternate): RuntimeError: www.dodig.mil: feed had no entries; www.dodig.mil: 404 Client Error: Not Found for url: https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077 | Oversight.gov (Defense OIG reports): site returned HTTP 406",
    "manual_note": "",
    "last_success": "",
-   "fail_streak": 2,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "fail_streak": 3,
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 11,
@@ -191,9 +191,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 12,
@@ -206,11 +206,11 @@
    "route": "Law blog feeds (OT decisions)",
    "items_read": 0,
    "new_count": 0,
-   "message": "Primary route failed, backup used. CourtListener search: CourtListener requires a free account token for automated searches First successful read by this route; existing items recorded as the baseline.",
+   "message": "Primary route failed, backup used. CourtListener search: CourtListener requires a free account token for automated searches",
    "manual_note": "Westlaw requires a login. A public case search runs automatically; the Westlaw check is manual.",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 13,
@@ -225,9 +225,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 14,
@@ -244,7 +244,7 @@
    "manual_note": "Consortium member portals require a login. This source is checked manually.",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 15,
@@ -261,7 +261,7 @@
    "manual_note": "",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 16,
@@ -274,11 +274,11 @@
    "route": "GAO legal products feed",
    "items_read": 25,
    "new_count": 0,
-   "message": "Primary route failed, backup used. GAO recent bid protest decisions page: robots.txt does not allow automated access to this page First successful read by this route; existing items recorded as the baseline.",
+   "message": "Primary route failed, backup used. GAO recent bid protest decisions page: robots.txt does not allow automated access to this page",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 17,
@@ -293,9 +293,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 18,
@@ -310,9 +310,9 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. CourtListener (COFC opinions): CourtListener requires a free account token for automated searches",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 19,
@@ -327,9 +327,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   },
   {
    "id": 20,
@@ -342,11 +342,11 @@
    "route": "DARS open case PDFs",
    "items_read": 2,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:08:17Z",
+   "last_success": "2026-11-20T02:09:28Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:08:17Z"
+   "checked_at": "2026-11-20T02:09:28Z"
   }
  ]
 }
