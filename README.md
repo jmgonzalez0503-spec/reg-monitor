@@ -1,6 +1,6 @@
 # Regulatory and Legislative Monitor
 
-A small program that checks 20 public federal acquisition sources on weekday mornings and publishes what is new.
+A small program that checks 33 public federal acquisition sources on weekday mornings and publishes what is new.
 
 **Website:** https://jmgonzalez0503-spec.github.io/reg-monitor/
 

@@ -186,22 +186,75 @@ def clean(s, n=300):
     return s[:n]
 
 
-def item(id_, title, url, date=""):
-    return {"id": str(id_), "title": clean(title), "url": url or "", "date": (date or "")[:10]}
+def item(id_, title, url, date="", due=""):
+    return {"id": str(id_), "title": clean(title), "url": url or "", "date": (date or "")[:10], "due": (due or "")[:10]}
+
+
+TAG_RULES = [
+    ("Other transactions", r"(?i)other transaction|\bOTAs?\b|\bOTs\b|prototype|commercial solutions opening|\bCSO\b|consortium"),
+    ("CUI and cyber", r"(?i)controlled unclassified|\bCUI\b|\bCMMC\b|cybersecurity|800-171|safeguarding"),
+    ("Cost and pricing", r"(?i)cost or pricing|\bTINA\b|truthful cost|cost accounting|\bCAS\b|\bDCAA\b|allowable cost|indirect cost"),
+    ("Data rights", r"(?i)data rights|technical data|intellectual property|patent|computer software"),
+    ("Protests and disputes", r"(?i)protest|contract disputes|\bASBCA\b|\bCBCA\b|court of federal claims|board of contract appeals"),
+    ("Commercial items", r"(?i)commercial (item|product|service|solution)|commerciality"),
+    ("Small business", r"(?i)small business|\bSBIR\b|\bSTTR\b|8\(a\)|HUBZone|size standard"),
+    ("Export controls", r"(?i)\bITAR\b|export control|export administration|arms regulations"),
+    ("Legislation", r"(?i)\bNDAA\b|national defense authorization|appropriations"),
+]
+
+
+def tags_for(title, source_tags):
+    out = list(source_tags or [])
+    for name, rx in TAG_RULES:
+        if name not in out and re.search(rx, title):
+            out.append(name)
+    return out
 
 
 # ---------------------------------------------------------------- fetchers
 
 def f_federal_register(f, src):
     params = [("order", "newest"), ("per_page", "40")]
+    for fld in ("document_number", "title", "type", "html_url", "publication_date", "comments_close_on"):
+        params.append(("fields[]", fld))
     for k, v in f["params"].items():
-        params.append((k, v))
+        for one in (v if isinstance(v, list) else [v]):
+            params.append((k, one))
     r = http_get("https://www.federalregister.gov/api/v1/documents.json", params=params)
+    results = r.json().get("results", []) or []
     out = []
-    for d in r.json().get("results", []):
-        t = d.get("type", "")
-        out.append(item(d["document_number"], f"{d.get('title', '')} ({t})", d.get("html_url"), d.get("publication_date")))
-    return out, len(out)
+    for d in results:
+        if not kw_match(d.get("title", ""), f.get("keywords")):
+            continue
+        out.append(item(d["document_number"], f"{d.get('title', '')} ({d.get('type', '')})", d.get("html_url"),
+                        d.get("publication_date"), d.get("comments_close_on")))
+    return out, len(results)
+
+
+def f_oira_xml(f, src):
+    import xml.etree.ElementTree as ET
+    r = http_get(f["url"])
+    root = ET.fromstring(r.content)
+    rx = re.compile(f["match_regex"])
+    out, raw = [], 0
+    for el in root.iter():
+        kids = {c.tag.upper(): (c.text or "").strip() for c in list(el)}
+        if "RIN" not in kids or "TITLE" not in kids:
+            continue
+        raw += 1
+        blob = " ".join(kids.values())
+        if not rx.search(blob):
+            continue
+        stage = kids.get("STAGE", "")
+        recd = kids.get("DATE_RECEIVED", "")
+        m = re.search(r"(\d{4})-(\d{2})-(\d{2})", recd) or re.search(r"(\d{2})/(\d{2})/(\d{4})", recd)
+        date = ""
+        if m:
+            g = m.groups()
+            date = "-".join(g) if len(g[0]) == 4 else f"{g[2]}-{g[0]}-{g[1]}"
+        out.append(item(f"{kids['RIN']}|{stage}|{recd}", f"Under OIRA review: {kids['TITLE']} (RIN {kids['RIN']}{', ' + stage if stage else ''})",
+                        "https://www.reginfo.gov/public/do/eoReviewSearch", date))
+    return out, raw
 
 
 def f_rss(f, src):
@@ -257,7 +310,11 @@ def f_html_links(f, src):
         if key in seen:
             continue
         seen.add(key)
-        out.append(item(key, text, href))
+        due = ""
+        if f.get("due_regex"):
+            m = re.search(f["due_regex"], text)
+            due = m.group(1) if m else ""
+        out.append(item(key, text, href, "", due))
     return out, len(out)
 
 
@@ -315,7 +372,7 @@ def f_sam_opportunities(f, src):
             if o.get("noticeId") in seen:
                 continue
             seen.add(o.get("noticeId"))
-            out.append(item(o.get("noticeId"), f"{o.get('title', '')} ({o.get('fullParentPathName', '')})", o.get("uiLink"), o.get("postedDate")))
+            out.append(item(o.get("noticeId"), f"{o.get('title', '')} ({o.get('fullParentPathName', '')})", o.get("uiLink"), o.get("postedDate"), o.get("responseDeadLine")))
     return out, len(out)
 
 
@@ -352,7 +409,7 @@ FETCHERS = {
     "federal_register": f_federal_register, "rss": f_rss, "html_links": f_html_links,
     "page_version": f_page_version, "congress_bill_actions": f_congress_bill_actions,
     "congress_crs": f_congress_crs, "sam_opportunities": f_sam_opportunities,
-    "courtlistener": f_courtlistener, "pdf_reports": f_pdf_reports,
+    "courtlistener": f_courtlistener, "pdf_reports": f_pdf_reports, "oira_xml": f_oira_xml,
 }
 
 
@@ -374,10 +431,14 @@ def save(name, obj):
 
 
 def check_source(src):
-    """Try each route in order. Returns (status, label, items, message)."""
+    """Try each route in order and stop at the first that works.
+
+    Sources marked "combine" read every route and merge the results.
+    Returns (status, [(label, items)], message).
+    """
     if src.get("manual") or not src["fetchers"]:
-        return "manual", "", [], src.get("manual_note", "Checked manually.")
-    errors, kinds = [], set()
+        return "manual", [], src.get("manual_note", "Checked manually.")
+    errors, kinds, good = [], set(), []
     for f in src["fetchers"]:
         try:
             items, raw = FETCHERS[f["kind"]](f, src)
@@ -385,17 +446,44 @@ def check_source(src):
             if len(items) < min_items or raw < f.get("min_raw", 0):
                 raise RuntimeError(f"returned {len(items)} items; expected at least {max(min_items, 1)}")
             log(f"   ok via {f['label']}: {len(items)} items")
-            note = "; ".join(errors)
-            return "ok", f["label"], items, (f"Primary route failed, backup used. {note}" if errors else "")
+            good.append((f["label"], items))
+            if not src.get("combine"):
+                break
+            continue
         except Blocked as ex:
             kinds.add("blocked"); errors.append(redact(f"{f['label']}: {ex}"))
         except NeedsKey as ex:
-            kinds.add("needs_key"); errors.append(f"{f['label']}: {ex}")
+            kinds.add("needs_key"); errors.append(redact(f"{f['label']}: {ex}"))
         except Exception as ex:
             kinds.add("failed"); errors.append(redact(f"{f['label']}: {type(ex).__name__}: {str(ex)[:200]}"))
         log(f"   route failed: {errors[-1]}")
+    if good:
+        note = ""
+        if errors:
+            lead = "Partial read; these routes failed." if src.get("combine") else "Primary route failed, backup used."
+            note = f"{lead} {' | '.join(errors)}"
+        return "ok", good, note
     status = "failed" if "failed" in kinds else ("blocked" if "blocked" in kinds else "needs_key")
-    return status, "", [], " | ".join(errors)
+    return status, [], " | ".join(errors)
+
+
+def write_feed(findings):
+    from xml.sax.saxutils import escape
+    site = "https://jmgonzalez0503-spec.github.io/reg-monitor/"
+    rows = [f for f in findings if not f.get("baseline")][:60]
+    parts = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0"><channel>',
+             "<title>Regulatory and Legislative Monitor: new items</title>", f"<link>{site}</link>",
+             "<description>New items found by the monitor across public federal acquisition sources.</description>",
+             f"<lastBuildDate>{NOW.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>"]
+    for f in rows:
+        d = dt.datetime.strptime(f["first_seen"], "%Y-%m-%d").strftime("%a, %d %b %Y 12:00:00 +0000")
+        parts.append("<item><title>" + escape(f["title"]) + "</title><link>" + escape(f["url"] or site) + "</link>"
+                     + '<guid isPermaLink="false">' + escape(f"{f['source_id']}|{f['id']}") + "</guid>"
+                     + "<category>" + escape(f["source"]) + "</category><pubDate>" + d + "</pubDate>"
+                     + "<description>" + escape(f"Source: {f['source']}. First seen {f['first_seen']}.") + "</description></item>")
+    parts.append("</channel></rss>")
+    with open(os.path.join(ROOT, "docs", "feed.xml"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(parts) + "\n")
 
 
 def main():
@@ -405,7 +493,7 @@ def main():
     state = load("state.json", {"seen": {}, "baselined": {}, "fail_streak": {}, "last_success": {}})
     findings = load("findings.json", [])
     prev_status = {s["id"]: s for s in load("status.json", {}).get("sources", [])}
-    known = {(f["source_id"], f["id"]) for f in findings}
+    known = {(f["source_id"], f["id"]): f for f in findings}
     rows, new_total = [], 0
 
     for src in CFG["sources"]:
@@ -415,25 +503,36 @@ def main():
                 rows.append(prev_status[src["id"]])
             continue
         log(f"Source {sid}: {src['name']}")
-        status, label, items, message = check_source(src)
-        new_count = 0
+        status, results, message = check_source(src)
+        new_count, read_count = 0, 0
         if status == "ok":
             seen = set(state["seen"].get(sid, []))
             baselined = state["baselined"].setdefault(sid, [])
-            first_time = label not in baselined
-            for it in items:
-                if it["id"] in seen:
-                    continue
-                seen.add(it["id"])
-                if (src["id"], it["id"]) in known:
-                    continue
-                findings.append({"source_id": src["id"], "source": src["name"], "type": src["type"], "id": it["id"],
-                                 "title": it["title"], "url": it["url"], "date": it["date"],
-                                 "first_seen": TODAY, "baseline": first_time})
-                if not first_time:
-                    new_count += 1
-            if first_time:
-                baselined.append(label)
+            fresh_routes = []
+            for label, items in results:
+                first_time = label not in baselined
+                read_count += len(items)
+                for it in items:
+                    old = known.get((src["id"], it["id"]))
+                    if old is not None:
+                        if it.get("due") and not old.get("due"):
+                            old["due"] = it["due"]
+                        seen.add(it["id"])
+                        continue
+                    if it["id"] in seen:
+                        continue
+                    seen.add(it["id"])
+                    rec = {"source_id": src["id"], "source": src["name"], "type": src["type"], "id": it["id"],
+                           "title": it["title"], "url": it["url"], "date": it["date"], "due": it.get("due", ""),
+                           "first_seen": TODAY, "baseline": first_time}
+                    findings.append(rec)
+                    known[(src["id"], it["id"])] = rec
+                    if not first_time:
+                        new_count += 1
+                if first_time:
+                    baselined.append(label)
+                    fresh_routes.append(label)
+            if fresh_routes:
                 message = (message + " " if message else "") + "First successful read by this route; existing items recorded as the baseline."
             state["seen"][sid] = sorted(seen)[-4000:]
             state["fail_streak"][sid] = 0
@@ -443,20 +542,26 @@ def main():
             state["fail_streak"][sid] = state["fail_streak"].get(sid, 0) + 1
         new_total += new_count
         rows.append({"id": src["id"], "name": src["name"], "type": src["type"], "cadence": src["cadence"],
-                     "covers": src["covers"], "url": src["url"], "status": status, "route": label,
-                     "items_read": len(items), "new_count": new_count, "message": message,
+                     "covers": src["covers"], "url": src["url"], "status": status,
+                     "route": ", ".join(l for l, _ in results),
+                     "items_read": read_count, "new_count": new_count, "message": message,
                      "manual_note": src.get("manual_note", ""),
                      "last_success": state["last_success"].get(sid, ""), "fail_streak": state["fail_streak"].get(sid, 0),
                      "checked_at": NOW.strftime("%Y-%m-%dT%H:%M:%SZ")})
 
+    src_tags = {x["id"]: x.get("tags", []) for x in CFG["sources"]}
+    for f in findings:
+        f["tags"] = tags_for(f["title"], src_tags.get(f["source_id"]))
+        f.setdefault("due", "")
     findings.sort(key=lambda x: (x["first_seen"], x.get("date", "")), reverse=True)
     counts = {}
     for r in rows:
         counts[r["status"]] = counts.get(r["status"], 0) + 1
     save("state.json", state)
-    save("findings.json", findings[:6000])
+    save("findings.json", findings[:8000])
     save("status.json", {"generated_at": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "new_total": new_total,
-                         "counts": counts, "sources": rows})
+                         "counts": counts, "tags": [t for t, _ in TAG_RULES], "sources": rows})
+    write_feed(findings)
     log(f"Done. {new_total} new items. Status counts: {counts}")
     with open(os.path.join(DATA, "last_run.log"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(LOG) + "\n")

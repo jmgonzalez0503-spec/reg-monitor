@@ -151,6 +151,9 @@
      "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/index.html",
      "link_regex": "(?i)transaction"
     }
+   ],
+   "tags": [
+    "Other transactions"
    ]
   },
   {
@@ -181,6 +184,9 @@
       }
      ]
     }
+   ],
+   "tags": [
+    "Legislation"
    ]
   },
   {
@@ -379,6 +385,9 @@
       "https://smallgovcon.com/feed/"
      ]
     }
+   ],
+   "tags": [
+    "Other transactions"
    ]
   },
   {
@@ -395,8 +404,12 @@
      "url": "https://www.diu.mil/work-with-us/open-solicitations",
      "link_regex": "(?i)(submit-solution|PROJ\\d+)",
      "min_items": 0,
-     "require_text": "(?i)solicitation"
+     "require_text": "(?i)solicitation",
+     "due_regex": "Closing:\\s*(\\d{4}-\\d{2}-\\d{2})"
     }
+   ],
+   "tags": [
+    "Other transactions"
    ]
   },
   {
@@ -408,7 +421,10 @@
    "manual_note": "Consortium member portals require a login. This source is checked manually.",
    "covers": "Consortium requests for prototype proposals, white paper calls, and awards",
    "url": "",
-   "fetchers": []
+   "fetchers": [],
+   "tags": [
+    "Other transactions"
+   ]
   },
   {
    "id": 15,
@@ -428,6 +444,9 @@
      ],
      "min_items": 0
     }
+   ],
+   "tags": [
+    "Other transactions"
    ]
   },
   {
@@ -453,6 +472,9 @@
       "https://www.gao.gov/rss/decisions.xml"
      ]
     }
+   ],
+   "tags": [
+    "Protests and disputes"
    ]
   },
   {
@@ -505,6 +527,9 @@
      ],
      "exclude_regex": "(?i)(-vv-|SECRETARY OF HEALTH AND HUMAN SERVICES)"
     }
+   ],
+   "tags": [
+    "Protests and disputes"
    ]
   },
   {
@@ -551,6 +576,387 @@
        "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "ASBCA decisions",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "tags": [
+    "Protests and disputes"
+   ],
+   "covers": "Armed Services Board of Contract Appeals published decisions",
+   "url": "https://www.asbca.mil/Decisions/decisions2026.html",
+   "fetchers": [
+    {
+     "label": "ASBCA decisions page",
+     "kind": "html_links",
+     "url": "https://www.asbca.mil/Decisions/decisions2026.html",
+     "link_regex": "(?i)\\.pdf"
+    },
+    {
+     "label": "Law blog feeds (ASBCA coverage)",
+     "kind": "rss",
+     "keywords": [
+      "ASBCA",
+      "Armed Services Board"
+     ],
+     "min_items": 0,
+     "min_raw": 1,
+     "urls": [
+      "https://www.insidegovernmentcontracts.com/feed/",
+      "https://www.governmentcontractslegalforum.com/feed/",
+      "https://smallgovcon.com/feed/"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "CBCA decisions",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "tags": [
+    "Protests and disputes"
+   ],
+   "covers": "Civilian Board of Contract Appeals Contract Disputes Act decisions",
+   "url": "https://www.cbca.gov/decisions/cda-cases.html",
+   "fetchers": [
+    {
+     "label": "CBCA decisions page",
+     "kind": "html_links",
+     "url": "https://www.cbca.gov/decisions/cda-cases.html",
+     "link_regex": "(?i)\\.pdf"
+    },
+    {
+     "label": "CBCA decisions page (current year)",
+     "kind": "html_links",
+     "url": "https://www.cbca.gov/decisions/2026-cda-cases.html",
+     "link_regex": "(?i)\\.pdf"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Federal Register: FAR rules",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Proposed, interim, and final FAR rules from the FAR Council",
+   "url": "https://www.federalregister.gov/",
+   "fetchers": [
+    {
+     "label": "Federal Register API (FAR rules)",
+     "kind": "federal_register",
+     "params": {
+      "conditions[term]": "\"Federal Acquisition Regulation\"",
+      "conditions[agencies][]": "general-services-administration",
+      "conditions[type][]": [
+       "RULE",
+       "PRORULE"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "CAS Board and OFPP notices",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "tags": [],
+   "covers": "Cost Accounting Standards Board rules and Office of Federal Procurement Policy notices",
+   "url": "https://www.federalregister.gov/agencies/federal-procurement-policy-office",
+   "fetchers": [
+    {
+     "label": "Federal Register API (OFPP)",
+     "kind": "federal_register",
+     "params": {
+      "conditions[agencies][]": "federal-procurement-policy-office"
+     }
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Executive orders and presidential memoranda",
+   "type": "Policy",
+   "cadence": "Weekly",
+   "covers": "Presidential documents that touch acquisition, procurement, or defense contracting",
+   "url": "https://www.federalregister.gov/presidential-documents",
+   "fetchers": [
+    {
+     "label": "Federal Register API (presidential documents)",
+     "kind": "federal_register",
+     "min_items": 0,
+     "min_raw": 1,
+     "keywords": [
+      "acquisition",
+      "procurement",
+      "contract",
+      "defense",
+      "Federal Acquisition",
+      "supply chain",
+      "industrial base",
+      "cybersecurity",
+      "export"
+     ],
+     "params": {
+      "conditions[type][]": "PRESDOCU",
+      "conditions[presidential_document_type][]": [
+       "executive_order",
+       "memorandum"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Rules under OIRA review",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Acquisition rules sent to OMB for review before publication",
+   "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
+   "fetchers": [
+    {
+     "label": "Reginfo.gov data file",
+     "kind": "oira_xml",
+     "url": "https://www.reginfo.gov/public/do/XMLViewFileAction?f=EO_RULES_UNDER_REVIEW.xml",
+     "match_regex": "(?i)(acquisition regulation|DFARS|\\bFAR\\b|procurement|cost accounting|controlled unclassified|cybersecurity maturity|\\b9000-|\\b0750-)",
+     "min_items": 0,
+     "min_raw": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "CMMC, CUI, and NIST SP 800-171",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "tags": [
+    "CUI and cyber"
+   ],
+   "combine": true,
+   "covers": "CMMC and CUI rules, and NIST updates to the 800-171 series",
+   "url": "https://csrc.nist.gov/",
+   "fetchers": [
+    {
+     "label": "Federal Register API (CMMC and CUI)",
+     "kind": "federal_register",
+     "params": {
+      "conditions[term]": "\"Cybersecurity Maturity Model Certification\" | \"controlled unclassified information\""
+     }
+    },
+    {
+     "label": "NIST CSRC publications feed",
+     "kind": "rss",
+     "urls": [
+      "https://csrc.nist.gov/CSRC/media/feeds/metafeeds/all.rss",
+      "https://csrc.nist.gov/feeds/publications/drafts",
+      "https://www.nist.gov/news-events/cybersecurity/rss.xml"
+     ],
+     "keywords": [
+      "800-171",
+      "800-172",
+      "controlled unclassified",
+      "CUI"
+     ],
+     "min_items": 0,
+     "min_raw": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "DCAA and DCMA guidance",
+   "type": "Oversight",
+   "cadence": "Monthly",
+   "tags": [
+    "Cost and pricing"
+   ],
+   "combine": true,
+   "covers": "DCAA audit guidance memoranda and DCMA commercial item and pricing guidance",
+   "url": "https://www.dcaa.mil/Guidance/Audit-Guidance/",
+   "fetchers": [
+    {
+     "label": "DCAA audit guidance page",
+     "kind": "html_links",
+     "url": "https://www.dcaa.mil/Guidance/Audit-Guidance/",
+     "link_regex": "(?i)(\\.pdf|MRD|/Article/)"
+    },
+    {
+     "label": "DCMA commercial item group page",
+     "kind": "html_links",
+     "url": "https://www.dcma.mil/Commercial-Item-Group/",
+     "link_regex": "(?i)(\\.pdf|guid|/Article/)"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Defense committees and appropriations",
+   "type": "Legislative",
+   "cadence": "Weekly",
+   "tags": [
+    "Legislation"
+   ],
+   "combine": true,
+   "covers": "House and Senate Armed Services hearings and markups, and defense appropriations releases",
+   "url": "https://armedservices.house.gov/",
+   "fetchers": [
+    {
+     "label": "House Armed Services calendar",
+     "kind": "html_links",
+     "url": "https://armedservices.house.gov/calendar/",
+     "link_regex": "(?i)(/calendar/eventsingle|hearing|markup)"
+    },
+    {
+     "label": "Senate Armed Services hearings",
+     "kind": "html_links",
+     "url": "https://www.armed-services.senate.gov/hearings",
+     "link_regex": "(?i)/hearings/"
+    },
+    {
+     "label": "House Appropriations releases",
+     "kind": "html_links",
+     "url": "https://appropriations.house.gov/news/press-releases",
+     "link_regex": "(?i)defense",
+     "min_items": 0
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Service acquisition supplements",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "combine": true,
+   "covers": "Changes to DAFFARS, AFARS, and NMCARS",
+   "url": "https://www.acquisition.gov/content/regulations",
+   "fetchers": [
+    {
+     "label": "acquisition.gov DAFFARS",
+     "kind": "html_links",
+     "url": "https://www.acquisition.gov/daffars",
+     "link_regex": "(?i)(dafac|change|revision|archive|what.?s new|policy)"
+    },
+    {
+     "label": "acquisition.gov AFARS",
+     "kind": "html_links",
+     "url": "https://www.acquisition.gov/afars",
+     "link_regex": "(?i)(change|revision|archive|what.?s new|policy)"
+    },
+    {
+     "label": "acquisition.gov NMCARS",
+     "kind": "html_links",
+     "url": "https://www.acquisition.gov/nmcars",
+     "link_regex": "(?i)(change|revision|archive|what.?s new|policy)"
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "SBA contracting rules",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "tags": [
+    "Small business"
+   ],
+   "covers": "SBA rules on size standards, SBIR and STTR, and small business contracting programs",
+   "url": "https://www.federalregister.gov/agencies/small-business-administration",
+   "fetchers": [
+    {
+     "label": "Federal Register API (SBA rules)",
+     "kind": "federal_register",
+     "min_items": 0,
+     "min_raw": 1,
+     "keywords": [
+      "size standard",
+      "SBIR",
+      "STTR",
+      "contracting",
+      "8(a)",
+      "HUBZone",
+      "subcontract",
+      "procurement",
+      "women-owned",
+      "veteran-owned",
+      "mentor"
+     ],
+     "params": {
+      "conditions[agencies][]": "small-business-administration",
+      "conditions[type][]": [
+       "RULE",
+       "PRORULE"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Export control rules: ITAR and EAR",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "tags": [
+    "Export controls"
+   ],
+   "combine": true,
+   "covers": "State Department ITAR rules and Commerce Department EAR rules",
+   "url": "https://www.federalregister.gov/",
+   "fetchers": [
+    {
+     "label": "Federal Register API (ITAR)",
+     "kind": "federal_register",
+     "params": {
+      "conditions[term]": "\"International Traffic in Arms Regulations\"",
+      "conditions[agencies][]": "state-department",
+      "conditions[type][]": [
+       "RULE",
+       "PRORULE"
+      ]
+     }
+    },
+    {
+     "label": "Federal Register API (EAR)",
+     "kind": "federal_register",
+     "params": {
+      "conditions[agencies][]": "industry-and-security-bureau",
+      "conditions[type][]": [
+       "RULE",
+       "PRORULE"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "DOJ False Claims Act announcements",
+   "type": "Oversight",
+   "cadence": "Weekly",
+   "covers": "Justice Department announcements on procurement fraud and False Claims Act settlements",
+   "url": "https://www.justice.gov/news",
+   "fetchers": [
+    {
+     "label": "DOJ news feed",
+     "kind": "rss",
+     "urls": [
+      "https://www.justice.gov/news/rss?type=press_release&m=1",
+      "https://www.justice.gov/feeds/opa/justice-news.xml"
+     ],
+     "keywords": [
+      "False Claims Act",
+      "procurement fraud",
+      "defense contractor",
+      "government contractor",
+      "cyber-fraud",
+      "kickback"
+     ],
+     "min_items": 0,
+     "min_raw": 1
     }
    ]
   }
