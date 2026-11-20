@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regulatory and Legislative Monitor</title>
+<meta name="description" content="Automated monitoring of public federal acquisition sources: rules, deviations, legislation, oversight reports, court decisions, and solicitations.">
+<style>
+:root {
+  --surface: #f7f8fa; --raised: #ffffff; --inset: #eef0f4;
+  --text: #1a1d23; --text2: #5a6170; --text3: #747a88;
+  --border: #d8dce4; --border2: #e8ebf0;
+  --accent: #2563a0; --accent-bg: #e8f0fa;
+  --good: #1a7a4e; --good-bg: #e6f5ee; --warn: #b45309; --warn-bg: #fef3e2;
+  --bad: #c0392b; --bad-bg: #fde8e8; --muted-bg: #f0f1f4;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #111318; --raised: #1a1d24; --inset: #0d0f13;
+    --text: #e4e6eb; --text2: #a3a9b6; --text3: #858c9a;
+    --border: #2a2e38; --border2: #22252e;
+    --accent: #6aa8e0; --accent-bg: #1c2a3d;
+    --good: #4eca8b; --good-bg: #132a1e; --warn: #f0a040; --warn-bg: #2a1f0e;
+    --bad: #e87070; --bad-bg: #2a1212; --muted-bg: #1e2028;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--sans); background: var(--surface); color: var(--text); line-height: 1.5; }
+a { color: var(--accent); }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+header { background: var(--raised); border-bottom: 1px solid var(--border); padding: 22px 0 18px; }
+h1 { font-size: 22px; letter-spacing: -0.02em; text-wrap: balance; }
+.sub { color: var(--text2); font-size: 14px; margin-top: 4px; max-width: 70ch; }
+.meta { font-family: var(--mono); font-size: 12px; color: var(--text3); margin-top: 10px; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+main { padding: 20px 0 48px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.card { background: var(--raised); border: 1px solid var(--border2); border-radius: 6px; padding: 12px 14px; }
+.card .l { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text3); }
+.card .v { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.card .d { font-size: 11px; color: var(--text3); }
+.good { color: var(--good); } .warn { color: var(--warn); } .bad { color: var(--bad); }
+nav { display: flex; gap: 2px; background: var(--inset); border-radius: 6px; padding: 3px; margin-bottom: 16px; width: fit-content; max-width: 100%; overflow-x: auto; }
+nav button { font: 500 13px var(--sans); padding: 7px 14px; border: 0; border-radius: 4px; background: transparent; color: var(--text2); cursor: pointer; white-space: nowrap; }
+nav button.on { background: var(--raised); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
+.panel { display: none; } .panel.on { display: block; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.bar input, .bar select { font: 13px var(--sans); padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--raised); color: var(--text); }
+.bar input { flex: 1; min-width: 180px; }
+.btn { font: 500 13px var(--sans); padding: 7px 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--raised); color: var(--text2); cursor: pointer; }
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.stack { display: flex; flex-direction: column; gap: 8px; }
+.row { background: var(--raised); border: 1px solid var(--border2); border-radius: 6px; padding: 13px 16px; display: grid; grid-template-columns: 30px 1fr auto; gap: 12px; align-items: start; }
+.num { font: 12px var(--mono); color: var(--text3); background: var(--inset); width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 4px; }
+.name { font-size: 14px; font-weight: 600; }
+.name a { color: inherit; text-underline-offset: 3px; text-decoration-color: var(--border); }
+.desc { font-size: 13px; color: var(--text2); margin: 2px 0 7px; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px 10px; font: 11px var(--mono); color: var(--text3); align-items: center; }
+.tag { font: 600 11px var(--sans); padding: 2px 8px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.03em; background: var(--accent-bg); color: var(--accent); }
+.note { font-size: 12px; color: var(--text3); margin-top: 6px; overflow-wrap: anywhere; }
+.st { text-align: right; min-width: 120px; }
+.badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 12px; white-space: nowrap; }
+.b-new { background: var(--accent-bg); color: var(--accent); } .b-none { background: var(--good-bg); color: var(--good); }
+.b-failed, .b-blocked { background: var(--bad-bg); color: var(--bad); } .b-needs_key { background: var(--warn-bg); color: var(--warn); }
+.b-manual { background: var(--muted-bg); color: var(--text2); }
+.when { font: 11px var(--mono); color: var(--text3); margin-top: 4px; }
+.item { background: var(--raised); border: 1px solid var(--border2); border-radius: 6px; padding: 12px 16px; }
+.item .h { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin-bottom: 4px; font-size: 11px; color: var(--text3); }
+.item .date { font-family: var(--mono); color: var(--accent); background: var(--accent-bg); padding: 1px 7px; border-radius: 3px; }
+.item .t { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
+.item .t a { color: inherit; text-underline-offset: 3px; text-decoration-color: var(--border); }
+.empty { color: var(--text3); font-size: 13px; padding: 18px; text-align: center; }
+.prose { background: var(--raised); border: 1px solid var(--border2); border-radius: 6px; padding: 18px 20px; font-size: 14px; color: var(--text2); max-width: 75ch; }
+.prose h2 { font-size: 15px; color: var(--text); margin: 14px 0 4px; } .prose h2:first-child { margin-top: 0; }
+.prose ul { padding-left: 20px; } .prose li { margin: 3px 0; }
+footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
+@media (max-width: 640px) {
+  .row { grid-template-columns: 1fr; gap: 8px; } .num { display: none; }
+  .st { text-align: left; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; } .when { margin-top: 0; }
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Regulatory and Legislative Monitor</h1>
+  <p class="sub">Automated monitoring of 20 public federal acquisition sources: rules, class deviations, legislation, oversight reports, court decisions, and solicitations.</p>
+  <div class="meta"><span>Maintained by Michael Gonzalez</span><span id="lastRun">Loading results</span></div>
+</div></header>
+
+<main><div class="wrap">
+  <div class="cards" id="cards"></div>
+  <nav role="tablist" aria-label="Views">
+    <button role="tab" class="on" data-tab="new" id="t-new">New items</button>
+    <button role="tab" data-tab="sources" id="t-sources">Source status</button>
+    <button role="tab" data-tab="all" id="t-all">All records</button>
+    <button role="tab" data-tab="about" id="t-about">About</button>
+  </nav>
+
+  <section class="panel on" id="p-new" role="tabpanel" aria-labelledby="t-new">
+    <div class="bar">
+      <select id="newDays" aria-label="Time window"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select>
+      <select id="newType" aria-label="Category"><option value="">All categories</option></select>
+    </div>
+    <div class="stack" id="newList"></div>
+  </section>
+
+  <section class="panel" id="p-sources" role="tabpanel" aria-labelledby="t-sources">
+    <div class="stack" id="srcList"></div>
+  </section>
+
+  <section class="panel" id="p-all" role="tabpanel" aria-labelledby="t-all">
+    <div class="bar">
+      <input type="search" id="q" placeholder="Search titles, for example: deviation, CUI, 2026-O0028" aria-label="Search records">
+      <select id="allSrc" aria-label="Source"><option value="">All sources</option></select>
+      <button class="btn" id="csv">Download CSV</button>
+    </div>
+    <div class="when" id="allCount" style="margin-bottom:8px"></div>
+    <div class="stack" id="allList"></div>
+  </section>
+
+  <section class="panel" id="p-about" role="tabpanel" aria-labelledby="t-about">
+    <div class="prose">
+      <h2>What this is</h2>
+      <p>A program checks each source on weekday mornings and records any item it has not seen before. This page shows the result of the most recent run.</p>
+      <h2>How to read the status</h2>
+      <ul>
+        <li><strong>New items</strong>: the source was read and something new was found.</li>
+        <li><strong>Nothing new</strong>: the source was read and matched the last run.</li>
+        <li><strong>Could not check</strong> or <strong>Blocked</strong>: the source could not be read on this run. This is never reported as "nothing new."</li>
+        <li><strong>Needs API key</strong>: the source has an official data feed that requires a free key that is not yet configured.</li>
+        <li><strong>Manual</strong>: the source requires a login and is checked by a person.</li>
+      </ul>
+      <h2>How sources are read</h2>
+      <p>The program uses official data feeds where an agency provides one. Each source has a backup route where one exists. It identifies itself honestly and follows each site's published rules for automated visitors.</p>
+      <h2>Limits</h2>
+      <p>This page lists public documents. It does not interpret them and is not legal advice. An item recorded as baseline was already published when monitoring of that source began. This is a personal project and is not affiliated with any employer or government agency.</p>
+      <h2>Source code</h2>
+      <p><a href="https://github.com/jmgonzalez0503-spec/reg-monitor">github.com/jmgonzalez0503-spec/reg-monitor</a></p>
+    </div>
+  </section>
+</div></main>
+<footer><div class="wrap">Public sources only. Not legal advice.</div></footer>
+
+<script>
+(function () {
+  'use strict';
+  var STATUS = null, FINDINGS = [];
+  var LABEL = { 'new': 'New items', none: 'Nothing new', failed: 'Could not check', blocked: 'Blocked', needs_key: 'Needs API key', manual: 'Manual' };
+  function esc(v) { return String(v == null ? '' : v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : ''; }
+  function $(id) { return document.getElementById(id); }
+  function fmtTime(iso) {
+    if (!iso) return 'never';
+    var d = new Date(iso);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) + ', ' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  }
+  function daysAgo(ymd) { var p = ymd.split('-'); return Math.round((Date.now() - new Date(+p[0], p[1] - 1, +p[2]).getTime()) / 86400000); }
+  function card(l, v, d, cls) { return '<div class="card"><div class="l">' + l + '</div><div class="v ' + (cls || '') + '">' + v + '</div><div class="d">' + d + '</div></div>'; }
+
+  function renderCards() {
+    var c = STATUS.counts || {}, read = (c['new'] || 0) + (c.none || 0), bad = (c.failed || 0) + (c.blocked || 0);
+    var recent = FINDINGS.filter(function (f) { return !f.baseline && daysAgo(f.first_seen) <= 7; }).length;
+    $('cards').innerHTML =
+      card('Sources', STATUS.sources.length, 'Monitored') +
+      card('Read this run', read, 'Checked successfully', 'good') +
+      card('Could not check', bad, 'Shown under Source status', bad ? 'bad' : '') +
+      card('Awaiting setup', (c.needs_key || 0), 'Need a free API key', (c.needs_key ? 'warn' : '')) +
+      card('Manual', (c.manual || 0), 'Require a login') +
+      card('New, last 7 days', recent, 'Items first seen');
+    $('lastRun').textContent = 'Last run: ' + fmtTime(STATUS.generated_at);
+  }
+
+  function renderSources() {
+    $('srcList').innerHTML = STATUS.sources.map(function (s) {
+      var u = safeUrl(s.url);
+      var name = u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' : esc(s.name);
+      var note = s.status === 'manual' ? s.manual_note : (s.message || '');
+      if (s.status !== 'manual' && s.manual_note) note = s.manual_note + (note ? ' ' + note : '');
+      return '<div class="row"><div class="num">' + s.id + '</div><div>' +
+        '<div class="name">' + name + '</div><div class="desc">' + esc(s.covers) + '</div>' +
+        '<div class="tags"><span class="tag">' + esc(s.type) + '</span><span>' + esc(s.cadence) + '</span>' +
+        (s.route ? '<span>via ' + esc(s.route) + '</span>' : '') + (s.items_read ? '<span>' + s.items_read + ' items read</span>' : '') + '</div>' +
+        (note ? '<div class="note">' + esc(note) + '</div>' : '') + '</div>' +
+        '<div class="st"><span class="badge b-' + esc(s.status) + '">' + (LABEL[s.status] || esc(s.status)) + (s.status === 'new' ? ' (' + s.new_count + ')' : '') + '</span>' +
+        (s.status === 'manual' ? '' : '<div class="when">Last read: ' + (s.last_success ? fmtTime(s.last_success) : 'never') + '</div>') + '</div></div>';
+    }).join('');
+  }
+
+  function itemHtml(f) {
+    var u = safeUrl(f.url);
+    return '<div class="item"><div class="h"><span class="date">' + esc(f.date || f.first_seen) + '</span><span>' + esc(f.source) + '</span>' +
+      (f.baseline ? '<span>baseline</span>' : '<span>first seen ' + esc(f.first_seen) + '</span>') + '</div>' +
+      '<div class="t">' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(f.title) + '</a>' : esc(f.title)) + '</div></div>';
+  }
+
+  function renderNew() {
+    var days = +$('newDays').value, type = $('newType').value;
+    var rows = FINDINGS.filter(function (f) { return !f.baseline && daysAgo(f.first_seen) <= days && (!type || f.type === type); });
+    $('newList').innerHTML = rows.length ? rows.slice(0, 300).map(itemHtml).join('') :
+      '<div class="empty">No new items in this window. Sources that could not be read are listed under Source status.</div>';
+  }
+
+  function filteredAll() {
+    var q = $('q').value.toLowerCase().trim(), sid = $('allSrc').value;
+    return FINDINGS.filter(function (f) {
+      return (!sid || String(f.source_id) === sid) && (!q || (f.title + ' ' + f.source + ' ' + f.id).toLowerCase().indexOf(q) !== -1);
+    });
+  }
+  function renderAll() {
+    var rows = filteredAll();
+    $('allCount').textContent = rows.length + ' records' + (rows.length > 200 ? ', showing the first 200' : '');
+    $('allList').innerHTML = rows.length ? rows.slice(0, 200).map(itemHtml).join('') : '<div class="empty">No records match.</div>';
+  }
+
+  function downloadCsv() {
+    var rows = [['first_seen', 'published', 'source_number', 'source', 'category', 'title', 'url', 'baseline']];
+    filteredAll().forEach(function (f) { rows.push([f.first_seen, f.date, f.source_id, f.source, f.type, f.title, f.url, f.baseline ? 'yes' : 'no']); });
+    var csv = rows.map(function (r) { return r.map(function (c) { return '"' + String(c == null ? '' : c).replace(/"/g, '""') + '"'; }).join(','); }).join('\n');
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
+    a.download = 'reg-monitor-records.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+  }
+
+  var TABS = ['new', 'sources', 'all', 'about'];
+  function show(t) {
+    if (TABS.indexOf(t) === -1) t = 'new';
+    TABS.forEach(function (x) { $('t-' + x).classList.toggle('on', x === t); $('p-' + x).classList.toggle('on', x === t); $('t-' + x).setAttribute('aria-selected', x === t); });
+  }
+  TABS.forEach(function (x) { $('t-' + x).addEventListener('click', function () { show(x); history.replaceState(null, '', '#' + x); }); });
+  ['newDays', 'newType'].forEach(function (id) { $(id).addEventListener('change', renderNew); });
+  $('q').addEventListener('input', renderAll); $('allSrc').addEventListener('change', renderAll); $('csv').addEventListener('click', downloadCsv);
+
+  var bust = '?t=' + Date.now();
+  Promise.all([fetch('data/status.json' + bust).then(function (r) { return r.json(); }), fetch('data/findings.json' + bust).then(function (r) { return r.json(); })])
+    .then(function (res) {
+      STATUS = res[0]; FINDINGS = res[1];
+      var types = {}; STATUS.sources.forEach(function (s) { types[s.type] = 1; });
+      $('newType').innerHTML += Object.keys(types).sort().map(function (t) { return '<option>' + esc(t) + '</option>'; }).join('');
+      $('allSrc').innerHTML += STATUS.sources.map(function (s) { return '<option value="' + s.id + '">' + s.id + '. ' + esc(s.name) + '</option>'; }).join('');
+      renderCards(); renderSources(); renderNew(); renderAll(); show(location.hash.replace('#', ''));
+    })
+    .catch(function () { $('lastRun').textContent = 'Results are not available yet. The first run may still be in progress.'; });
+})();
+</script>
+</body>
+</html>

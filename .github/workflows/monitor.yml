@@ -1,0 +1,56 @@
+name: Regulatory monitor
+
+on:
+  schedule:
+    # 11:45 UTC on weekdays (6:45 AM Eastern Standard Time)
+    - cron: '45 11 * * 1-5'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'reg_monitor.py'
+      - 'sources.json'
+      - 'requirements.txt'
+      - '.github/workflows/monitor.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install libraries
+        run: pip install -r requirements.txt
+      - name: Check sources
+        id: monitor
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: |
+          set +e
+          python reg_monitor.py
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+      - name: Save results
+        run: |
+          git config user.name "reg-monitor bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Monitor run $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push
+      - name: Flag sources that failed twice in a row
+        if: steps.monitor.outputs.rc != '0'
+        run: |
+          echo "One or more sources could not be read on two runs in a row. See docs/data/status.json."
+          exit 1
