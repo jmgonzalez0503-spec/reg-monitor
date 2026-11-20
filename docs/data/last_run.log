@@ -1,84 +1,83 @@
-02:24:11 Source 1: Federal Register: DARS notices
-02:24:11    ok via Federal Register API: 40 items
-02:24:11 Source 2: DFARS class deviations
-02:24:13    ok via DARS class deviations page: 81 items
-02:24:13 Source 3: FAR overhaul tracker
-02:24:13    ok via Federal Register API (FAR overhaul rules): 15 items
-02:24:13 Source 4: DPCAP OT policy and guidebooks
-02:24:13    ok via DPCAP policy page: 33 items
-02:24:13 Source 5: Guide to Prototype Other Transactions
-02:24:13    ok via DPCAP prototype OT guide page: 1 items
-02:24:13 Source 6: NDAA bill actions
-02:24:14    ok via Congress.gov API: 62 items
-02:24:14 Source 7: CRS reports: acquisition and defense procurement
-02:24:14    ok via EveryCRSReport feed: 0 items
-02:24:14 Source 8: House Rules Committee
-02:24:14    ok via Rules Committee site: 45 items
-02:24:14 Source 9: GAO reports: OT and acquisition
-02:24:14    ok via GAO reports feed: 11 items
-02:24:14 Source 10: DoD Inspector General reports
-02:24:14    route failed: DoD IG reports page: robots.txt does not allow automated access to this page
-02:24:15    route failed: DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries
-02:24:15    route failed: DoD IG audits and evaluations page: robots.txt does not allow automated access to this page
-02:24:15    route failed: DoD IG reports feed (alternate): RuntimeError: www.dodig.mil: feed had no entries; www.dodig.mil: 404 Client Error: Not Found for url: https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077
-02:24:16    route failed: Oversight.gov (Defense OIG reports): site returned HTTP 406
-02:24:16 Source 11: CRS reports: Other Transaction authority
-02:24:16    ok via EveryCRSReport feed: 0 items
-02:24:16 Source 12: OT case law
-02:24:16    route failed: CourtListener search: CourtListener requires a free account token for automated searches
-02:24:17    ok via Law blog feeds (OT decisions): 0 items
-02:24:17 Source 13: DIU open solicitations
-02:24:19    ok via DIU open solicitations page: 1 items
-02:24:19 Source 14: Consortium OT activity
-02:24:19 Source 15: SAM.gov: OT and CSO solicitations
-02:24:19    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
-02:24:19 Source 16: GAO bid protest decisions
-02:24:19    route failed: GAO recent bid protest decisions page: robots.txt does not allow automated access to this page
-02:24:19    partial: www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/legalproducts.xml; www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/decisions.xml
-02:24:19    ok via GAO legal products feed: 25 items
-02:24:19 Source 17: Federal Circuit blog
-02:24:20    ok via Fed Circuit Blog feed: 2 items
-02:24:20 Source 18: Court of Federal Claims opinions
-02:24:20    route failed: CourtListener (COFC opinions): CourtListener requires a free account token for automated searches
-02:24:20    ok via COFC opinions feed: 156 items
-02:24:20 Source 19: Government contracts law blogs
-02:24:21    partial: www.governmentcontractslawblog.com: site returned HTTP 429
-02:24:21    ok via Law blog feeds: 10 items
-02:24:21 Source 20: DARS open case reports
-02:24:22    ok via DARS open case PDFs: 2 items
-02:24:22 Source 21: ASBCA decisions
-02:24:22    route failed: ASBCA decisions page: robots.txt does not allow automated access to this page
-02:24:23    ok via Law blog feeds (ASBCA coverage): 0 items
-02:24:23 Source 22: CBCA decisions
-02:24:24    ok via CBCA decisions page: 3644 items
-02:24:24 Source 23: Federal Register: FAR rules
-02:24:25    ok via Federal Register API (FAR rules): 40 items
-02:24:25 Source 24: CAS Board and OFPP notices
-02:24:25    ok via Federal Register API (OFPP): 40 items
-02:24:25 Source 25: Executive orders and presidential memoranda
-02:24:25    ok via Federal Register API (presidential documents): 4 items
-02:24:25 Source 26: Rules under OIRA review
-02:24:26    ok via Reginfo.gov data file: 1 items
-02:24:26 Source 27: CMMC, CUI, and NIST SP 800-171
-02:24:26    ok via Federal Register API (CMMC and CUI): 40 items
-02:24:26    route failed: NIST CSRC publications feed: RuntimeError: csrc.nist.gov: 404 Client Error: Not Found for url: https://csrc.nist.gov/CSRC/media/feeds/metafeeds/all.rss; csrc.nist.gov: 404 Client Error: Not Found for url: https://csrc.nist.gov/feeds/publicatio
-02:24:26 Source 28: DCAA and DCMA guidance
-02:24:27    route failed: DCAA audit guidance page: robots.txt does not allow automated access to this page
-02:24:27    route failed: DCMA commercial item group page: robots.txt does not allow automated access to this page
-02:24:27 Source 29: Defense committees and appropriations
-02:24:28    ok via House Armed Services calendar: 17 items
-02:24:28    ok via Senate Armed Services hearings: 22 items
-02:24:28    ok via House Appropriations releases: 7 items
-02:24:28 Source 30: Service acquisition supplements
-02:24:29    ok via acquisition.gov DAFFARS: 6 items
-02:24:29    ok via acquisition.gov AFARS: 5 items
-02:24:29    ok via acquisition.gov NMCARS: 6 items
-02:24:29 Source 31: SBA contracting rules
-02:24:29    ok via Federal Register API (SBA rules): 18 items
-02:24:29 Source 32: Export control rules: ITAR and EAR
-02:24:29    ok via Federal Register API (ITAR): 40 items
-02:24:29    ok via Federal Register API (EAR): 40 items
-02:24:29 Source 33: DOJ False Claims Act announcements
-02:24:30    partial: www.justice.gov: 404 Client Error: Not Found for url: https://www.justice.gov/feeds/opa/justice-news.xml
-02:24:30    ok via DOJ news feed: 3 items
-02:24:30 Done. 0 new items. Status counts: {'none': 29, 'failed': 1, 'manual': 1, 'needs_key': 1, 'blocked': 1}
+02:25:27 Source 1: Federal Register: DARS notices
+02:25:27    ok via Federal Register API: 40 items
+02:25:27 Source 2: DFARS class deviations
+02:25:28    ok via DARS class deviations page: 81 items
+02:25:28 Source 3: FAR overhaul tracker
+02:25:28    ok via Federal Register API (FAR overhaul rules): 15 items
+02:25:28 Source 4: DPCAP OT policy and guidebooks
+02:25:28    ok via DPCAP policy page: 33 items
+02:25:28 Source 5: Guide to Prototype Other Transactions
+02:25:29    ok via DPCAP prototype OT guide page: 1 items
+02:25:29 Source 6: NDAA bill actions
+02:25:29    ok via Congress.gov API: 62 items
+02:25:29 Source 7: CRS reports: acquisition and defense procurement
+02:25:29    ok via EveryCRSReport feed: 0 items
+02:25:29 Source 8: House Rules Committee
+02:25:29    ok via Rules Committee site: 45 items
+02:25:29 Source 9: GAO reports: OT and acquisition
+02:25:30    ok via GAO reports feed: 11 items
+02:25:30 Source 10: DoD Inspector General reports
+02:25:30    route failed: DoD IG reports page: robots.txt does not allow automated access to this page
+02:25:30    route failed: DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries
+02:25:30    route failed: DoD IG audits and evaluations page: robots.txt does not allow automated access to this page
+02:25:30    route failed: DoD IG reports feed (alternate): RuntimeError: www.dodig.mil: feed had no entries; www.dodig.mil: 404 Client Error: Not Found for url: https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077
+02:25:31    route failed: Oversight.gov (Defense OIG reports): site returned HTTP 406
+02:25:31 Source 11: CRS reports: Other Transaction authority
+02:25:31    ok via EveryCRSReport feed: 0 items
+02:25:31 Source 12: OT case law
+02:25:31    route failed: CourtListener search: CourtListener requires a free account token for automated searches
+02:25:32    ok via Law blog feeds (OT decisions): 0 items
+02:25:32 Source 13: DIU open solicitations
+02:25:33    ok via DIU open solicitations page: 1 items
+02:25:33 Source 14: Consortium OT activity
+02:25:33 Source 15: SAM.gov: OT and CSO solicitations
+02:25:33    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
+02:25:33 Source 16: GAO bid protest decisions
+02:25:33    route failed: GAO recent bid protest decisions page: robots.txt does not allow automated access to this page
+02:25:33    ok via GAO legal products feed: 25 items
+02:25:33 Source 17: Federal Circuit blog
+02:25:34    ok via Fed Circuit Blog feed: 2 items
+02:25:34 Source 18: Court of Federal Claims opinions
+02:25:34    route failed: CourtListener (COFC opinions): CourtListener requires a free account token for automated searches
+02:25:34    ok via COFC opinions feed: 156 items
+02:25:34 Source 19: Government contracts law blogs
+02:25:35    partial: www.governmentcontractslawblog.com: site returned HTTP 429
+02:25:35    ok via Law blog feeds: 10 items
+02:25:35 Source 20: DARS open case reports
+02:25:36    ok via DARS open case PDFs: 2 items
+02:25:36 Source 21: ASBCA decisions
+02:25:36    route failed: ASBCA decisions page: robots.txt does not allow automated access to this page
+02:25:37    ok via Law blog feeds (ASBCA coverage): 0 items
+02:25:37 Source 22: CBCA decisions
+02:25:38    ok via CBCA decisions page: 3644 items
+02:25:38 Source 23: Federal Register: FAR rules
+02:25:38    ok via Federal Register API (FAR rules): 36 items
+02:25:38 Source 24: CAS Board and OFPP notices
+02:25:39    ok via Federal Register API (OFPP): 15 items
+02:25:39    ok via Federal Register API (Cost Accounting Standards): 12 items
+02:25:39 Source 25: Executive orders and presidential memoranda
+02:25:39    ok via Federal Register API (presidential documents): 4 items
+02:25:39 Source 26: Rules under OIRA review
+02:25:40    ok via Reginfo.gov data file: 0 items
+02:25:40 Source 27: CMMC, CUI, and NIST SP 800-171
+02:25:40    ok via Federal Register API (CMMC and CUI): 0 items
+02:25:40    route failed: NIST cybersecurity news feed: RuntimeError: www.nist.gov: feed had no entries
+02:25:40 Source 28: DCAA and DCMA guidance
+02:25:40    route failed: DCAA audit guidance page: robots.txt does not allow automated access to this page
+02:25:41    route failed: DCMA commercial item group page: robots.txt does not allow automated access to this page
+02:25:41 Source 29: Defense committees and appropriations
+02:25:41    ok via House Armed Services calendar: 15 items
+02:25:41    ok via Senate Armed Services hearings: 20 items
+02:25:42    ok via House Appropriations defense releases: 11 items
+02:25:42 Source 30: Service acquisition supplements
+02:25:42    ok via acquisition.gov DAFFARS archive list: 1 items
+02:25:42    ok via acquisition.gov AFARS archive list: 1 items
+02:25:43    ok via acquisition.gov NMCARS archive list: 1 items
+02:25:43 Source 31: SBA contracting rules
+02:25:43    ok via Federal Register API (SBA rules): 18 items
+02:25:43 Source 32: Export control rules: ITAR and EAR
+02:25:43    ok via Federal Register API (ITAR): 40 items
+02:25:43    ok via Federal Register API (EAR): 40 items
+02:25:43 Source 33: DOJ False Claims Act announcements
+02:25:43    ok via DOJ news feed: 0 items
+02:25:43 Done. 0 new items. Status counts: {'none': 29, 'failed': 1, 'manual': 1, 'needs_key': 1, 'blocked': 1}

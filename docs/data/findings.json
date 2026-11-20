@@ -206,6 +206,45 @@
   "due": ""
  },
  {
+  "source_id": 30,
+  "source": "Service acquisition supplements",
+  "type": "Regulatory",
+  "id": "https://www.acquisition.gov/archives?type=DAFFARS|0d2ddf92b0c4",
+  "title": "DAFFARS version list: page content changed",
+  "url": "https://www.acquisition.gov/archives?type=DAFFARS",
+  "date": "2026-11-20",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 30,
+  "source": "Service acquisition supplements",
+  "type": "Regulatory",
+  "id": "https://www.acquisition.gov/archives?type=AFARS|03e8aa47c06f",
+  "title": "AFARS version list: page content changed",
+  "url": "https://www.acquisition.gov/archives?type=AFARS",
+  "date": "2026-11-20",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 30,
+  "source": "Service acquisition supplements",
+  "type": "Regulatory",
+  "id": "https://www.acquisition.gov/archives?type=NMCARS|f4df597d8257",
+  "title": "NMCARS version list: page content changed",
+  "url": "https://www.acquisition.gov/archives?type=NMCARS",
+  "date": "2026-11-20",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
   "source_id": 9,
   "source": "GAO reports: OT and acquisition",
   "type": "Oversight",
@@ -8964,6 +9003,110 @@
   ]
  },
  {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-19162",
+  "title": "Federal Acquisition Regulation: Revolutionary FAR Overhaul Parts 8, 12, 13, 15, 38, 44, and 51 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19162/federal-acquisition-regulation-revolutionary-far-overhaul-parts-8-12-13-15-38-44-and-51",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-19160",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 16, 17, and 35 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19160/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-16-17-and",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-19159",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 9, 27, and 47 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19159/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-9-27-and",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-19158",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 14, 28, 36, and 52 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19158/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-14-28-36",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-19162",
+  "title": "Federal Acquisition Regulation: Revolutionary FAR Overhaul Parts 8, 12, 13, 15, 38, 44, and 51 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19162/federal-acquisition-regulation-revolutionary-far-overhaul-parts-8-12-13-15-38-44-and-51",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-19160",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 16, 17, and 35 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19160/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-16-17-and",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-19159",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 9, 27, and 47 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19159/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-9-27-and",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-19158",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 14, 28, 36, and 52 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19158/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-14-28-36",
+  "date": "2026-09-18",
+  "due": "2026-10-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
   "source_id": 32,
   "source": "Export control rules: ITAR and EAR",
   "type": "Regulatory",
@@ -9019,6 +9162,36 @@
   "baseline": true,
   "tags": [
    "Export controls"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-17903",
+  "title": "Conformance of Cost Accounting Standards to Generally Accepted Accounting Principles for CAS 407 Use of Standard Costs for Direct Material and Direct Labor (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/01/2026-17903/conformance-of-cost-accounting-standards-to-generally-accepted-accounting-principles-for-cas-407-use",
+  "date": "2026-09-01",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-17901",
+  "title": "Increase of Monetary Thresholds and Other Matters Related to Cost Accounting Standards Program Requirements (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/09/01/2026-17901/increase-of-monetary-thresholds-and-other-matters-related-to-cost-accounting-standards-program",
+  "date": "2026-09-01",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
   ]
  },
  {
@@ -9179,6 +9352,19 @@
   "tags": [
    "Export controls"
   ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-16612",
+  "title": "Regulatory Agenda (Notice)",
+  "url": "https://www.federalregister.gov/documents/2026/08/14/2026-16612/regulatory-agenda",
+  "date": "2026-08-14",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
  },
  {
   "source_id": 31,
@@ -10140,6 +10326,21 @@
   ]
  },
  {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-13764",
+  "title": "Conformance of Cost Accounting Standards to Generally Accepted Accounting Principles for Cost Accounting Standards 404, 408, 409, and 411 (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/07/08/2026-13764/conformance-of-cost-accounting-standards-to-generally-accepted-accounting-principles-for-cost",
+  "date": "2026-07-08",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
   "source_id": 1,
   "source": "Federal Register: DARS notices",
   "type": "Regulatory",
@@ -10284,6 +10485,110 @@
   "first_seen": "2026-11-20",
   "baseline": true,
   "due": "2026-07-23",
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-12562",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 3 and 49 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12562/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-3-and-49",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-12561",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 5, 24, and 29 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12561/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-5-24-and",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-12560",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 6, 7, 10, 18, 26, 37, and 41 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12560/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-6-7-10-18",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-12559",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 1, 2, 4, 33, 39, 40, and 53 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12559/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-1-2-4-33",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-12562",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 3 and 49 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12562/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-3-and-49",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-12561",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 5, 24, and 29 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12561/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-5-24-and",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-12560",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 6, 7, 10, 18, 26, 37, and 41 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12560/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-6-7-10-18",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-12559",
+  "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 1, 2, 4, 33, 39, 40, and 53 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12559/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-1-2-4-33",
+  "date": "2026-06-23",
+  "due": "2026-07-23",
+  "first_seen": "2026-11-20",
+  "baseline": true,
   "tags": []
  },
  {
@@ -10533,6 +10838,90 @@
   ]
  },
  {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-05513",
+  "title": "Cost Accounting Standards Board Meeting Agenda (Notice)",
+  "url": "https://www.federalregister.gov/documents/2026/03/20/2026-05513/cost-accounting-standards-board-meeting-agenda",
+  "date": "2026-03-20",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-05512",
+  "title": "Conformance of Cost Accounting Standards to Generally Accepted Accounting Principles for CAS 407 Use of Standard Costs for Direct Material and Direct Labor (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/03/20/2026-05512/conformance-of-cost-accounting-standards-to-generally-accepted-accounting-principles-for-cas-407-use",
+  "date": "2026-03-20",
+  "due": "2026-04-20",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2026-05511",
+  "title": "Increase of Monetary Thresholds and Other Matters Related to Cost Accounting Standards Program Requirements (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/03/20/2026-05511/increase-of-monetary-thresholds-and-other-matters-related-to-cost-accounting-standards-program",
+  "date": "2026-03-20",
+  "due": "2026-04-20",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-04913",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2026-01; Small Entity Compliance Guide (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04913/federal-acquisition-regulation-federal-acquisition-circular-2026-01-small-entity-compliance-guide",
+  "date": "2026-03-13",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-04912",
+  "title": "Federal Acquisition Regulation: Trade Agreements Thresholds (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04912/federal-acquisition-regulation-trade-agreements-thresholds",
+  "date": "2026-03-13",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-04911",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2026-01; Introduction (Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04911/federal-acquisition-regulation-federal-acquisition-circular-2026-01-introduction",
+  "date": "2026-03-13",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
   "source_id": 1,
   "source": "Federal Register: DARS notices",
   "type": "Regulatory",
@@ -10556,6 +10945,19 @@
   "first_seen": "2026-11-20",
   "baseline": true,
   "due": "2026-03-25",
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2026-03065",
+  "title": "Federal Acquisition Regulation: Prohibition on Certain Semiconductor Products and Services (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2026/02/17/2026-03065/federal-acquisition-regulation-prohibition-on-certain-semiconductor-products-and-services",
+  "date": "2026-02-17",
+  "due": "2026-04-20",
+  "first_seen": "2026-11-20",
+  "baseline": true,
   "tags": []
  },
  {
@@ -10834,6 +11236,36 @@
   ]
  },
  {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2025-17480",
+  "title": "Conformance of Cost Accounting Standards to Generally Accepted Accounting Principles for Operating Revenue and Lease Accounting (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/09/11/2025-17480/conformance-of-cost-accounting-standards-to-generally-accepted-accounting-principles-for-operating",
+  "date": "2025-09-11",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2025-17472",
+  "title": "Conformance of Cost Accounting Standards to Generally Accepted Accounting Principles for Cost Accounting Standards 404, 408, 409, and 411 (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/09/11/2025-17472/conformance-of-cost-accounting-standards-to-generally-accepted-accounting-principles-for-cost",
+  "date": "2025-09-11",
+  "due": "2025-10-14",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
   "source_id": 32,
   "source": "Export control rules: ITAR and EAR",
   "type": "Regulatory",
@@ -10909,6 +11341,45 @@
   ]
  },
  {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-16413",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-06; Small Entity Compliance Guide (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/08/27/2025-16413/federal-acquisition-regulation-federal-acquisition-circular-2025-06-small-entity-compliance-guide",
+  "date": "2025-08-27",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-16412",
+  "title": "Federal Acquisition Regulation: Inflation Adjustment of Acquisition-Related Thresholds (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/08/27/2025-16412/federal-acquisition-regulation-inflation-adjustment-of-acquisition-related-thresholds",
+  "date": "2025-08-27",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-16411",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-06; Introduction (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/08/27/2025-16411/federal-acquisition-regulation-federal-acquisition-circular-2025-06-introduction",
+  "date": "2025-08-27",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
   "source_id": 31,
   "source": "SBA contracting rules",
   "type": "Regulatory",
@@ -10939,6 +11410,71 @@
   ]
  },
  {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-14991",
+  "title": "Federal Acquisition Regulation; Technical Amendments (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14991/federal-acquisition-regulation-technical-amendments",
+  "date": "2025-08-07",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-14990",
+  "title": "Federal Acquisition Regulation: Clarification of System for Award Management Preaward Registration Requirements (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14990/federal-acquisition-regulation-clarification-of-system-for-award-management-preaward-registration",
+  "date": "2025-08-07",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-14987",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-05; Small Entity Compliance Guide (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14987/federal-acquisition-regulation-federal-acquisition-circular-2025-05-small-entity-compliance-guide",
+  "date": "2025-08-07",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-14976",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-05; Introduction (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14976/federal-acquisition-regulation-federal-acquisition-circular-2025-05-introduction",
+  "date": "2025-08-07",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-13614",
+  "title": "Federal Acquisition Regulation: Ending Procurement and Forced Use of Paper Straws (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/07/21/2025-13614/federal-acquisition-regulation-ending-procurement-and-forced-use-of-paper-straws",
+  "date": "2025-07-21",
+  "due": "2025-09-19",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
   "source_id": 32,
   "source": "Export control rules: ITAR and EAR",
   "type": "Regulatory",
@@ -10951,6 +11487,81 @@
   "baseline": true,
   "tags": [
    "Export controls"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2025-12292",
+  "title": "Cost Accounting Standards Board Meeting Agenda (Notice)",
+  "url": "https://www.federalregister.gov/documents/2025/07/02/2025-12292/cost-accounting-standards-board-meeting-agenda",
+  "date": "2025-07-02",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2025-11064",
+  "title": "Submission for OMB Review; Cost Accounting Standards Administration (Notice)",
+  "url": "https://www.federalregister.gov/documents/2025/06/16/2025-11064/submission-for-omb-review-cost-accounting-standards-administration",
+  "date": "2025-06-16",
+  "due": "2025-07-16",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-10611",
+  "title": "Federal Acquisition Regulation: Protests of Orders Under Certain Multiple-Award Contracts (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/06/12/2025-10611/federal-acquisition-regulation-protests-of-orders-under-certain-multiple-award-contracts",
+  "date": "2025-06-12",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Protests and disputes"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-10610",
+  "title": "Federal Acquisition Regulation: Small Business Participation on Certain Multiple-Award Contracts (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/06/12/2025-10610/federal-acquisition-regulation-small-business-participation-on-certain-multiple-award-contracts",
+  "date": "2025-06-12",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Small business"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-10609",
+  "title": "Federal Acquisition Regulation: Small Business Innovation Research and Technology Transfer Programs (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/06/12/2025-10609/federal-acquisition-regulation-small-business-innovation-research-and-technology-transfer-programs",
+  "date": "2025-06-12",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Small business"
   ]
  },
  {
@@ -10984,6 +11595,58 @@
   ]
  },
  {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-08024",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-04; Small Entity Compliance Guide (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/05/12/2025-08024/federal-acquisition-regulation-federal-acquisition-circular-2025-04-small-entity-compliance-guide",
+  "date": "2025-05-12",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-08023",
+  "title": "Federal Acquisition Regulation; Technical Amendments (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/05/12/2025-08023/federal-acquisition-regulation-technical-amendments",
+  "date": "2025-05-12",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-08022",
+  "title": "Federal Acquisition Regulation: List of Domestically Nonavailable Articles (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/05/12/2025-08022/federal-acquisition-regulation-list-of-domestically-nonavailable-articles",
+  "date": "2025-05-12",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-08021",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-04; Introduction (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/05/12/2025-08021/federal-acquisition-regulation-federal-acquisition-circular-2025-04-introduction",
+  "date": "2025-05-12",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
   "source_id": 32,
   "source": "Export control rules: ITAR and EAR",
   "type": "Regulatory",
@@ -11011,6 +11674,21 @@
   "baseline": true,
   "tags": [
    "Export controls"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2025-05577",
+  "title": "Information Collection; Cost Accounting Standards Administration (Notice)",
+  "url": "https://www.federalregister.gov/documents/2025/04/02/2025-05577/information-collection-cost-accounting-standards-administration",
+  "date": "2025-04-02",
+  "due": "2025-06-02",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
   ]
  },
  {
@@ -11086,6 +11764,21 @@
   "baseline": true,
   "tags": [
    "Export controls"
+  ]
+ },
+ {
+  "source_id": 24,
+  "source": "CAS Board and OFPP notices",
+  "type": "Regulatory",
+  "id": "2025-00012",
+  "title": "Conformance of the Cost Accounting Standards to Generally Accepted Accounting Principles for CAS 404 Capitalization of Tangible Assets and CAS 411 Accounting for Acquisition Costs of Material (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/17/2025-00012/conformance-of-the-cost-accounting-standards-to-generally-accepted-accounting-principles-for-cas-404",
+  "date": "2025-01-17",
+  "due": "2025-03-18",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Cost and pricing"
   ]
  },
  {
@@ -11194,6 +11887,77 @@
   ]
  },
  {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-00616",
+  "title": "Federal Acquisition Regulation: Protests of Orders Under Certain Multiple-Award Contracts (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00616/federal-acquisition-regulation-protests-of-orders-under-certain-multiple-award-contracts",
+  "date": "2025-01-15",
+  "due": "2025-03-17",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Protests and disputes"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-00615",
+  "title": "Federal Acquisition Regulation: Small Business Participation on Certain Multiple-Award Contracts (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00615/federal-acquisition-regulation-small-business-participation-on-certain-multiple-award-contracts",
+  "date": "2025-01-15",
+  "due": "2025-03-17",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Small business"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2024-31561",
+  "title": "Federal Acquisition Regulation: Preventing Organizational Conflicts of Interest in Federal Acquisition (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/15/2024-31561/federal-acquisition-regulation-preventing-organizational-conflicts-of-interest-in-federal",
+  "date": "2025-01-15",
+  "due": "2025-03-17",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2024-30437",
+  "title": "Federal Acquisition Regulation: Controlled Unclassified Information (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/15/2024-30437/federal-acquisition-regulation-controlled-unclassified-information",
+  "date": "2025-01-15",
+  "due": "2025-03-17",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "CUI and cyber"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2024-30621",
+  "title": "Federal Acquisition Regulation: Disclosure of Greenhouse Gas Emissions and Climate-Related Financial Risk (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/13/2024-30621/federal-acquisition-regulation-disclosure-of-greenhouse-gas-emissions-and-climate-related-financial",
+  "date": "2025-01-13",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
   "source_id": 32,
   "source": "Export control rules: ITAR and EAR",
   "type": "Regulatory",
@@ -11207,6 +11971,19 @@
   "tags": [
    "Export controls"
   ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2025-00118",
+  "title": "Office of Federal Procurement Policy; Federal Acquisition Regulation: Pay Equity and Transparency in Federal Contracting (Proposed Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/08/2025-00118/office-of-federal-procurement-policy-federal-acquisition-regulation-pay-equity-and-transparency-in",
+  "date": "2025-01-08",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
  },
  {
   "source_id": 32,
@@ -11236,6 +12013,47 @@
   "baseline": true,
   "tags": [
    "Export controls"
+  ]
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2024-31409",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-03; Introduction (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/03/2024-31409/federal-acquisition-regulation-federal-acquisition-circular-2025-03-introduction",
+  "date": "2025-01-03",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2024-31408",
+  "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-03; Small Entity Compliance Guide (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/03/2024-31408/federal-acquisition-regulation-federal-acquisition-circular-2025-03-small-entity-compliance-guide",
+  "date": "2025-01-03",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": []
+ },
+ {
+  "source_id": 23,
+  "source": "Federal Register: FAR rules",
+  "type": "Regulatory",
+  "id": "2024-31407",
+  "title": "Federal Acquisition Regulation: Subcontracting to Puerto Rican and Covered Territory Small Businesses (Rule)",
+  "url": "https://www.federalregister.gov/documents/2025/01/03/2024-31407/federal-acquisition-regulation-subcontracting-to-puerto-rican-and-covered-territory-small-businesses",
+  "date": "2025-01-03",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Small business"
   ]
  },
  {
@@ -88061,6 +88879,697 @@
   "baseline": true,
   "tags": [
    "Protests and disputes"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6601",
+  "title": "Full Committee Markup: FY27 NDAA",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6601",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6580",
+  "title": "SPF Subcommittee Hearing: Navy FY27 Budget Request for Seapower and Projection Forces",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6580",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6581",
+  "title": "Full Committee Hearing: Air Force FY27 Budget Request",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6581",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6576",
+  "title": "Full Committee Hearing: U.S. Military Posture and National Security Challenges in the Greater Middle East and Africa",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6576",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6575",
+  "title": "Full Committee Hearing: Army FY27 Budget Request",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6575",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6466",
+  "title": "CITI Subcommittee Hearing: Science, Technology, and Innovation Posture of the Department of Defense",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6466",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6573",
+  "title": "Full Committee Hearing: Navy FY27 Budget Request",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6573",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6574",
+  "title": "SPF Subcommittee Hearing: Air Force FY27 Budget Request for Seapower and Projection Forces",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6574",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6546",
+  "title": "Full Committee Hearing: Department of Defense FY27 Budget Request",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6546",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6512",
+  "title": "Joint SPF Subcommittee and T&I Coast Guard and Maritime Transportation Subcommittee Hearing: Revitalizing Shipbuilding and the Maritime Industrial Base",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6512",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6498",
+  "title": "STR Subcommittee Hearing: FY27 Budget Request for Nuclear Forces and Atomic Energy Defense Activities",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6498",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6497",
+  "title": "Full Committee Hearing: U.S. Military Posture and National Security Challenges in the Indo-Pacific Region",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6497",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6468",
+  "title": "CITI Subcommittee Hearing: Cyber Posture of the Department of Defense",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6468",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6464",
+  "title": "ISO Subcommittee Hearing: Defense Intelligence Enterprise – Challenges, Priorities, and Resourcing for Fiscal Year 2027",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6464",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6465",
+  "title": "MLP Subcommittee Hearing: Military Department Personnel Chiefs: Personnel Posture",
+  "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6465",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-consider-the-nominations-of-mr-william-j-toti-to-be-under-secretary-of-the-navy-and-mr-richard-p-breckenridge-to-be-assistant-secretary-of-the-navy_for-research-development-and-acquisition",
+  "title": "To consider the nominations of: Mr. William J. Toti to be Under Secretary of the Navy; Honorable Daniel L. Zimmerman to be Assistant Secretary of Defense for International Armaments Cooperation; Mr. Richard P. Breckenridge to be Assistant Secretary of the Navy for Research, Development, and Acquisit",
+  "url": "https://www.armed-services.senate.gov/hearings/to-consider-the-nominations-of-mr-william-j-toti-to-be-under-secretary-of-the-navy-and-mr-richard-p-breckenridge-to-be-assistant-secretary-of-the-navy_for-research-development-and-acquisition",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-consider-the-nomination-of-honorable-hung-cao-to-be-secretary-of-the-navy",
+  "title": "To consider the nomination of: Honorable Hung Cao to be Secretary of the Navy",
+  "url": "https://www.armed-services.senate.gov/hearings/to-consider-the-nomination-of-honorable-hung-cao-to-be-secretary-of-the-navy",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-golden-dome",
+  "title": "To receive an update on Golden Dome",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-golden-dome",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-the-budget-of-the-department-of-defense",
+  "title": "Closed: To receive an update on the budget of the Department of Defense",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-the-budget-of-the-department-of-defense",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-a-briefing-on-cyber-operations-and-readiness-for-the-second-and-third-quarters-of-fiscal-year-2026-as-well-as-an-update-on-election-security",
+  "title": "Closed: To receive a briefing on cyber operations and readiness for the second and third quarters of Fiscal Year 2026 as well as an update on election security",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-a-briefing-on-cyber-operations-and-readiness-for-the-second-and-third-quarters-of-fiscal-year-2026-as-well-as-an-update-on-election-security",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-the-united-states-central-command-area-of-operations",
+  "title": "Closed: To receive an update on the United States Central Command area of operations",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-the-united-states-central-command-area-of-operations",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-a-briefing-on-the-implementation-of-the-national-defense-strategy-and-its-impact-on-global-defense-posture",
+  "title": "Closed: To receive a briefing on the implementation of the National Defense Strategy and its impact on global defense posture",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-a-briefing-on-the-implementation-of-the-national-defense-strategy-and-its-impact-on-global-defense-posture",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-consider-the-nomination-of_lieutenant-general-douglas-a-schiess-ussf-to-be-general-and--chief-of-space-operations----the-nominee-will-be-present",
+  "title": "To consider the nomination of: Lieutenant General Douglas A. Schiess, USSF to be general and Chief of Space Operations",
+  "url": "https://www.armed-services.senate.gov/hearings/to-consider-the-nomination-of_lieutenant-general-douglas-a-schiess-ussf-to-be-general-and--chief-of-space-operations----the-nominee-will-be-present",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-testimony-on-the-tricare-pharmacy-program",
+  "title": "To receive testimony on the TRICARE Pharmacy program",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-testimony-on-the-tricare-pharmacy-program",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-consider-the-nominations-of-honorable-jules-w-hurst-iii-to-be-under-secretary-of-defense-comptroller-mr-richard-m-omalley-to-be-deputy-under-secretary-of-defense-for-acquisition-and-sustainment-dr-l-roger-mason-jr-to-be-director-of-the-national-reconnaissance-office-and-dr-erich-d-hernandez-baquero-to-be-assistant-secretary-of-the-air-force-for-space-acquisition-and-integration",
+  "title": "To consider the nominations of: Honorable Jules W. Hurst III to be Under Secretary of Defense (Comptroller); Mr. Richard M. O’Malley to be Deputy Under Secretary of Defense for Acquisition and Sustainment; Dr. L. Roger Mason, Jr. to be Director of the National Reconnaissance Office; and Dr. Erich D.",
+  "url": "https://www.armed-services.senate.gov/hearings/to-consider-the-nominations-of-honorable-jules-w-hurst-iii-to-be-under-secretary-of-defense-comptroller-mr-richard-m-omalley-to-be-deputy-under-secretary-of-defense-for-acquisition-and-sustainment-dr-l-roger-mason-jr-to-be-director-of-the-national-reconnaissance-office-and-dr-erich-d-hernandez-baquero-to-be-assistant-secretary-of-the-air-force-for-space-acquisition-and-integration",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-the-f-35-aircraft-program",
+  "title": "Open/Closed: To receive an update on the F-35 aircraft program",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-an-update-on-the-f-35-aircraft-program",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-receive-testimony-on-army-force-modernization-in-review-of-the-defense-authorization-request-for-fiscal-year-2027-and-the-future-years-defense-program",
+  "title": "To receive testimony on Army force modernization in review of the Defense Authorization Request for Fiscal Year 2027 and the Future Years Defense Program",
+  "url": "https://www.armed-services.senate.gov/hearings/to-receive-testimony-on-army-force-modernization-in-review-of-the-defense-authorization-request-for-fiscal-year-2027-and-the-future-years-defense-program",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/05/28/2026/full-committee-markup-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "Closed: Full Committee Markup of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/05/28/2026/full-committee-markup-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/full-committee-markup-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "Closed: Full Committee Markup of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/full-committee-markup-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-markup-the-cybersecurity-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "Closed: To Markup the Cybersecurity Portion of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/to-markup-the-cybersecurity-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation",
+   "CUI and cyber"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-markup-the-airland-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "Closed: To Markup the Airland Portion of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/to-markup-the-airland-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-markup-the-personnel-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "To Markup the Personnel Portion of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/to-markup-the-personnel-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-markup-the-emerging-threats-and-capabilities-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "Closed: To Markup the Emerging Threats and Capabilities Portion of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/to-markup-the-emerging-threats-and-capabilities-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-markup-the-readiness-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "Closed: To Markup the Readiness Portion of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/to-markup-the-readiness-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://www.armed-services.senate.gov/hearings/to-markup-the-seapower-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "title": "Closed: To Markup the Seapower Portion of the National Defense Authorization Act for Fiscal Year 2027",
+  "url": "https://www.armed-services.senate.gov/hearings/to-markup-the-seapower-portion-of-the-national-defense-authorization-act-for-fiscal-year-2027",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/cole-statement-end-year-appropriations-work",
+  "title": "Cole Statement on End-of-the-Year Appropriations Work",
+  "url": "https://appropriations.house.gov/news/press-releases/cole-statement-end-year-appropriations-work",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/cole-sanctioning-adversaries-bill-will-implement-economic-onslaught-against",
+  "title": "Cole on Sanctioning Adversaries: \"This Bill Will Implement an Economic Onslaught Against Putin, His Cronies, and the Iranian Regime.\"",
+  "url": "https://appropriations.house.gov/news/press-releases/cole-sanctioning-adversaries-bill-will-implement-economic-onslaught-against",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/reinforcing-americas-defense-appropriators-focus-industrial-capacity-workforce",
+  "title": "Reinforcing America’s Defense: Appropriators Focus on Industrial Capacity, Workforce, and Critical Resources",
+  "url": "https://appropriations.house.gov/news/press-releases/reinforcing-americas-defense-appropriators-focus-industrial-capacity-workforce",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/field-hearing-advisory-defense-subcommittee-examines-industrial-base-and",
+  "title": "Field Hearing Advisory: Defense Subcommittee Examines Industrial Base and Workforce Development for Skilled Trades",
+  "url": "https://appropriations.house.gov/news/press-releases/field-hearing-advisory-defense-subcommittee-examines-industrial-base-and",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/committee-approves-fy27-defense-appropriations-act",
+  "title": "Committee Approves FY27 Defense Appropriations Act",
+  "url": "https://appropriations.house.gov/news/press-releases/committee-approves-fy27-defense-appropriations-act",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/cole-calvert-statement-white-house-defense-supplemental-request",
+  "title": "Cole, Calvert Statement on White House Defense Supplemental Request",
+  "url": "https://appropriations.house.gov/news/press-releases/cole-calvert-statement-white-house-defense-supplemental-request",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/defense-subcommittee-advances-fy27-appropriations-bill",
+  "title": "Defense Subcommittee Advances FY27 Appropriations Bill",
+  "url": "https://appropriations.house.gov/news/press-releases/defense-subcommittee-advances-fy27-appropriations-bill",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/committee-releases-fy27-defense-appropriations-bill",
+  "title": "Committee Releases FY27 Defense Appropriations Bill",
+  "url": "https://appropriations.house.gov/news/press-releases/committee-releases-fy27-defense-appropriations-bill",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/hegseth-hill-appropriators-weigh-fy27-defense-request",
+  "title": "Hegseth on the Hill: Appropriators Weigh FY27 Defense Request",
+  "url": "https://appropriations.house.gov/news/press-releases/hegseth-hill-appropriators-weigh-fy27-defense-request",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/investing-readiness-appropriators-examine-us-army-fy27-budget-request",
+  "title": "Investing in Readiness: Appropriators Examine U.S. Army FY27 Budget Request",
+  "url": "https://appropriations.house.gov/news/press-releases/investing-readiness-appropriators-examine-us-army-fy27-budget-request",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
+  ]
+ },
+ {
+  "source_id": 29,
+  "source": "Defense committees and appropriations",
+  "type": "Legislative",
+  "id": "https://appropriations.house.gov/news/press-releases/cole-statement-operation-epic-fury",
+  "title": "Cole Statement on Operation Epic Fury",
+  "url": "https://appropriations.house.gov/news/press-releases/cole-statement-operation-epic-fury",
+  "date": "",
+  "due": "",
+  "first_seen": "2026-11-20",
+  "baseline": true,
+  "tags": [
+   "Legislation"
   ]
  }
 ]
