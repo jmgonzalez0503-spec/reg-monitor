@@ -1,5 +1,5 @@
 # Regulatory monitor briefing
-Generated 2026-11-20 19:15 UTC
+Generated 2026-11-20 23:15 UTC
 
 ## New items found in the last 7 days
 - [Court of Federal Claims opinions] 2026-11-20: 1:24-cv-01832 MAIMON et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50999
@@ -140,8 +140,108 @@ Generated 2026-11-20 19:15 UTC
   Summary: [Hearing]
 - [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00880 MOTEMONA v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54468
   Summary: [Scheduling Order - Discovery] ( 22 )
-- [DFARS class deviations] 2026-11-20: Class Deviation 2027-O0001 - Streamlining Contractor Business Systems | https://www.acq.osd.mil/dpap/policy/policyvault/USA003348-26-DPCAP.pdf
-- [DFARS class deviations] 2026-11-20: Attachment, Class Deviation 2027-O0001 - Streamlining Contractor Business Systems | https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2027-O0001_Attachment.docx
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01238 SEEBERGER et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54839
+  Summary: [Defect Memo Forwarded to Chambers]
+- [Court of Federal Claims opinions] 2026-11-20: 1:24-cv-01776 DUVALTEX (US), INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50950
+  Summary: [Status Report (JOINT)] ( 26 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01238 SEEBERGER et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54839
+  Summary: [Defect Memo Forwarded to Chambers]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01505 MARYLAND DEPARTMENT OF LABOR et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55106
+  Summary: [Defect Memo Forwarded to Chambers]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00339 KROLL v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53903
+  Summary: [Seal Document] ( 13 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01176 TALION CONSTRUCTION, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54772
+  Summary: [Redacted Document] ( 28 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-00929 CENTER FOR POSITIVE CHANGES v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?52272
+  Summary: [Notice of Assignment - ADR] ( 29 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00901 SEQUEIRA v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54492
+  Summary: [Scheduling Order - Discovery] ( 15 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558
+  Summary: [Attorney Complaint] ( 1822 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01765 BEY v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55396
+  Summary: [Defect Memo Forwarded to Chambers]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01765 BEY v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55396
+  Summary: [Defect Memo Forwarded to Chambers]
+- [Court of Federal Claims opinions] 2026-11-20: 1:15-cv-00365 KENT, ET AL. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?30900
+  Summary: [Oral Argument]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00641 LAMBERT v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54217
+  Summary: [Order] ( 23 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01594 EAGLE HILL CONSULTING, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55192
+  Summary: [Portable Storage Disc/Drive or File Share Documents Received]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01818 INTERNATIONAL AUTO LOGISTICS, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55416
+  Summary: [Notice of Appearance (NON DOJ ATTORNEYS)] ( 8 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01791 WRG FIRE TRAINING & SIMULATION SYSTEMS, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55371
+  Summary: [Protective Order] ( 8 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-00230 DIGITAL SYSTEMS GROUP, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51567
+  Summary: [Notice (Other)] ( 71 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01791 WRG FIRE TRAINING & SIMULATION SYSTEMS, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55371
+  Summary: [Status Conference(Unrecorded Proceedings)]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01818 INTERNATIONAL AUTO LOGISTICS, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55416
+  Summary: [Notice of Appearance (NON DOJ ATTORNEYS)] ( 7 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01818 INTERNATIONAL AUTO LOGISTICS, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55416
+  Summary: [Notice of Appearance (NON DOJ ATTORNEYS)] ( 6 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00474 VAN DE BEEK v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54042
+  Summary: [Status Report] ( 15 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558
+  Summary: [Attorney Bid Protest Complaint] ( 1821 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:04-cv-00786 SACRAMENTO GRAZING ASSOCIATION, INC., et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?17928
+  Summary: [Set Scheduled Proceeding Hearing Deadline]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00561 MVL USA INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54133
+  Summary: [Status Report (JOINT)] ( 81 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01700 TORVUND v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55306
+  Summary: [Notice of Appearance (DOJ ATTORNEYS)] ( 7 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-01410 BAUDE et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?52758
+  Summary: [Response to Motion] ( 21 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01596 GSI PACIFIC, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55194
+  Summary: [Portable Storage Disc/Drive or File Share Documents Received]
+- [Court of Federal Claims opinions] 2026-11-20: 1:18-cv-00306 ZINSER et al. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?36372
+  Summary: [Notice (Other)] ( 147 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00944 SAILDRONE, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54532
+  Summary: [Set Scheduled Proceeding Hearing Deadline]
+- [Court of Federal Claims opinions] 2026-11-20: 1:24-cv-00957 VISA INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50121
+  Summary: [Portable Storage Disc/Drive or File Share Documents Received]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00944 SAILDRONE, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54532
+  Summary: [Set Scheduled Proceeding Hearing Deadline]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00538 MANUS MEDICAL, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54110
+  Summary: [Portable Storage Disc/Drive or File Share Documents Received]
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-00851 RUSSELL CONSTRUCTION CO., INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?52194
+  Summary: [Order on Motion to Amend Schedule] ( 22 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558
+  Summary: [Attorney Petition] ( 1820 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-00166 HISTORIC PALACE SALOON AND RESTAURANT v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51509
+  Summary: [Order on Motion for Extension of Time to Complete Discovery] ( 33 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:22-cv-01756 AGOSTA et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?46698
+  Summary: [Scheduling Order - Motions]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558
+  Summary: [Attorney Petition] ( 1819 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01040 VAN HORN et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54628
+  Summary: [Status Report (JOINT)] ( 10 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01682 LEEBOVE v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55286
+  Summary: [Certificate of Service] ( 8 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-02082 BAKER v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53444
+  Summary: [Response (Not to a motion)] ( 48 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00944 SAILDRONE, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54532
+  Summary: [Scheduling Order] ( 21 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-00230 DIGITAL SYSTEMS GROUP, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51567
+  Summary: [Notice of Appearance (NON DOJ ATTORNEYS)] ( 70 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01720 IMPRES TECHNOLOGY SOLUTIONS, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55320
+  Summary: [Order on Motion for Protective Order] ( 11 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-00230 DIGITAL SYSTEMS GROUP, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51567
+  Summary: [Notice of Appearance (NON DOJ ATTORNEYS)] ( 69 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:25-cv-00230 DIGITAL SYSTEMS GROUP, INC. v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51567
+  Summary: [Notice of Appearance (NON DOJ ATTORNEYS)] ( 68 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:04-cv-00786 SACRAMENTO GRAZING ASSOCIATION, INC., et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?17928
+  Summary: [Status Conference Order - (NON-PDF - Docket Text Order Only)]
+- [Court of Federal Claims opinions] 2026-11-20: 1:04-cv-00786 SACRAMENTO GRAZING ASSOCIATION, INC., et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?17928
+  Summary: [Status Conference]
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01801 ACCELGOV, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55404
+  Summary: [Notice (Other)] ( 15 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01801 ACCELGOV, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55404
+  Summary: [Notice of Appearance (DOJ ATTORNEYS)] ( 14 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01818 INTERNATIONAL AUTO LOGISTICS, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55416
+  Summary: [Notice of Manner of Service] ( 5 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01818 INTERNATIONAL AUTO LOGISTICS, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55416
+  Summary: [Notice of Designation of Electronic Case] ( 4 )
 
 ## Open deadlines
 - 2026-11-20: Small Business Size Standards (Proposed Rule) [SBA contracting rules] | https://www.federalregister.gov/documents/2026/09/24/2026-19546/small-business-size-standards
@@ -151,7 +251,6 @@ Generated 2026-11-20 19:15 UTC
 
 ## Sources that need attention
 - 15. SAM.gov: OT and CSO solicitations: needs_key
-- 20. DARS open case reports: failed
 
 ## Sources checked by hand
 - 10. DoD Inspector General reports: last checked never | https://www.dodig.mil/reports.html
