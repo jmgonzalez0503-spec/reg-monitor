@@ -73,6 +73,23 @@ nav button.on { background: var(--raised); color: var(--text); box-shadow: 0 1px
 .item .date { font-family: var(--mono); color: var(--accent); background: var(--accent-bg); padding: 1px 7px; border-radius: 3px; }
 .item .t { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
 .item .t a { color: inherit; text-underline-offset: 3px; text-decoration-color: var(--border); }
+.sumh { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text2); margin: 18px 0 6px; }
+.tblwrap { background: var(--raised); border: 1px solid var(--border2); border-radius: 6px; overflow-x: auto; }
+table.sum { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.sum th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text3); padding: 8px 12px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+table.sum td { padding: 10px 12px; border-bottom: 1px solid var(--border2); vertical-align: top; }
+table.sum tr:last-child td { border-bottom: 0; }
+table.sum .c-date, table.sum .c-due { font-family: var(--mono); font-size: 12px; white-space: nowrap; color: var(--text2); }
+table.sum .c-item { min-width: 260px; overflow-wrap: anywhere; }
+table.sum .c-item a { font-weight: 600; color: var(--text); text-underline-offset: 3px; text-decoration-color: var(--border); }
+table.sum .c-item p { color: var(--text2); margin-top: 4px; font-size: 12.5px; }
+table.sum .c-src { color: var(--text3); font-size: 12px; min-width: 120px; }
+@media (max-width: 640px) {
+  table.sum thead { display: none; } table.sum, table.sum tbody, table.sum tr, table.sum td { display: block; width: 100%; }
+  table.sum tr { padding: 10px 12px; border-bottom: 1px solid var(--border2); } table.sum td { padding: 2px 0; border: 0; }
+  table.sum .c-item { min-width: 0; } table.sum td.c-due:empty, table.sum td.c-top:empty { display: none; }
+  table.sum td.c-due:not(:empty)::before { content: "Closes "; font-family: var(--sans); }
+}
 .chip { font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--muted-bg); color: var(--text2); }
 .due { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 3px; background: var(--warn-bg); color: var(--warn); }
 .meta a { color: var(--accent); }
@@ -98,14 +115,26 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
 <main><div class="wrap">
   <div class="cards" id="cards"></div>
   <nav role="tablist" aria-label="Views">
-    <button role="tab" class="on" data-tab="new" id="t-new">New items</button>
+    <button role="tab" class="on" data-tab="summary" id="t-summary">Summary</button>
+    <button role="tab" data-tab="new" id="t-new">New items</button>
     <button role="tab" data-tab="deadlines" id="t-deadlines">Deadlines</button>
     <button role="tab" data-tab="sources" id="t-sources">Source status</button>
     <button role="tab" data-tab="all" id="t-all">All records</button>
     <button role="tab" data-tab="about" id="t-about">About</button>
   </nav>
 
-  <section class="panel on" id="p-new" role="tabpanel" aria-labelledby="t-new">
+  <section class="panel on" id="p-summary" role="tabpanel" aria-labelledby="t-summary">
+    <div class="bar">
+      <select id="sumDays" aria-label="Time window"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select>
+      <select id="sumTag" aria-label="Topic"><option value="">All topics</option></select>
+      <select id="sumLevel" aria-label="Detail"><option value="high" selected>Important items only</option><option value="normal">Include other items</option></select>
+      <button class="btn" id="sumCopy">Copy as text</button>
+    </div>
+    <p class="when" id="sumNote" style="margin-bottom:10px"></p>
+    <div id="sumBody"></div>
+  </section>
+
+  <section class="panel" id="p-new" role="tabpanel" aria-labelledby="t-new">
     <div class="bar">
       <select id="newDays" aria-label="Time window"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select>
       <select id="newType" aria-label="Category"><option value="">All categories</option></select>
@@ -146,6 +175,8 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
         <li><strong>Needs API key</strong>: the source has an official data feed that requires a free key that is not yet configured.</li>
         <li><strong>Manual</strong>: the source requires a login and is checked by a person.</li>
       </ul>
+      <h2>Summary</h2>
+      <p>The Summary view lists rules, deviations, legislation, decisions, and similar items by category and leaves out routine notices. An item is marked important by fixed rules based on its source and title, so read the full record list before relying on the summary alone.</p>
       <h2>Deadlines, topics, and subscribing</h2>
       <p>The Deadlines view lists comment periods and solicitations that carry a closing date. Topics are assigned by matching words in each title, so a topic filter can miss an item with an unusual title. The Subscribe link is a feed of new items for any RSS reader.</p>
       <h2>How sources are read</h2>
@@ -232,6 +263,53 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
     $('allList').innerHTML = rows.length ? rows.slice(0, 200).map(itemHtml).join('') : '<div class="empty">No records match.</div>';
   }
 
+  function sumRows() {
+    var days = +$('sumDays').value, tag = $('sumTag').value, lvl = $('sumLevel').value;
+    return FINDINGS.filter(function (f) {
+      if (f.priority === 'routine') return false;
+      if (lvl === 'high' && f.priority !== 'high') return false;
+      if (tag && (f.tags || []).indexOf(tag) === -1) return false;
+      if (f.date) return daysAgo(f.date) <= days && daysAgo(f.date) >= -1;
+      return !f.baseline && daysAgo(f.first_seen) <= days;
+    }).sort(function (a, b) { return (b.date || b.first_seen) < (a.date || a.first_seen) ? -1 : 1; });
+  }
+  var ORDER = ['Regulatory', 'Policy', 'Legislative', 'Oversight', 'Legal', 'Market'];
+  function renderSummary() {
+    var rows = sumRows(), html = '';
+    $('sumNote').textContent = rows.length + ' items published or first found in this window. Routine notices are left out. Summaries are the publishing agency\'s own words, shortened; this page does not interpret them.';
+    ORDER.forEach(function (type) {
+      var g = rows.filter(function (f) { return f.type === type; });
+      if (!g.length) return;
+      html += '<div class="sumh">' + esc(type) + ' (' + g.length + ')</div><div class="tblwrap"><table class="sum"><thead><tr><th>Date</th><th>Item</th><th>Closes</th><th>Topics</th><th>Source</th></tr></thead><tbody>' +
+        g.slice(0, 60).map(function (f) {
+          var u = safeUrl(f.url);
+          return '<tr><td class="c-date">' + esc(f.date || f.first_seen) + '</td><td class="c-item">' +
+            (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(f.title) + '</a>' : '<strong>' + esc(f.title) + '</strong>') +
+            (f.summary ? '<p>' + esc(f.summary) + '</p>' : '') + '</td><td class="c-due">' + esc(f.due || '') + '</td><td class="c-top">' +
+            (f.tags || []).map(function (t) { return '<span class="chip">' + esc(t) + '</span>'; }).join(' ') + '</td><td class="c-src">' + esc(f.source) + '</td></tr>';
+        }).join('') + '</tbody></table></div>';
+    });
+    $('sumBody').innerHTML = html || '<div class="empty">No important items in this window. Widen the window or include other items.</div>';
+  }
+  function copySummary() {
+    var rows = sumRows(), out = ['Regulatory and Legislative Monitor: summary, ' + new Date().toLocaleDateString('en-US'), ''];
+    ORDER.forEach(function (type) {
+      var g = rows.filter(function (f) { return f.type === type; });
+      if (!g.length) return;
+      out.push(type.toUpperCase());
+      g.slice(0, 60).forEach(function (f) {
+        out.push('- ' + (f.date || f.first_seen) + ': ' + f.title + (f.due ? ' [closes ' + f.due + ']' : ''));
+        if (f.summary) out.push('  ' + f.summary);
+        if (safeUrl(f.url)) out.push('  ' + f.url);
+      });
+      out.push('');
+    });
+    var text = out.join('\n'), b = $('sumCopy');
+    function done() { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy as text'; }, 1500); }
+    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(done, function () {}); }
+    else { var ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); done(); } catch (e) {} ta.remove(); }
+  }
+
   function renderDue() {
     var d = new Date(), today = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
     var rows = FINDINGS.filter(function (f) { return f.due && f.due >= today; }).sort(function (a, b) { return a.due < b.due ? -1 : 1; });
@@ -248,9 +326,9 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
     document.body.appendChild(a); a.click(); a.remove();
   }
 
-  var TABS = ['new', 'deadlines', 'sources', 'all', 'about'];
+  var TABS = ['summary', 'new', 'deadlines', 'sources', 'all', 'about'];
   function show(t) {
-    if (TABS.indexOf(t) === -1) t = 'new';
+    if (TABS.indexOf(t) === -1) t = 'summary';
     TABS.forEach(function (x) { $('t-' + x).classList.toggle('on', x === t); $('p-' + x).classList.toggle('on', x === t); $('t-' + x).setAttribute('aria-selected', x === t); });
   }
   TABS.forEach(function (x) { $('t-' + x).addEventListener('click', function () { show(x); history.replaceState(null, '', '#' + x); }); });
@@ -265,7 +343,9 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
       $('newType').innerHTML += Object.keys(types).sort().map(function (t) { return '<option>' + esc(t) + '</option>'; }).join('');
       $('allSrc').innerHTML += STATUS.sources.map(function (s) { return '<option value="' + s.id + '">' + s.id + '. ' + esc(s.name) + '</option>'; }).join('');
       var tagOpts = (STATUS.tags || []).map(function (t) { return '<option>' + esc(t) + '</option>'; }).join('');
-      $('newTag').innerHTML += tagOpts; $('allTag').innerHTML += tagOpts;
+      $('newTag').innerHTML += tagOpts; $('sumTag').innerHTML += tagOpts;
+      ['sumDays', 'sumTag', 'sumLevel'].forEach(function (id) { $(id).addEventListener('change', renderSummary); });
+      $('sumCopy').addEventListener('click', copySummary); renderSummary(); $('allTag').innerHTML += tagOpts;
       $('srcCount').textContent = STATUS.sources.length + ' public';
       renderCards(); renderSources(); renderNew(); renderAll(); renderDue(); show(location.hash.replace('#', ''));
     })

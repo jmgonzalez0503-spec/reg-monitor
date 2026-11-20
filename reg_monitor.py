@@ -186,8 +186,22 @@ def clean(s, n=300):
     return s[:n]
 
 
-def item(id_, title, url, date="", due=""):
-    return {"id": str(id_), "title": clean(title), "url": url or "", "date": (date or "")[:10], "due": (due or "")[:10]}
+def item(id_, title, url, date="", due="", summary=""):
+    return {"id": str(id_), "title": clean(title), "url": url or "", "date": (date or "")[:10], "due": (due or "")[:10],
+            "summary": clean(summary, 420)}
+
+
+ROUTINE = re.compile(r"(?i)(information collection|submission for omb review|privacy act of 1974|sunshine act|meeting notice|notice of meeting)")
+IMPORTANT = re.compile(r"(?i)(\((Rule|Proposed Rule|Presidential Document)\)$|class deviation|20\d\d-O\d{4}|under oira review|public law|conference report|passed (house|senate)|updated, as of|version list|other transaction|controlled unclassified|\bCMMC\b|cost accounting standards|truthful cost|data rights)")
+IMPORTANT_SOURCES = {2, 5, 6, 20, 25, 26}
+
+
+def priority_for(f):
+    if ROUTINE.search(f["title"]):
+        return "routine"
+    if f["source_id"] in IMPORTANT_SOURCES or IMPORTANT.search(f["title"]):
+        return "high"
+    return "normal"
 
 
 TAG_RULES = [
@@ -215,7 +229,7 @@ def tags_for(title, source_tags):
 
 def f_federal_register(f, src):
     params = [("order", "newest"), ("per_page", "40")]
-    for fld in ("document_number", "title", "type", "html_url", "publication_date", "comments_close_on"):
+    for fld in ("document_number", "title", "type", "html_url", "publication_date", "comments_close_on", "abstract"):
         params.append(("fields[]", fld))
     for k, v in f["params"].items():
         for one in (v if isinstance(v, list) else [v]):
@@ -229,7 +243,7 @@ def f_federal_register(f, src):
         if f.get("exclude_regex") and re.search(f["exclude_regex"], d.get("title", "")):
             continue
         out.append(item(d["document_number"], f"{d.get('title', '')} ({d.get('type', '')})", d.get("html_url"),
-                        d.get("publication_date"), d.get("comments_close_on")))
+                        d.get("publication_date"), d.get("comments_close_on"), d.get("abstract")))
     return out, len(results)
 
 
@@ -280,7 +294,7 @@ def f_rss(f, src):
                 tp = e.get("published_parsed") or e.get("updated_parsed")
                 if tp:
                     date = time.strftime("%Y-%m-%d", tp)
-                out.append(item(e.get("id") or e.get("link"), title, e.get("link"), date))
+                out.append(item(e.get("id") or e.get("link"), title, e.get("link"), date, "", e.get("summary", "")))
         except Exception as ex:  # one bad feed must not sink the rest
             errors.append(redact(f"{urlparse(url).netloc}: {ex}"))
     if ok == 0:
@@ -519,13 +533,15 @@ def main():
                     if old is not None:
                         if it.get("due") and not old.get("due"):
                             old["due"] = it["due"]
+                        if it.get("summary") and not old.get("summary"):
+                            old["summary"] = it["summary"]
                         seen.add(it["id"])
                         continue
                     if it["id"] in seen:
                         continue
                     seen.add(it["id"])
                     rec = {"source_id": src["id"], "source": src["name"], "type": src["type"], "id": it["id"],
-                           "title": it["title"], "url": it["url"], "date": it["date"], "due": it.get("due", ""),
+                           "title": it["title"], "url": it["url"], "date": it["date"], "due": it.get("due", ""), "summary": it.get("summary", ""),
                            "first_seen": TODAY, "baseline": first_time}
                     findings.append(rec)
                     known[(src["id"], it["id"])] = rec
@@ -555,6 +571,8 @@ def main():
     for f in findings:
         f["tags"] = tags_for(f["title"], src_tags.get(f["source_id"]))
         f.setdefault("due", "")
+        f.setdefault("summary", "")
+        f["priority"] = priority_for(f)
     findings.sort(key=lambda x: (x["first_seen"], x.get("date", "")), reverse=True)
     counts = {}
     for r in rows:
