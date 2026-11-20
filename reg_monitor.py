@@ -17,7 +17,9 @@ import io
 import json
 import os
 import re
+import ssl
 import sys
+import tempfile
 import time
 from urllib import robotparser
 from urllib.parse import urljoin, urlparse
@@ -62,6 +64,77 @@ class NeedsKey(Exception):
 # ---------------------------------------------------------------- HTTP
 
 _robots = {}
+_bundles = {}
+
+
+def _completed_bundle(host):
+    """Some government servers do not send their intermediate certificate.
+
+    The certificate itself names where the missing intermediate is published.
+    This downloads it and adds it next to the standard trusted roots, so the
+    connection is still fully verified against a public root. Certificate
+    checking is never turned off, and self-signed certificates are never added.
+    """
+    if host in _bundles:
+        return _bundles[host]
+    import certifi
+    from cryptography import x509
+    from cryptography.hazmat.primitives import serialization
+    from cryptography.hazmat.primitives.serialization import pkcs7
+    from cryptography.x509.oid import AuthorityInformationAccessOID as AIA
+    cert = x509.load_pem_x509_certificate(ssl.get_server_certificate((host, 443), timeout=20).encode())
+    extra = []
+    for _ in range(4):
+        try:
+            info = cert.extensions.get_extension_for_class(x509.AuthorityInformationAccess).value
+        except x509.ExtensionNotFound:
+            break
+        urls = [d.access_location.value for d in info if d.access_method == AIA.CA_ISSUERS]
+        if not urls:
+            break
+        raw = requests.get(urls[0], timeout=20, headers={"User-Agent": UA}).content
+        found = []
+        for loader in (x509.load_der_x509_certificate, x509.load_pem_x509_certificate):
+            try:
+                found = [loader(raw)]
+                break
+            except Exception:
+                pass
+        if not found:
+            for loader in (pkcs7.load_der_pkcs7_certificates, pkcs7.load_pem_pkcs7_certificates):
+                try:
+                    found = list(loader(raw))
+                    break
+                except Exception:
+                    pass
+        found = [c for c in found if c.issuer != c.subject]
+        if not found:
+            break
+        extra.extend(found)
+        cert = found[0]
+    if not extra:
+        raise RuntimeError("certificate chain could not be completed")
+    fh = tempfile.NamedTemporaryFile("w", suffix=".pem", delete=False)
+    fh.write(open(certifi.where(), encoding="utf-8").read())
+    for c in extra:
+        fh.write("\n" + c.public_bytes(serialization.Encoding.PEM).decode())
+    fh.close()
+    _bundles[host] = fh.name
+    return fh.name
+
+
+def _get(url, **kw):
+    kw.setdefault("timeout", TIMEOUT)
+    host = urlparse(url).netloc
+    if host in _bundles:
+        kw["verify"] = _bundles[host]
+    try:
+        return session.get(url, **kw)
+    except requests.exceptions.SSLError:
+        if host in _bundles:
+            raise
+        kw["verify"] = _completed_bundle(host)
+        return session.get(url, **kw)
 
 
 def robots_allows(url):
@@ -69,14 +142,14 @@ def robots_allows(url):
     if host not in _robots:
         rp = robotparser.RobotFileParser()
         try:
-            r = session.get(host + "/robots.txt", timeout=20)
+            r = _get(host + "/robots.txt", timeout=20)
             if r.status_code in (401, 403):
                 rp.parse(["User-agent: *", "Disallow: /"])
             elif r.status_code >= 400:
                 rp.parse([])
             else:
                 rp.parse(r.text.splitlines())
-        except requests.RequestException:
+        except Exception:
             rp.parse([])
         _robots[host] = rp
     return _robots[host].can_fetch("reg-monitor", url)
@@ -85,7 +158,7 @@ def robots_allows(url):
 def http_get(url, check_robots=False, **kw):
     if check_robots and not robots_allows(url):
         raise Blocked("robots.txt does not allow automated access to this page")
-    r = session.get(url, timeout=TIMEOUT, **kw)
+    r = _get(url, **kw)
     if r.status_code in (401, 403, 406, 429):
         raise Blocked(f"site returned HTTP {r.status_code}")
     r.raise_for_status()
@@ -246,6 +319,8 @@ def f_courtlistener(f, src):
     headers = {}
     if os.environ.get("COURTLISTENER_TOKEN"):
         headers["Authorization"] = "Token " + os.environ["COURTLISTENER_TOKEN"]
+    if not headers:
+        raise NeedsKey("CourtListener requires a free account token for automated searches")
     r = http_get("https://www.courtlistener.com/api/rest/v4/search/",
                  params={"q": f["query"], "type": "o", "order_by": "dateFiled desc", "court": f["courts"]}, headers=headers)
     out = []

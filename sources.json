@@ -1,230 +1,541 @@
 {
-  "keywords": [
-    "other transaction", "OTA", "OTs", "prototype project", "commercial solutions opening", "CSO",
-    "DFARS", "FAR", "Federal Acquisition Regulation", "acquisition reform", "defense acquisition",
-    "data rights", "technical data", "intellectual property",
-    "TINA", "certified cost or pricing", "cost accounting standards", "CAS",
-    "CUI", "controlled unclassified", "CMMC", "NDAA", "National Defense Authorization",
-    "commercial item", "commercial product", "commercial service", "nontraditional defense contractor",
-    "consortium", "bid protest", "Court of Federal Claims", "class deviation"
-  ],
-  "sources": [
+ "keywords": [
+  "other transaction",
+  "OTA",
+  "OTs",
+  "prototype project",
+  "commercial solutions opening",
+  "CSO",
+  "DFARS",
+  "FAR",
+  "Federal Acquisition Regulation",
+  "acquisition reform",
+  "defense acquisition",
+  "data rights",
+  "technical data",
+  "intellectual property",
+  "TINA",
+  "certified cost or pricing",
+  "cost accounting standards",
+  "CAS",
+  "CUI",
+  "controlled unclassified",
+  "CMMC",
+  "NDAA",
+  "National Defense Authorization",
+  "commercial item",
+  "commercial product",
+  "commercial service",
+  "nontraditional defense contractor",
+  "consortium",
+  "bid protest",
+  "Court of Federal Claims",
+  "class deviation"
+ ],
+ "sources": [
+  {
+   "id": 1,
+   "name": "Federal Register: DARS notices",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Proposed, interim, and final DFARS rules and notices",
+   "url": "https://www.federalregister.gov/agencies/defense-acquisition-regulations-system",
+   "fetchers": [
     {
-      "id": 1, "name": "Federal Register: DARS notices", "type": "Regulatory", "cadence": "Weekly",
-      "covers": "Proposed, interim, and final DFARS rules and notices",
-      "url": "https://www.federalregister.gov/agencies/defense-acquisition-regulations-system",
-      "fetchers": [
-        {"label": "Federal Register API", "kind": "federal_register",
-         "params": {"conditions[agencies][]": "defense-acquisition-regulations-system"}}
-      ]
-    },
-    {
-      "id": 2, "name": "DFARS class deviations", "type": "Regulatory", "cadence": "Weekly",
-      "covers": "Class deviations issued by DPCAP, including FAR overhaul deviations",
-      "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
-      "fetchers": [
-        {"label": "DARS class deviations page", "kind": "html_links",
-         "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
-         "link_regex": "(?i)(20\\d\\d-O\\d{4}|deviation)"},
-        {"label": "DARS FAR overhaul deviations page", "kind": "html_links",
-         "url": "https://www.acq.osd.mil/dpap/dars/dfars_far_overhaul_class_deviations.html",
-         "link_regex": "(?i)(20\\d\\d-O\\d{4}|deviation)"},
-        {"label": "acquisition.gov DoD deviation guide", "kind": "html_links",
-         "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide",
-         "link_regex": "(?i)(deviation|far-overhaul-part)"}
-      ]
-    },
-    {
-      "id": 3, "name": "FAR overhaul tracker", "type": "Regulatory", "cadence": "Weekly",
-      "covers": "Revolutionary FAR Overhaul proposed and final rules",
-      "url": "https://www.acquisition.gov/far-overhaul",
-      "fetchers": [
-        {"label": "Federal Register API (FAR overhaul rules)", "kind": "federal_register",
-         "params": {"conditions[term]": "\"Revolutionary Federal Acquisition Regulation Overhaul\""}},
-        {"label": "acquisition.gov FAR overhaul page", "kind": "html_links",
-         "url": "https://www.acquisition.gov/far-overhaul",
-         "link_regex": "(?i)(far-overhaul|news|deviation)"}
-      ]
-    },
-    {
-      "id": 4, "name": "DPCAP OT policy and guidebooks", "type": "Policy", "cadence": "Weekly",
-      "covers": "OT policy memoranda and guidebooks from DPCAP",
-      "url": "https://www.acq.osd.mil/asda/dpc/cp/policy/other-policy-areas.html",
-      "fetchers": [
-        {"label": "DPCAP policy page", "kind": "html_links",
-         "url": "https://www.acq.osd.mil/asda/dpc/cp/policy/other-policy-areas.html",
-         "link_regex": "(?i)(\\.pdf|guide|memo|transaction)"},
-        {"label": "DPCAP guidebooks page", "kind": "html_links",
-         "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/index.html",
-         "link_regex": "(?i)(guide|\\.pdf)"}
-      ]
-    },
-    {
-      "id": 5, "name": "Guide to Prototype Other Transactions", "type": "Policy", "cadence": "As released",
-      "covers": "The DoD prototype OT guide and any new version",
-      "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/prototypeots.html",
-      "fetchers": [
-        {"label": "DPCAP prototype OT guide page", "kind": "page_version",
-         "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/prototypeots.html",
-         "marker_regex": "(?i)version\\s*\\d+(?:\\.\\d+)+", "title": "Guide to Prototype Other Transactions"},
-        {"label": "DAU OT guide page", "kind": "page_version",
-         "url": "https://aaf.dau.edu/aaf/ot-guide/",
-         "marker_regex": "(?i)(?:version|v)\\s*\\d+(?:\\.\\d+)+", "title": "DAU OT Guide page"}
-      ]
-    },
-    {
-      "id": 6, "name": "NDAA bill actions", "type": "Legislative", "cadence": "As released",
-      "covers": "Floor, conference, and enactment actions on the FY2027 NDAA",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-      "fetchers": [
-        {"label": "Congress.gov API", "kind": "congress_bill_actions",
-         "bills": [
-           {"congress": 119, "type": "hr", "number": 8800, "label": "H.R. 8800 (FY2027 NDAA)",
-            "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800/all-actions"},
-           {"congress": 119, "type": "s", "number": 4784, "label": "S. 4784 (FY2027 NDAA)",
-            "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784/all-actions"}
-         ]}
-      ]
-    },
-    {
-      "id": 7, "name": "CRS reports: acquisition and defense procurement", "type": "Legislative", "cadence": "Monthly",
-      "covers": "CRS analyses of acquisition reform and defense procurement",
-      "url": "https://www.everycrsreport.com/",
-      "fetchers": [
-        {"label": "EveryCRSReport feed", "kind": "rss", "urls": ["https://www.everycrsreport.com/rss.xml"],
-         "keywords": ["acquisition", "procurement", "NDAA", "National Defense Authorization", "defense contract", "contracting"]},
-        {"label": "Congress.gov API (CRS reports)", "kind": "congress_crs",
-         "keywords": ["acquisition", "procurement", "NDAA", "National Defense Authorization", "defense contract", "contracting"]}
-      ]
-    },
-    {
-      "id": 8, "name": "House Rules Committee", "type": "Legislative", "cadence": "During NDAA season",
-      "covers": "Rules Committee announcements and prints for NDAA text",
-      "url": "https://rules.house.gov/",
-      "fetchers": [
-        {"label": "Rules Committee site", "kind": "html_links", "url": "https://rules.house.gov/",
-         "link_regex": "(?i)(announcement|hearing|/bill/|h\\.?r\\.?\\s*\\d+|rule)"},
-        {"label": "Rules Committee feed", "kind": "rss", "urls": ["https://rules.house.gov/rss.xml"]}
-      ]
-    },
-    {
-      "id": 9, "name": "GAO reports: OT and acquisition", "type": "Oversight", "cadence": "Monthly",
-      "covers": "GAO reports and testimony on OTs and defense acquisition",
-      "url": "https://www.gao.gov/reports-testimonies",
-      "fetchers": [
-        {"label": "GAO reports feed", "kind": "rss", "urls": ["https://www.gao.gov/rss/reports.xml"],
-         "keywords": ["other transaction", "acquisition", "procurement", "contract", "DOD", "Defense", "weapon"]}
-      ]
-    },
-    {
-      "id": 10, "name": "DoD Inspector General reports", "type": "Oversight", "cadence": "Monthly",
-      "covers": "DoD IG audits affecting contracting, CAS, or TINA compliance",
-      "url": "https://www.dodig.mil/reports.html",
-      "fetchers": [
-        {"label": "DoD IG reports page", "kind": "html_links", "url": "https://www.dodig.mil/reports.html",
-         "link_regex": "(?i)/reports\\.html/Article/\\d+"},
-        {"label": "DoD IG feed", "kind": "rss",
-         "urls": ["https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1077&max=20"]}
-      ]
-    },
-    {
-      "id": 11, "name": "CRS reports: Other Transaction authority", "type": "Legislative", "cadence": "As released",
-      "covers": "CRS publications specifically on OT authority and usage",
-      "url": "https://www.everycrsreport.com/",
-      "fetchers": [
-        {"label": "EveryCRSReport feed", "kind": "rss", "urls": ["https://www.everycrsreport.com/rss.xml"],
-         "keywords": ["other transaction"], "min_items": 0},
-        {"label": "Congress.gov API (CRS reports)", "kind": "congress_crs", "keywords": ["other transaction"], "min_items": 0}
-      ]
-    },
-    {
-      "id": 12, "name": "OT case law", "type": "Legal", "cadence": "Monthly", "manual_note": "Westlaw requires a login. A public case search runs automatically; the Westlaw check is manual.",
-      "covers": "COFC, GAO, and Federal Circuit decisions involving OT agreements",
-      "url": "https://www.courtlistener.com/",
-      "fetchers": [
-        {"label": "CourtListener search", "kind": "courtlistener",
-         "query": "\"other transaction\" (agreement OR authority OR prototype)", "courts": "uscfc cafc", "min_items": 0}
-      ]
-    },
-    {
-      "id": 13, "name": "DIU open solicitations", "type": "Market", "cadence": "Biweekly",
-      "covers": "DIU prototype OT solicitations and commercial solutions openings",
-      "url": "https://www.diu.mil/work-with-us/open-solicitations",
-      "fetchers": [
-        {"label": "DIU open solicitations page", "kind": "html_links",
-         "url": "https://www.diu.mil/work-with-us/open-solicitations",
-         "link_regex": "(?i)(submit-solution|PROJ\\d+)", "min_items": 0, "require_text": "(?i)solicitation"}
-      ]
-    },
-    {
-      "id": 14, "name": "Consortium OT activity", "type": "Market", "cadence": "Biweekly", "manual": true,
-      "manual_note": "Consortium member portals require a login. This source is checked manually.",
-      "covers": "Consortium requests for prototype proposals, white paper calls, and awards",
-      "url": "", "fetchers": []
-    },
-    {
-      "id": 15, "name": "SAM.gov: OT and CSO solicitations", "type": "Market", "cadence": "Weekly",
-      "covers": "Contract opportunities that reference other transactions or commercial solutions openings",
-      "url": "https://sam.gov/search/?index=opp",
-      "fetchers": [
-        {"label": "SAM.gov opportunities API", "kind": "sam_opportunities",
-         "titles": ["other transaction", "commercial solutions opening", "prototype"], "min_items": 0}
-      ]
-    },
-    {
-      "id": 16, "name": "GAO bid protest decisions", "type": "Legal", "cadence": "Weekly",
-      "covers": "Published GAO bid protest decisions",
-      "url": "https://www.gao.gov/legal/bid-protests",
-      "fetchers": [
-        {"label": "GAO legal decisions feed", "kind": "rss", "urls": ["https://www.gao.gov/rss/legal.xml", "https://www.gao.gov/rss/bid_protest_decisions.xml"]},
-        {"label": "GAO bid protest search page", "kind": "html_links", "url": "https://www.gao.gov/legal/bid-protests/search",
-         "link_regex": "(?i)/products/b-\\d+"}
-      ]
-    },
-    {
-      "id": 17, "name": "Federal Circuit blog", "type": "Legal", "cadence": "Weekly",
-      "covers": "Federal Circuit opinions and arguments, filtered for government contracts",
-      "url": "https://fedcircuitblog.com/",
-      "fetchers": [
-        {"label": "Fed Circuit Blog feed", "kind": "rss", "urls": ["https://fedcircuitblog.com/feed/"],
-         "keywords": ["contract", "Claims Court", "Court of Federal Claims", "bid protest", "procurement", "Tucker Act", "other transaction"], "min_items": 0, "min_raw": 1}
-      ]
-    },
-    {
-      "id": 18, "name": "Court of Federal Claims opinions", "type": "Legal", "cadence": "Weekly",
-      "covers": "Recent COFC opinions on bid protests and contract disputes",
-      "url": "https://law.justia.com/cases/federal/district-courts/federal-claims/",
-      "fetchers": [
-        {"label": "CourtListener (COFC opinions)", "kind": "courtlistener",
-         "query": "\"bid protest\" OR \"Contract Disputes Act\" OR procurement", "courts": "uscfc"},
-        {"label": "COFC opinions feed", "kind": "rss", "urls": ["https://ecf.cofc.uscourts.gov/cgi-bin/rss_outside.pl"]}
-      ]
-    },
-    {
-      "id": 19, "name": "Government contracts law blogs", "type": "Legal", "cadence": "Weekly",
-      "covers": "Practitioner analysis from established government contracts blogs",
-      "url": "",
-      "fetchers": [
-        {"label": "Law blog feeds", "kind": "rss", "use_global_keywords": true, "min_items": 0, "min_raw": 1,
-         "urls": [
-           "https://www.insidegovernmentcontracts.com/feed/",
-           "https://www.governmentcontractslegalforum.com/feed/",
-           "https://www.governmentcontractslawblog.com/feed/",
-           "https://smallgovcon.com/feed/"
-         ]}
-      ]
-    },
-    {
-      "id": 20, "name": "DARS open case reports", "type": "Regulatory", "cadence": "Weekly",
-      "covers": "Status of every pending FAR and DFARS case, including the FAR CUI rule",
-      "url": "https://www.acq.osd.mil/dpap/dars/case_status.html",
-      "fetchers": [
-        {"label": "DARS open case PDFs", "kind": "pdf_reports",
-         "reports": [
-           {"label": "Open FAR Cases report", "url": "https://www.acq.osd.mil/dpap/dars/opencases/farcasenum/far.pdf"},
-           {"label": "Open DFARS Cases report", "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf"}
-         ]}
-      ]
+     "label": "Federal Register API",
+     "kind": "federal_register",
+     "params": {
+      "conditions[agencies][]": "defense-acquisition-regulations-system"
+     }
     }
-  ]
+   ]
+  },
+  {
+   "id": 2,
+   "name": "DFARS class deviations",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Class deviations issued by DPCAP, including FAR overhaul deviations",
+   "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
+   "fetchers": [
+    {
+     "label": "DARS class deviations page",
+     "kind": "html_links",
+     "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
+     "link_regex": "(?i)(20\\d\\d-O\\d{4}|deviation)"
+    },
+    {
+     "label": "DARS FAR overhaul deviations page",
+     "kind": "html_links",
+     "url": "https://www.acq.osd.mil/dpap/dars/dfars_far_overhaul_class_deviations.html",
+     "link_regex": "(?i)(20\\d\\d-O\\d{4}|deviation)"
+    },
+    {
+     "label": "acquisition.gov DoD deviation guide",
+     "kind": "html_links",
+     "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide",
+     "link_regex": "(?i)(deviation|far-overhaul-part)"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "FAR overhaul tracker",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Revolutionary FAR Overhaul proposed and final rules",
+   "url": "https://www.acquisition.gov/far-overhaul",
+   "fetchers": [
+    {
+     "label": "Federal Register API (FAR overhaul rules)",
+     "kind": "federal_register",
+     "params": {
+      "conditions[term]": "\"Revolutionary Federal Acquisition Regulation Overhaul\""
+     }
+    },
+    {
+     "label": "acquisition.gov FAR overhaul page",
+     "kind": "html_links",
+     "url": "https://www.acquisition.gov/far-overhaul",
+     "link_regex": "(?i)(far-overhaul|news|deviation)"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "DPCAP OT policy and guidebooks",
+   "type": "Policy",
+   "cadence": "Weekly",
+   "covers": "OT policy memoranda and guidebooks from DPCAP",
+   "url": "https://www.acq.osd.mil/asda/dpc/cp/policy/other-policy-areas.html",
+   "fetchers": [
+    {
+     "label": "DPCAP policy page",
+     "kind": "html_links",
+     "url": "https://www.acq.osd.mil/asda/dpc/cp/policy/other-policy-areas.html",
+     "link_regex": "(?i)(\\.pdf|guide|memo|transaction)"
+    },
+    {
+     "label": "DPCAP guidebooks page",
+     "kind": "html_links",
+     "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/index.html",
+     "link_regex": "(?i)(guide|\\.pdf)"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Guide to Prototype Other Transactions",
+   "type": "Policy",
+   "cadence": "As released",
+   "covers": "The DoD prototype OT guide and any new version",
+   "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/prototypeots.html",
+   "fetchers": [
+    {
+     "label": "DPCAP prototype OT guide page",
+     "kind": "page_version",
+     "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/prototypeots.html",
+     "marker_regex": "(?i)version\\s*\\d+(?:\\.\\d+)+",
+     "title": "Guide to Prototype Other Transactions"
+    },
+    {
+     "label": "DAU OT guide page",
+     "kind": "page_version",
+     "url": "https://aaf.dau.edu/aaf/ot-guide/",
+     "marker_regex": "(?i)(?:version|v)\\s*\\d+(?:\\.\\d+)+",
+     "title": "DAU OT Guide page"
+    },
+    {
+     "label": "DPCAP guidebooks index",
+     "kind": "html_links",
+     "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/index.html",
+     "link_regex": "(?i)transaction"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "NDAA bill actions",
+   "type": "Legislative",
+   "cadence": "As released",
+   "covers": "Floor, conference, and enactment actions on the FY2027 NDAA",
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
+   "fetchers": [
+    {
+     "label": "Congress.gov API",
+     "kind": "congress_bill_actions",
+     "bills": [
+      {
+       "congress": 119,
+       "type": "hr",
+       "number": 8800,
+       "label": "H.R. 8800 (FY2027 NDAA)",
+       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800/all-actions"
+      },
+      {
+       "congress": 119,
+       "type": "s",
+       "number": 4784,
+       "label": "S. 4784 (FY2027 NDAA)",
+       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784/all-actions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "CRS reports: acquisition and defense procurement",
+   "type": "Legislative",
+   "cadence": "Monthly",
+   "covers": "CRS analyses of acquisition reform and defense procurement",
+   "url": "https://www.everycrsreport.com/",
+   "fetchers": [
+    {
+     "label": "EveryCRSReport feed",
+     "kind": "rss",
+     "urls": [
+      "https://www.everycrsreport.com/rss.xml"
+     ],
+     "keywords": [
+      "acquisition",
+      "procurement",
+      "NDAA",
+      "National Defense Authorization",
+      "defense contract",
+      "contracting"
+     ],
+     "min_items": 0,
+     "min_raw": 1
+    },
+    {
+     "label": "Congress.gov API (CRS reports)",
+     "kind": "congress_crs",
+     "keywords": [
+      "acquisition",
+      "procurement",
+      "NDAA",
+      "National Defense Authorization",
+      "defense contract",
+      "contracting"
+     ],
+     "min_items": 0,
+     "min_raw": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "House Rules Committee",
+   "type": "Legislative",
+   "cadence": "During NDAA season",
+   "covers": "Rules Committee announcements and prints for NDAA text",
+   "url": "https://rules.house.gov/",
+   "fetchers": [
+    {
+     "label": "Rules Committee site",
+     "kind": "html_links",
+     "url": "https://rules.house.gov/",
+     "link_regex": "(?i)(announcement|hearing|/bill/|h\\.?r\\.?\\s*\\d+|rule)"
+    },
+    {
+     "label": "Rules Committee feed",
+     "kind": "rss",
+     "urls": [
+      "https://rules.house.gov/rss.xml"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "GAO reports: OT and acquisition",
+   "type": "Oversight",
+   "cadence": "Monthly",
+   "covers": "GAO reports and testimony on OTs and defense acquisition",
+   "url": "https://www.gao.gov/reports-testimonies",
+   "fetchers": [
+    {
+     "label": "GAO reports feed",
+     "kind": "rss",
+     "urls": [
+      "https://www.gao.gov/rss/reports.xml"
+     ],
+     "keywords": [
+      "other transaction",
+      "acquisition",
+      "procurement",
+      "contract",
+      "DOD",
+      "Defense",
+      "weapon"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "DoD Inspector General reports",
+   "type": "Oversight",
+   "cadence": "Monthly",
+   "covers": "DoD IG audits affecting contracting, CAS, or TINA compliance",
+   "url": "https://www.dodig.mil/reports.html",
+   "fetchers": [
+    {
+     "label": "DoD IG reports page",
+     "kind": "html_links",
+     "url": "https://www.dodig.mil/reports.html",
+     "link_regex": "(?i)/reports\\.html/Article/\\d+"
+    },
+    {
+     "label": "DoD IG feed",
+     "kind": "rss",
+     "urls": [
+      "https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1077&max=20"
+     ]
+    },
+    {
+     "label": "Oversight.gov (Defense OIG reports)",
+     "kind": "html_links",
+     "url": "https://www.oversight.gov/inspectors-general/department-war-oig",
+     "link_regex": "(?i)/reports/(audit|inspection|evaluation|review|other|investigation|management)"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "CRS reports: Other Transaction authority",
+   "type": "Legislative",
+   "cadence": "As released",
+   "covers": "CRS publications specifically on OT authority and usage",
+   "url": "https://www.everycrsreport.com/",
+   "fetchers": [
+    {
+     "label": "EveryCRSReport feed",
+     "kind": "rss",
+     "urls": [
+      "https://www.everycrsreport.com/rss.xml"
+     ],
+     "keywords": [
+      "other transaction"
+     ],
+     "min_items": 0,
+     "min_raw": 1
+    },
+    {
+     "label": "Congress.gov API (CRS reports)",
+     "kind": "congress_crs",
+     "keywords": [
+      "other transaction"
+     ],
+     "min_items": 0,
+     "min_raw": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "OT case law",
+   "type": "Legal",
+   "cadence": "Monthly",
+   "manual_note": "Westlaw requires a login. A public case search runs automatically; the Westlaw check is manual.",
+   "covers": "COFC, GAO, and Federal Circuit decisions involving OT agreements",
+   "url": "https://www.courtlistener.com/",
+   "fetchers": [
+    {
+     "label": "CourtListener search",
+     "kind": "courtlistener",
+     "query": "\"other transaction\" (agreement OR authority OR prototype)",
+     "courts": "uscfc cafc",
+     "min_items": 0
+    },
+    {
+     "label": "Law blog feeds (OT decisions)",
+     "kind": "rss",
+     "keywords": [
+      "other transaction"
+     ],
+     "min_items": 0,
+     "min_raw": 1,
+     "urls": [
+      "https://www.insidegovernmentcontracts.com/feed/",
+      "https://www.governmentcontractslegalforum.com/feed/",
+      "https://smallgovcon.com/feed/"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "DIU open solicitations",
+   "type": "Market",
+   "cadence": "Biweekly",
+   "covers": "DIU prototype OT solicitations and commercial solutions openings",
+   "url": "https://www.diu.mil/work-with-us/open-solicitations",
+   "fetchers": [
+    {
+     "label": "DIU open solicitations page",
+     "kind": "html_links",
+     "url": "https://www.diu.mil/work-with-us/open-solicitations",
+     "link_regex": "(?i)(submit-solution|PROJ\\d+)",
+     "min_items": 0,
+     "require_text": "(?i)solicitation"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Consortium OT activity",
+   "type": "Market",
+   "cadence": "Biweekly",
+   "manual": true,
+   "manual_note": "Consortium member portals require a login. This source is checked manually.",
+   "covers": "Consortium requests for prototype proposals, white paper calls, and awards",
+   "url": "",
+   "fetchers": []
+  },
+  {
+   "id": 15,
+   "name": "SAM.gov: OT and CSO solicitations",
+   "type": "Market",
+   "cadence": "Weekly",
+   "covers": "Contract opportunities that reference other transactions or commercial solutions openings",
+   "url": "https://sam.gov/search/?index=opp",
+   "fetchers": [
+    {
+     "label": "SAM.gov opportunities API",
+     "kind": "sam_opportunities",
+     "titles": [
+      "other transaction",
+      "commercial solutions opening",
+      "prototype"
+     ],
+     "min_items": 0
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "GAO bid protest decisions",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "covers": "Published GAO bid protest decisions",
+   "url": "https://www.gao.gov/legal/bid-protests",
+   "fetchers": [
+    {
+     "label": "GAO recent bid protest decisions page",
+     "kind": "html_links",
+     "url": "https://www.gao.gov/legal/bid-protests/recent",
+     "link_regex": "(?i)/products/b-\\d+"
+    },
+    {
+     "label": "GAO legal products feed",
+     "kind": "rss",
+     "urls": [
+      "https://www.gao.gov/rss/reportslegal.xml",
+      "https://www.gao.gov/rss/legalproducts.xml",
+      "https://www.gao.gov/rss/decisions.xml"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Federal Circuit blog",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "covers": "Federal Circuit opinions and arguments, filtered for government contracts",
+   "url": "https://fedcircuitblog.com/",
+   "fetchers": [
+    {
+     "label": "Fed Circuit Blog feed",
+     "kind": "rss",
+     "urls": [
+      "https://fedcircuitblog.com/feed/"
+     ],
+     "keywords": [
+      "contract",
+      "Claims Court",
+      "Court of Federal Claims",
+      "bid protest",
+      "procurement",
+      "Tucker Act",
+      "other transaction"
+     ],
+     "min_items": 0,
+     "min_raw": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Court of Federal Claims opinions",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "covers": "Recent COFC opinions on bid protests and contract disputes",
+   "url": "https://law.justia.com/cases/federal/district-courts/federal-claims/",
+   "fetchers": [
+    {
+     "label": "CourtListener (COFC opinions)",
+     "kind": "courtlistener",
+     "query": "\"bid protest\" OR \"Contract Disputes Act\" OR procurement",
+     "courts": "uscfc"
+    },
+    {
+     "label": "COFC opinions feed",
+     "kind": "rss",
+     "urls": [
+      "https://ecf.cofc.uscourts.gov/cgi-bin/rss_outside.pl"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Government contracts law blogs",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "covers": "Practitioner analysis from established government contracts blogs",
+   "url": "",
+   "fetchers": [
+    {
+     "label": "Law blog feeds",
+     "kind": "rss",
+     "use_global_keywords": true,
+     "min_items": 0,
+     "min_raw": 1,
+     "urls": [
+      "https://www.insidegovernmentcontracts.com/feed/",
+      "https://www.governmentcontractslegalforum.com/feed/",
+      "https://www.governmentcontractslawblog.com/feed/",
+      "https://smallgovcon.com/feed/"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "DARS open case reports",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Status of every pending FAR and DFARS case, including the FAR CUI rule",
+   "url": "https://www.acq.osd.mil/dpap/dars/case_status.html",
+   "fetchers": [
+    {
+     "label": "DARS open case PDFs",
+     "kind": "pdf_reports",
+     "reports": [
+      {
+       "label": "Open FAR Cases report",
+       "url": "https://www.acq.osd.mil/dpap/dars/opencases/farcasenum/far.pdf"
+      },
+      {
+       "label": "Open DFARS Cases report",
+       "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
