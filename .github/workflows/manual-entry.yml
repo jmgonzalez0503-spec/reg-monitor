@@ -1,0 +1,48 @@
+name: Manual entry
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  record:
+    # Only the repository owner can add entries. Forms from anyone else are ignored.
+    if: github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Record the entry
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python manual_entry.py
+      - name: Refresh the site data
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python reg_monitor.py || true
+      - name: Save
+        run: |
+          git config user.name "reg-monitor bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data docs/feed.xml
+          git diff --cached --quiet || git commit -m "Manual entry $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push
+      - name: Close the form
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }} --comment "Recorded."

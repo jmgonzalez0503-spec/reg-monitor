@@ -46,9 +46,20 @@
      "kind": "federal_register",
      "params": {
       "conditions[agencies][]": "defense-acquisition-regulations-system"
+     },
+     "canary": {
+      "name": "a DFARS rule",
+      "params": {
+       "conditions[agencies][]": "defense-acquisition-regulations-system",
+       "conditions[type][]": [
+        "RULE"
+       ]
+      },
+      "expect": "(?i)Defense Federal Acquisition Regulation Supplement"
      }
     }
-   ]
+   ],
+   "stale_days": 75
   },
   {
    "id": 2,
@@ -277,7 +288,8 @@
       "weapon"
      ]
     }
-   ]
+   ],
+   "stale_days": 21
   },
   {
    "id": 10,
@@ -286,7 +298,10 @@
    "cadence": "Monthly",
    "covers": "DoD IG audits affecting contracting, CAS, or TINA compliance",
    "url": "https://www.dodig.mil/reports.html",
-   "fetchers": [
+   "fetchers": [],
+   "manual_note": "The DoD IG site does not permit automated reading. This source is checked by hand.",
+   "manual": true,
+   "disabled_fetchers": [
     {
      "label": "DoD IG reports page",
      "kind": "html_links",
@@ -320,9 +335,7 @@
      "url": "https://www.oversight.gov/inspectors-general/department-war-oig",
      "link_regex": "(?i)/reports/(audit|inspection|evaluation|review|other|investigation|management)"
     }
-   ],
-   "alarm": false,
-   "manual_note": "The DoD IG site does not permit automated reading and no official feed is currently available. Check this source manually until a permitted route is found."
+   ]
   },
   {
    "id": 11,
@@ -418,9 +431,9 @@
    "type": "Market",
    "cadence": "Biweekly",
    "manual": true,
-   "manual_note": "Consortium member portals require a login. This source is checked manually.",
+   "manual_note": "Consortium member portals require a login. This source is checked by hand.",
    "covers": "Consortium requests for prototype proposals, white paper calls, and awards",
-   "url": "",
+   "url": "https://www.nstxl.org/opportunities/",
    "fetchers": [],
    "tags": [
     "Other transactions"
@@ -473,7 +486,8 @@
    ],
    "tags": [
     "Protests and disputes"
-   ]
+   ],
+   "stale_days": 21
   },
   {
    "id": 17,
@@ -501,7 +515,8 @@
      "min_items": 0,
      "min_raw": 1
     }
-   ]
+   ],
+   "stale_days": 30
   },
   {
    "id": 18,
@@ -528,7 +543,8 @@
    ],
    "tags": [
     "Protests and disputes"
-   ]
+   ],
+   "stale_days": 14
   },
   {
    "id": 19,
@@ -551,7 +567,8 @@
       "https://smallgovcon.com/feed/"
      ]
     }
-   ]
+   ],
+   "stale_days": 14
   },
   {
    "id": 20,
@@ -610,7 +627,8 @@
      ]
     }
    ],
-   "manual_note": "The ASBCA site does not permit automated reading. This source currently relies on law blog coverage of ASBCA decisions, so check the ASBCA site directly for a complete list."
+   "manual_note": "The ASBCA site does not permit automated reading. Law blog coverage is read automatically, and the ASBCA decision list is also checked by hand.",
+   "manual_check": true
   },
   {
    "id": 22,
@@ -661,9 +679,20 @@
      ],
      "exclude_regex": "(?i)(^Information Collection|Submission for OMB Review|General Services Administration Acquisition Regulation|GSAR)",
      "min_items": 0,
-     "min_raw": 1
+     "min_raw": 1,
+     "canary": {
+      "name": "a Federal Acquisition Circular",
+      "params": {
+       "conditions[term]": "\"Federal Acquisition Circular\"",
+       "conditions[type][]": [
+        "RULE"
+       ]
+      },
+      "expect": "(?i)Federal Acquisition Regulation"
+     }
     }
-   ]
+   ],
+   "stale_days": 120
   },
   {
    "id": 24,
@@ -694,6 +723,13 @@
      ],
      "params": {
       "conditions[term]": "\"Cost Accounting Standards\""
+     },
+     "canary": {
+      "name": "a Cost Accounting Standards notice",
+      "params": {
+       "conditions[term]": "\"Cost Accounting Standards\" conformance"
+      },
+      "expect": "(?i)Cost Accounting Standards"
      }
     }
    ],
@@ -729,6 +765,14 @@
        "executive_order",
        "memorandum"
       ]
+     },
+     "canary": {
+      "name": "Restoring Common Sense to Federal Procurement",
+      "params": {
+       "conditions[type][]": "PRESDOCU",
+       "conditions[term]": "\"Restoring Common Sense to Federal Procurement\""
+      },
+      "expect": "(?i)Federal Procurement"
      }
     }
    ]
@@ -747,7 +791,7 @@
      "url": "https://www.reginfo.gov/public/do/XMLViewFileAction?f=EO_RULES_UNDER_REVIEW.xml",
      "match_regex": "(?i)(acquisition regulation|DFARS|\\bFAR\\b|federal procurement|cost accounting|controlled unclassified|cybersecurity maturity|\\b9000-|\\b0750-)",
      "min_items": 0,
-     "min_raw": 1
+     "min_raw": 5
     }
    ]
   },
@@ -778,7 +822,18 @@
       "Safeguarding Covered Defense"
      ],
      "min_items": 0,
-     "min_raw": 1
+     "min_raw": 1,
+     "canary": {
+      "name": "CMMC program rule",
+      "params": {
+       "conditions[term]": "\"Cybersecurity Maturity Model Certification\"",
+       "conditions[type][]": [
+        "RULE",
+        "PRORULE"
+       ]
+      },
+      "expect": "(?i)Cybersecurity Maturity Model Certification"
+     }
     },
     {
      "label": "NIST cybersecurity news feed",
@@ -808,7 +863,10 @@
    "combine": true,
    "covers": "DCAA audit guidance memoranda and DCMA commercial item and pricing guidance",
    "url": "https://www.dcaa.mil/Guidance/Audit-Guidance/",
-   "fetchers": [
+   "fetchers": [],
+   "manual_note": "The DCAA and DCMA sites do not permit automated reading. This source is checked by hand.",
+   "manual": true,
+   "disabled_fetchers": [
     {
      "label": "DCAA audit guidance page",
      "kind": "html_links",
@@ -821,9 +879,7 @@
      "url": "https://www.dcma.mil/Commercial-Item-Group/",
      "link_regex": "(?i)(\\.pdf|guid|/Article/)"
     }
-   ],
-   "alarm": false,
-   "manual_note": "The DCAA and DCMA sites do not permit automated reading. Check this source manually until a permitted route is found."
+   ]
   },
   {
    "id": 29,
@@ -922,6 +978,18 @@
        "RULE",
        "PRORULE"
       ]
+     },
+     "canary": {
+      "name": "an SBA HUBZone rule",
+      "params": {
+       "conditions[agencies][]": "small-business-administration",
+       "conditions[term]": "HUBZone",
+       "conditions[type][]": [
+        "RULE",
+        "PRORULE"
+       ]
+      },
+      "expect": "(?i)HUBZone"
      }
     }
    ]
@@ -961,7 +1029,8 @@
       ]
      }
     }
-   ]
+   ],
+   "stale_days": 120
   },
   {
    "id": 33,
@@ -993,7 +1062,8 @@
      "min_items": 0,
      "min_raw": 1
     }
-   ]
+   ],
+   "stale_days": 14
   }
  ]
 }

@@ -236,6 +236,7 @@ def f_federal_register(f, src):
             params.append((k, one))
     r = http_get("https://www.federalregister.gov/api/v1/documents.json", params=params)
     results = r.json().get("results", []) or []
+    f["_newest"] = max([d.get("publication_date") or "" for d in results] or [""])
     out = []
     for d in results:
         if not kw_match(d.get("title", ""), f.get("keywords")):
@@ -275,7 +276,7 @@ def f_oira_xml(f, src):
 
 def f_rss(f, src):
     keywords = CFG["keywords"] if f.get("use_global_keywords") else f.get("keywords")
-    out, raw, errors, ok = [], 0, [], 0
+    out, raw, errors, ok, newest = [], 0, [], 0, ""
     for url in f["urls"]:
         try:
             r = http_get(url)
@@ -286,6 +287,9 @@ def f_rss(f, src):
             for e in d.entries:
                 raw += 1
                 title = e.get("title", "")
+                tp0 = e.get("published_parsed") or e.get("updated_parsed")
+                if tp0:
+                    newest = max(newest, time.strftime("%Y-%m-%d", tp0))
                 if f.get("exclude_regex") and re.search(f["exclude_regex"], title):
                     continue
                 if not kw_match(title + " " + clean(e.get("summary", ""), 2000), keywords):
@@ -294,6 +298,7 @@ def f_rss(f, src):
                 tp = e.get("published_parsed") or e.get("updated_parsed")
                 if tp:
                     date = time.strftime("%Y-%m-%d", tp)
+                    newest = max(newest, date)
                 out.append(item(e.get("id") or e.get("link"), title, e.get("link"), date, "", e.get("summary", "")))
         except Exception as ex:  # one bad feed must not sink the rest
             errors.append(redact(f"{urlparse(url).netloc}: {ex}"))
@@ -303,6 +308,7 @@ def f_rss(f, src):
         raise RuntimeError("; ".join(errors) or "no feeds read")
     if errors:
         log(f"   partial: {'; '.join(errors)}")
+    f["_newest"] = newest
     return out, raw
 
 
@@ -461,6 +467,13 @@ def check_source(src):
             min_items = f.get("min_items", 1)
             if len(items) < min_items or raw < f.get("min_raw", 0):
                 raise RuntimeError(f"returned {len(items)} items; expected at least {max(min_items, 1)}")
+            if f.get("canary"):
+                probe = dict(f, params=f["canary"]["params"])
+                found, _ = FETCHERS[f["kind"]](probe, src)
+                if not any(re.search(f["canary"]["expect"], x["title"]) for x in found):
+                    raise RuntimeError(f"self-test failed: the known document \"{f['canary']['name']}\" was not found")
+                src["_selftest"] = "passed"
+                log(f"   self-test passed: {f['canary']['name']}")
             log(f"   ok via {f['label']}: {len(items)} items")
             good.append((f["label"], items))
             if not src.get("combine"):
@@ -502,6 +515,38 @@ def write_feed(findings):
         fh.write("\n".join(parts) + "\n")
 
 
+def write_briefing(findings, rows):
+    """A short plain-text file for people and assistants that want the current picture without the full database."""
+    week = (NOW.date() - dt.timedelta(days=7)).isoformat()
+    out = ["# Regulatory monitor briefing", f"Generated {NOW.strftime('%Y-%m-%d %H:%M UTC')}", "",
+           "## New items found in the last 7 days"]
+    new = [f for f in findings if not f.get("baseline") and f["first_seen"] >= week and f.get("priority") != "routine"]
+    for f in new[:120]:
+        out.append(f"- [{f['source']}] {f.get('date') or f['first_seen']}: {f['title']}" + (f" (closes {f['due']})" if f.get("due") else "")
+                   + (f" | {f['url']}" if f.get("url") else "") + (f"\n  Summary: {f['summary']}" if f.get("summary") else ""))
+    if not new:
+        out.append("- None.")
+    out += ["", "## Open deadlines"]
+    due = sorted([f for f in findings if f.get("due", "") >= TODAY and f.get("priority") != "routine"], key=lambda f: f["due"])
+    for f in due[:40]:
+        out.append(f"- {f['due']}: {f['title']} [{f['source']}]" + (f" | {f['url']}" if f.get("url") else ""))
+    if not due:
+        out.append("- None recorded.")
+    out += ["", "## Sources that need attention"]
+    bad = [r for r in rows if r["status"] in ("failed", "blocked", "needs_key") or r.get("stale")]
+    for r in bad:
+        why = "stale, newest item " + r["newest"] if r.get("stale") else r["status"]
+        out.append(f"- {r['id']}. {r['name']}: {why}")
+    if not bad:
+        out.append("- None.")
+    out += ["", "## Sources checked by hand"]
+    for r in rows:
+        if r.get("manual_check"):
+            out.append(f"- {r['id']}. {r['name']}: last checked {r.get('last_manual_check') or 'never'} | {r['url']}")
+    with open(os.path.join(DATA, "briefing.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(out) + "\n")
+
+
 def main():
     only = None
     if "--source" in sys.argv:
@@ -511,6 +556,21 @@ def main():
     prev_status = {s["id"]: s for s in load("status.json", {}).get("sources", [])}
     known = {(f["source_id"], f["id"]): f for f in findings}
     rows, new_total = [], 0
+    manual = load("manual.json", {"checks": {}, "items": []})
+    names = {x["id"]: x for x in CFG["sources"]}
+    for m in manual.get("items", []):
+        srcm = names.get(m.get("source_id"))
+        if not srcm or not m.get("title"):
+            continue
+        mid = "manual|" + hashlib.sha256(f"{m['source_id']}|{m['title']}|{m.get('url', '')}".encode()).hexdigest()[:16]
+        if (m["source_id"], mid) in known:
+            continue
+        rec = {"source_id": m["source_id"], "source": srcm["name"], "type": srcm["type"], "id": mid, "title": clean(m["title"]),
+               "url": m.get("url", "") if re.match(r"https?://", m.get("url", "")) else "", "date": m.get("date", "")[:10], "due": m.get("due", "")[:10],
+               "summary": clean(m.get("note", ""), 420), "first_seen": m.get("added", TODAY)[:10], "baseline": False, "manual": True}
+        findings.append(rec)
+        known[(m["source_id"], mid)] = rec
+    state.setdefault("history", {})
 
     for src in CFG["sources"]:
         sid = str(src["id"])
@@ -559,7 +619,17 @@ def main():
         elif status in ("failed", "blocked"):
             state["fail_streak"][sid] = state["fail_streak"].get(sid, 0) + 1
         new_total += new_count
-        rows.append({"id": src["id"], "name": src["name"], "type": src["type"], "cadence": src["cadence"],
+        newest = max([f.get("_newest", "") for f in src["fetchers"]] or [""])
+        stale = bool(status in ("new", "none") and src.get("stale_days") and newest
+                     and (NOW.date() - dt.date.fromisoformat(newest)).days > src["stale_days"])
+        if status in ("new", "none", "failed", "blocked"):
+            hist = state["history"].setdefault(sid, [])
+            hist.append(1 if status in ("new", "none") else 0)
+            del hist[:-30]
+        hist = state["history"].get(sid, [])
+        rows.append({"selftest": src.get("_selftest", ""), "stale": stale, "newest": newest, "stale_days": src.get("stale_days", 0),
+                     "runs": len(hist), "runs_ok": sum(hist), "manual_check": bool(src.get("manual") or src.get("manual_check")),
+                     "last_manual_check": manual.get("checks", {}).get(sid, ""),"id": src["id"], "name": src["name"], "type": src["type"], "cadence": src["cadence"],
                      "covers": src["covers"], "url": src["url"], "status": status,
                      "route": ", ".join(l for l, _ in results),
                      "items_read": read_count, "new_count": new_count, "message": message,
@@ -582,6 +652,7 @@ def main():
     save("status.json", {"generated_at": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "new_total": new_total,
                          "counts": counts, "tags": [t for t, _ in TAG_RULES], "sources": rows})
     write_feed(findings)
+    write_briefing(findings, rows)
     log(f"Done. {new_total} new items. Status counts: {counts}")
     with open(os.path.join(DATA, "last_run.log"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(LOG) + "\n")

@@ -10,6 +10,7 @@ on:
     paths:
       - 'reg_monitor.py'
       - 'sources.json'
+      - 'docs/data/manual.json'
       - 'requirements.txt'
       - '.github/workflows/monitor.yml'
 

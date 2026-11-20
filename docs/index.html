@@ -52,6 +52,8 @@ nav button.on { background: var(--raised); color: var(--text); box-shadow: 0 1px
 .bar input, .bar select { font: 13px var(--sans); padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--raised); color: var(--text); }
 .bar input { flex: 1; min-width: 180px; }
 .btn { font: 500 13px var(--sans); padding: 7px 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--raised); color: var(--text2); cursor: pointer; }
+a.btn { text-decoration: none; display: inline-block; }
+.b-stale { background: var(--warn-bg); color: var(--warn); }
 .btn:hover { border-color: var(--accent); color: var(--accent); }
 .stack { display: flex; flex-direction: column; gap: 8px; }
 .row { background: var(--raised); border: 1px solid var(--border2); border-radius: 6px; padding: 13px 16px; display: grid; grid-template-columns: 30px 1fr auto; gap: 12px; align-items: start; }
@@ -149,6 +151,10 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
   </section>
 
   <section class="panel" id="p-sources" role="tabpanel" aria-labelledby="t-sources">
+    <div class="bar"><span class="when">Owner tools:</span>
+      <a class="btn" href="https://github.com/jmgonzalez0503-spec/reg-monitor/issues/new?template=mark-checked.yml">Mark hand-checked sources as checked</a>
+      <a class="btn" href="https://github.com/jmgonzalez0503-spec/reg-monitor/issues/new?template=add-item.yml">Add an item by hand</a>
+      <a class="btn" href="https://github.com/jmgonzalez0503-spec/reg-monitor/actions/workflows/monitor.yml">Run now</a></div>
     <div class="stack" id="srcList"></div>
   </section>
 
@@ -173,7 +179,9 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
         <li><strong>Nothing new</strong>: the source was read and matched the last run.</li>
         <li><strong>Could not check</strong> or <strong>Blocked</strong>: the source could not be read on this run. This is never reported as "nothing new."</li>
         <li><strong>Needs API key</strong>: the source has an official data feed that requires a free key that is not yet configured.</li>
-        <li><strong>Manual</strong>: the source requires a login and is checked by a person.</li>
+        <li><strong>Manual</strong>: the source requires a login or does not permit automated reading. A person checks it, and the date of the last check is shown.</li>
+        <li><strong>Stale</strong>: the source was read, but its newest item is older than expected for that source.</li>
+        <li><strong>Self-test passed</strong>: on this run the program also searched for a known past document and found it, which confirms the search still works.</li>
       </ul>
       <h2>Summary</h2>
       <p>The Summary view lists rules, deviations, legislation, decisions, and similar items by category and leaves out routine notices. An item is marked important by fixed rules based on its source and title, so read the full record list before relying on the summary alone.</p>
@@ -228,9 +236,13 @@ footer { color: var(--text3); font-size: 12px; padding: 0 0 32px; }
       return '<div class="row"><div class="num">' + s.id + '</div><div>' +
         '<div class="name">' + name + '</div><div class="desc">' + esc(s.covers) + '</div>' +
         '<div class="tags"><span class="tag">' + esc(s.type) + '</span><span>' + esc(s.cadence) + '</span>' +
-        (s.route ? '<span>via ' + esc(s.route) + '</span>' : '') + (s.items_read ? '<span>' + s.items_read + ' items read</span>' : '') + '</div>' +
+        (s.route ? '<span>via ' + esc(s.route) + '</span>' : '') + (s.items_read ? '<span>' + s.items_read + ' items read</span>' : '') +
+        (s.runs ? '<span>read on ' + s.runs_ok + ' of last ' + s.runs + ' runs</span>' : '') +
+        (s.selftest === 'passed' ? '<span class="good">self-test passed</span>' : '') +
+        (s.stale ? '<span class="warn">newest item ' + esc(s.newest) + '</span>' : '') +
+        (s.manual_check ? '<span>checked by hand: ' + esc(s.last_manual_check || 'not yet') + '</span>' : '') + '</div>' +
         (note ? '<div class="note">' + esc(note) + '</div>' : '') + '</div>' +
-        '<div class="st"><span class="badge b-' + esc(s.status) + '">' + (LABEL[s.status] || esc(s.status)) + (s.status === 'new' ? ' (' + s.new_count + ')' : '') + '</span>' +
+        '<div class="st"><span class="badge b-' + esc(s.status) + '">' + (LABEL[s.status] || esc(s.status)) + (s.status === 'new' ? ' (' + s.new_count + ')' : '') + '</span>' + (s.stale ? ' <span class="badge b-stale">Stale</span>' : '') +
         (s.status === 'manual' ? '' : '<div class="when">Last read: ' + (s.last_success ? fmtTime(s.last_success) : 'never') + '</div>') + '</div></div>';
     }).join('');
   }

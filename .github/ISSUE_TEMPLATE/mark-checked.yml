@@ -1,0 +1,13 @@
+name: Mark sources as checked
+description: Owner only. Records that the hand-checked sources were reviewed today.
+title: "[checked] "
+body:
+  - type: checkboxes
+    id: checked
+    attributes:
+      label: Sources checked
+      options:
+        - label: "10. DoD Inspector General reports"
+        - label: "14. Consortium OT activity"
+        - label: "21. ASBCA decisions"
+        - label: "28. DCAA and DCMA guidance"

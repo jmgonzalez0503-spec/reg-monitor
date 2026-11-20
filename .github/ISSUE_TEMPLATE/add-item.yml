@@ -1,0 +1,69 @@
+name: Add an item by hand
+description: Owner only. Adds an item to the monitor for a source that is checked by hand.
+title: "[item] "
+body:
+  - type: dropdown
+    id: source
+    attributes:
+      label: Source
+      options:
+        - "1. Federal Register: DARS notices"
+        - "2. DFARS class deviations"
+        - "3. FAR overhaul tracker"
+        - "4. DPCAP OT policy and guidebooks"
+        - "5. Guide to Prototype Other Transactions"
+        - "6. NDAA bill actions"
+        - "7. CRS reports: acquisition and defense procurement"
+        - "8. House Rules Committee"
+        - "9. GAO reports: OT and acquisition"
+        - "10. DoD Inspector General reports"
+        - "11. CRS reports: Other Transaction authority"
+        - "12. OT case law"
+        - "13. DIU open solicitations"
+        - "14. Consortium OT activity"
+        - "15. SAM.gov: OT and CSO solicitations"
+        - "16. GAO bid protest decisions"
+        - "17. Federal Circuit blog"
+        - "18. Court of Federal Claims opinions"
+        - "19. Government contracts law blogs"
+        - "20. DARS open case reports"
+        - "21. ASBCA decisions"
+        - "22. CBCA decisions"
+        - "23. Federal Register: FAR rules"
+        - "24. CAS Board and OFPP notices"
+        - "25. Executive orders and presidential memoranda"
+        - "26. Rules under OIRA review"
+        - "27. CMMC, CUI, and NIST SP 800-171"
+        - "28. DCAA and DCMA guidance"
+        - "29. Defense committees and appropriations"
+        - "30. Service acquisition supplements"
+        - "31. SBA contracting rules"
+        - "32. Export control rules: ITAR and EAR"
+        - "33. DOJ False Claims Act announcements"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+  - type: input
+    id: date
+    attributes:
+      label: Date published
+      placeholder: "2026-11-19"
+  - type: input
+    id: due
+    attributes:
+      label: Closing date
+      placeholder: "Leave blank if none"
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      description: This site is public. Do not enter anything that is not public.
