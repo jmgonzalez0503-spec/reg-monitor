@@ -1,12 +1,24 @@
 {
- "generated_at": "2026-11-20T02:10:26Z",
+ "generated_at": "2026-11-20T02:24:11Z",
  "new_total": 0,
  "counts": {
-  "none": 17,
+  "none": 29,
   "failed": 1,
   "manual": 1,
-  "needs_key": 1
+  "needs_key": 1,
+  "blocked": 1
  },
+ "tags": [
+  "Other transactions",
+  "CUI and cyber",
+  "Cost and pricing",
+  "Data rights",
+  "Protests and disputes",
+  "Commercial items",
+  "Small business",
+  "Export controls",
+  "Legislation"
+ ],
  "sources": [
   {
    "id": 1,
@@ -21,9 +33,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 2,
@@ -38,9 +50,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 3,
@@ -55,9 +67,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 4,
@@ -72,9 +84,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 5,
@@ -89,9 +101,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 6,
@@ -106,9 +118,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 7,
@@ -123,9 +135,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 8,
@@ -140,9 +152,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 9,
@@ -157,9 +169,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 10,
@@ -175,8 +187,8 @@
    "message": "DoD IG reports page: robots.txt does not allow automated access to this page | DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries | DoD IG audits and evaluations page: robots.txt does not allow automated access to this page | DoD IG reports feed (alternate): RuntimeError: www.dodig.mil: feed had no entries; www.dodig.mil: 404 Client Error: Not Found for url: https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077 | Oversight.gov (Defense OIG reports): site returned HTTP 406",
    "manual_note": "The DoD IG site does not permit automated reading and no official feed is currently available. Check this source manually until a permitted route is found.",
    "last_success": "",
-   "fail_streak": 4,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "fail_streak": 5,
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 11,
@@ -191,9 +203,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 12,
@@ -208,9 +220,9 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. CourtListener search: CourtListener requires a free account token for automated searches",
    "manual_note": "Westlaw requires a login. A public case search runs automatically; the Westlaw check is manual.",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 13,
@@ -225,9 +237,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 14,
@@ -244,7 +256,7 @@
    "manual_note": "Consortium member portals require a login. This source is checked manually.",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 15,
@@ -261,7 +273,7 @@
    "manual_note": "",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 16,
@@ -276,9 +288,9 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. GAO recent bid protest decisions page: robots.txt does not allow automated access to this page",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 17,
@@ -293,9 +305,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 18,
@@ -310,9 +322,9 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. CourtListener (COFC opinions): CourtListener requires a free account token for automated searches",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 19,
@@ -327,9 +339,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
   },
   {
    "id": 20,
@@ -344,9 +356,230 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:10:26Z",
+   "last_success": "2026-11-20T02:24:11Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:10:26Z"
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 21,
+   "name": "ASBCA decisions",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "covers": "Armed Services Board of Contract Appeals published decisions",
+   "url": "https://www.asbca.mil/Decisions/decisions2026.html",
+   "status": "none",
+   "route": "Law blog feeds (ASBCA coverage)",
+   "items_read": 0,
+   "new_count": 0,
+   "message": "Primary route failed, backup used. ASBCA decisions page: robots.txt does not allow automated access to this page First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 22,
+   "name": "CBCA decisions",
+   "type": "Legal",
+   "cadence": "Weekly",
+   "covers": "Civilian Board of Contract Appeals Contract Disputes Act decisions",
+   "url": "https://www.cbca.gov/decisions/cda-cases.html",
+   "status": "none",
+   "route": "CBCA decisions page",
+   "items_read": 3644,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 23,
+   "name": "Federal Register: FAR rules",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Proposed, interim, and final FAR rules from the FAR Council",
+   "url": "https://www.federalregister.gov/",
+   "status": "none",
+   "route": "Federal Register API (FAR rules)",
+   "items_read": 40,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 24,
+   "name": "CAS Board and OFPP notices",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "covers": "Cost Accounting Standards Board rules and Office of Federal Procurement Policy notices",
+   "url": "https://www.federalregister.gov/agencies/federal-procurement-policy-office",
+   "status": "none",
+   "route": "Federal Register API (OFPP)",
+   "items_read": 40,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 25,
+   "name": "Executive orders and presidential memoranda",
+   "type": "Policy",
+   "cadence": "Weekly",
+   "covers": "Presidential documents that touch acquisition, procurement, or defense contracting",
+   "url": "https://www.federalregister.gov/presidential-documents",
+   "status": "none",
+   "route": "Federal Register API (presidential documents)",
+   "items_read": 4,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 26,
+   "name": "Rules under OIRA review",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "Acquisition rules sent to OMB for review before publication",
+   "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
+   "status": "none",
+   "route": "Reginfo.gov data file",
+   "items_read": 1,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 27,
+   "name": "CMMC, CUI, and NIST SP 800-171",
+   "type": "Regulatory",
+   "cadence": "Weekly",
+   "covers": "CMMC and CUI rules, and NIST updates to the 800-171 series",
+   "url": "https://csrc.nist.gov/",
+   "status": "none",
+   "route": "Federal Register API (CMMC and CUI)",
+   "items_read": 40,
+   "new_count": 0,
+   "message": "Partial read; these routes failed. NIST CSRC publications feed: RuntimeError: csrc.nist.gov: 404 Client Error: Not Found for url: https://csrc.nist.gov/CSRC/media/feeds/metafeeds/all.rss; csrc.nist.gov: 404 Client Error: Not Found for url: https://csrc.nist.gov/feeds/publicatio First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 28,
+   "name": "DCAA and DCMA guidance",
+   "type": "Oversight",
+   "cadence": "Monthly",
+   "covers": "DCAA audit guidance memoranda and DCMA commercial item and pricing guidance",
+   "url": "https://www.dcaa.mil/Guidance/Audit-Guidance/",
+   "status": "blocked",
+   "route": "",
+   "items_read": 0,
+   "new_count": 0,
+   "message": "DCAA audit guidance page: robots.txt does not allow automated access to this page | DCMA commercial item group page: robots.txt does not allow automated access to this page",
+   "manual_note": "",
+   "last_success": "",
+   "fail_streak": 1,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 29,
+   "name": "Defense committees and appropriations",
+   "type": "Legislative",
+   "cadence": "Weekly",
+   "covers": "House and Senate Armed Services hearings and markups, and defense appropriations releases",
+   "url": "https://armedservices.house.gov/",
+   "status": "none",
+   "route": "House Armed Services calendar, Senate Armed Services hearings, House Appropriations releases",
+   "items_read": 46,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 30,
+   "name": "Service acquisition supplements",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "covers": "Changes to DAFFARS, AFARS, and NMCARS",
+   "url": "https://www.acquisition.gov/content/regulations",
+   "status": "none",
+   "route": "acquisition.gov DAFFARS, acquisition.gov AFARS, acquisition.gov NMCARS",
+   "items_read": 17,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 31,
+   "name": "SBA contracting rules",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "covers": "SBA rules on size standards, SBIR and STTR, and small business contracting programs",
+   "url": "https://www.federalregister.gov/agencies/small-business-administration",
+   "status": "none",
+   "route": "Federal Register API (SBA rules)",
+   "items_read": 18,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 32,
+   "name": "Export control rules: ITAR and EAR",
+   "type": "Regulatory",
+   "cadence": "Monthly",
+   "covers": "State Department ITAR rules and Commerce Department EAR rules",
+   "url": "https://www.federalregister.gov/",
+   "status": "none",
+   "route": "Federal Register API (ITAR), Federal Register API (EAR)",
+   "items_read": 80,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
+  },
+  {
+   "id": 33,
+   "name": "DOJ False Claims Act announcements",
+   "type": "Oversight",
+   "cadence": "Weekly",
+   "covers": "Justice Department announcements on procurement fraud and False Claims Act settlements",
+   "url": "https://www.justice.gov/news",
+   "status": "none",
+   "route": "DOJ news feed",
+   "items_read": 3,
+   "new_count": 0,
+   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "manual_note": "",
+   "last_success": "2026-11-20T02:24:11Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:24:11Z"
   }
  ]
 }
