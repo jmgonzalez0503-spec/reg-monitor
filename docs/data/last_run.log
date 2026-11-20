@@ -1,82 +1,82 @@
-02:42:41 Source 1: Federal Register: DARS notices
-02:42:42    self-test passed: a DFARS rule
-02:42:42    ok via Federal Register API: 40 items
-02:42:42 Source 2: DFARS class deviations
-02:42:43    ok via DARS class deviations page: 81 items
-02:42:43 Source 3: FAR overhaul tracker
-02:42:43    ok via Federal Register API (FAR overhaul rules): 15 items
-02:42:43 Source 4: DPCAP OT policy and guidebooks
-02:42:44    ok via DPCAP policy page: 33 items
-02:42:44 Source 5: Guide to Prototype Other Transactions
-02:42:44    ok via DPCAP prototype OT guide page: 1 items
-02:42:44 Source 6: NDAA bill actions
-02:42:44    ok via Congress.gov API: 62 items
-02:42:44 Source 7: CRS reports: acquisition and defense procurement
-02:42:45    ok via EveryCRSReport feed: 0 items
-02:42:45 Source 8: House Rules Committee
-02:42:45    ok via Rules Committee site: 45 items
-02:42:45 Source 9: GAO reports: OT and acquisition
-02:42:45    ok via GAO reports feed: 11 items
-02:42:45 Source 10: DoD Inspector General reports
-02:42:45 Source 11: CRS reports: Other Transaction authority
-02:42:45    ok via EveryCRSReport feed: 0 items
-02:42:45 Source 12: OT case law
-02:42:45    route failed: CourtListener search: CourtListener requires a free account token for automated searches
-02:42:46    ok via Law blog feeds (OT decisions): 0 items
-02:42:46 Source 13: DIU open solicitations
-02:42:48    ok via DIU open solicitations page: 1 items
-02:42:48 Source 14: Consortium OT activity
-02:42:48 Source 15: SAM.gov: OT and CSO solicitations
-02:42:48    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
-02:42:48 Source 16: GAO bid protest decisions
-02:42:48    route failed: GAO recent bid protest decisions page: robots.txt does not allow automated access to this page
-02:42:48    ok via GAO legal products feed: 25 items
-02:42:48 Source 17: Federal Circuit blog
-02:42:48    ok via Fed Circuit Blog feed: 2 items
-02:42:48 Source 18: Court of Federal Claims opinions
-02:42:48    route failed: CourtListener (COFC opinions): CourtListener requires a free account token for automated searches
-02:42:49    ok via COFC opinions feed: 157 items
-02:42:49 Source 19: Government contracts law blogs
-02:42:50    partial: www.governmentcontractslawblog.com: site returned HTTP 429
-02:42:50    ok via Law blog feeds: 10 items
-02:42:50 Source 20: DARS open case reports
-02:42:52    ok via DARS open case PDFs: 2 items
-02:42:52 Source 21: ASBCA decisions
-02:42:52    route failed: ASBCA decisions page: robots.txt does not allow automated access to this page
-02:42:53    ok via Law blog feeds (ASBCA coverage): 0 items
-02:42:53 Source 22: CBCA decisions
-02:42:55    ok via CBCA decisions page: 3644 items
-02:42:55 Source 23: Federal Register: FAR rules
-02:42:55    self-test passed: a Federal Acquisition Circular
-02:42:55    ok via Federal Register API (FAR rules): 36 items
-02:42:55 Source 24: CAS Board and OFPP notices
-02:42:55    ok via Federal Register API (OFPP): 15 items
-02:42:56    self-test passed: a Cost Accounting Standards notice
-02:42:56    ok via Federal Register API (Cost Accounting Standards): 12 items
-02:42:56 Source 25: Executive orders and presidential memoranda
-02:42:56    self-test passed: Restoring Common Sense to Federal Procurement
-02:42:56    ok via Federal Register API (presidential documents): 4 items
-02:42:56 Source 26: Rules under OIRA review
-02:42:57    ok via Reginfo.gov data file: 0 items
-02:42:57 Source 27: CMMC, CUI, and NIST SP 800-171
-02:42:57    self-test passed: CMMC program rule
-02:42:57    ok via Federal Register API (CMMC and CUI): 0 items
-02:42:57    route failed: NIST cybersecurity news feed: RuntimeError: www.nist.gov: feed had no entries
-02:42:57 Source 28: DCAA and DCMA guidance
-02:42:57 Source 29: Defense committees and appropriations
-02:42:58    ok via House Armed Services calendar: 15 items
-02:42:58    ok via Senate Armed Services hearings: 20 items
-02:42:58    ok via House Appropriations defense releases: 11 items
-02:42:58 Source 30: Service acquisition supplements
-02:42:58    ok via acquisition.gov DAFFARS archive list: 1 items
-02:42:59    ok via acquisition.gov AFARS archive list: 1 items
-02:42:59    ok via acquisition.gov NMCARS archive list: 1 items
-02:42:59 Source 31: SBA contracting rules
-02:42:59    self-test passed: an SBA HUBZone rule
-02:42:59    ok via Federal Register API (SBA rules): 18 items
-02:42:59 Source 32: Export control rules: ITAR and EAR
-02:42:59    ok via Federal Register API (ITAR): 40 items
-02:42:59    ok via Federal Register API (EAR): 40 items
-02:42:59 Source 33: DOJ False Claims Act announcements
-02:42:59    ok via DOJ news feed: 0 items
-02:43:00 Done. 0 new items. Status counts: {'none': 29, 'manual': 3, 'needs_key': 1}
+05:00:56 Source 1: Federal Register: DARS notices
+05:00:57    self-test passed: a DFARS rule
+05:00:57    ok via Federal Register API: 40 items
+05:00:57 Source 2: DFARS class deviations
+05:00:57    ok via DARS class deviations page: 81 items
+05:00:57 Source 3: FAR overhaul tracker
+05:00:57    ok via Federal Register API (FAR overhaul rules): 15 items
+05:00:57 Source 4: DPCAP OT policy and guidebooks
+05:00:57    ok via DPCAP policy page: 33 items
+05:00:57 Source 5: Guide to Prototype Other Transactions
+05:00:57    ok via DPCAP prototype OT guide page: 1 items
+05:00:57 Source 6: NDAA bill actions
+05:01:07    ok via Congress.gov API: 62 items
+05:01:07 Source 7: CRS reports: acquisition and defense procurement
+05:01:07    ok via EveryCRSReport feed: 0 items
+05:01:07 Source 8: House Rules Committee
+05:01:07    ok via Rules Committee site: 45 items
+05:01:07 Source 9: GAO reports: OT and acquisition
+05:01:07    ok via GAO reports feed: 11 items
+05:01:07 Source 10: DoD Inspector General reports
+05:01:07 Source 11: CRS reports: Other Transaction authority
+05:01:07    ok via EveryCRSReport feed: 0 items
+05:01:07 Source 12: OT case law
+05:01:07    route failed: CourtListener search: CourtListener requires a free account token for automated searches
+05:01:08    ok via Law blog feeds (OT decisions): 0 items
+05:01:08 Source 13: DIU open solicitations
+05:01:10    ok via DIU open solicitations page: 1 items
+05:01:10 Source 14: Consortium OT activity
+05:01:10 Source 15: SAM.gov: OT and CSO solicitations
+05:01:10    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
+05:01:10 Source 16: GAO bid protest decisions
+05:01:10    route failed: GAO recent bid protest decisions page: robots.txt does not allow automated access to this page
+05:01:10    ok via GAO legal products feed: 25 items
+05:01:10 Source 17: Federal Circuit blog
+05:01:10    ok via Fed Circuit Blog feed: 2 items
+05:01:10 Source 18: Court of Federal Claims opinions
+05:01:10    route failed: CourtListener (COFC opinions): CourtListener requires a free account token for automated searches
+05:01:11    ok via COFC opinions feed: 157 items
+05:01:11 Source 19: Government contracts law blogs
+05:01:12    partial: www.governmentcontractslawblog.com: site returned HTTP 429
+05:01:12    ok via Law blog feeds: 10 items
+05:01:12 Source 20: DARS open case reports
+05:01:13    ok via DARS open case PDFs: 2 items
+05:01:13 Source 21: ASBCA decisions
+05:01:13    route failed: ASBCA decisions page: robots.txt does not allow automated access to this page
+05:01:13    ok via Law blog feeds (ASBCA coverage): 0 items
+05:01:13 Source 22: CBCA decisions
+05:01:15    ok via CBCA decisions page: 3644 items
+05:01:15 Source 23: Federal Register: FAR rules
+05:01:15    self-test passed: a Federal Acquisition Circular
+05:01:15    ok via Federal Register API (FAR rules): 36 items
+05:01:15 Source 24: CAS Board and OFPP notices
+05:01:16    ok via Federal Register API (OFPP): 15 items
+05:01:16    self-test passed: a Cost Accounting Standards notice
+05:01:16    ok via Federal Register API (Cost Accounting Standards): 12 items
+05:01:16 Source 25: Executive orders and presidential memoranda
+05:01:16    self-test passed: Restoring Common Sense to Federal Procurement
+05:01:16    ok via Federal Register API (presidential documents): 4 items
+05:01:16 Source 26: Rules under OIRA review
+05:01:17    ok via Reginfo.gov data file: 0 items
+05:01:17 Source 27: CMMC, CUI, and NIST SP 800-171
+05:01:17    self-test passed: CMMC program rule
+05:01:17    ok via Federal Register API (CMMC and CUI): 0 items
+05:01:17    route failed: NIST cybersecurity news feed: RuntimeError: www.nist.gov: feed had no entries
+05:01:17 Source 28: DCAA and DCMA guidance
+05:01:17 Source 29: Defense committees and appropriations
+05:01:17    ok via House Armed Services calendar: 15 items
+05:01:18    ok via Senate Armed Services hearings: 20 items
+05:01:18    ok via House Appropriations defense releases: 11 items
+05:01:18 Source 30: Service acquisition supplements
+05:01:18    ok via acquisition.gov DAFFARS archive list: 1 items
+05:01:18    ok via acquisition.gov AFARS archive list: 1 items
+05:01:18    ok via acquisition.gov NMCARS archive list: 1 items
+05:01:18 Source 31: SBA contracting rules
+05:01:19    self-test passed: an SBA HUBZone rule
+05:01:19    ok via Federal Register API (SBA rules): 18 items
+05:01:19 Source 32: Export control rules: ITAR and EAR
+05:01:19    ok via Federal Register API (ITAR): 40 items
+05:01:19    ok via Federal Register API (EAR): 40 items
+05:01:19 Source 33: DOJ False Claims Act announcements
+05:01:19    ok via DOJ news feed: 0 items
+05:01:19 Done. 4 new items. Status counts: {'none': 28, 'manual': 3, 'needs_key': 1, 'new': 1}

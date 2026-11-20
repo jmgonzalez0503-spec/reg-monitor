@@ -1,10 +1,11 @@
 {
- "generated_at": "2026-11-20T02:42:41Z",
- "new_total": 0,
+ "generated_at": "2026-11-20T05:00:56Z",
+ "new_total": 4,
  "counts": {
-  "none": 29,
+  "none": 28,
   "manual": 3,
-  "needs_key": 1
+  "needs_key": 1,
+  "new": 1
  },
  "tags": [
   "Other transactions",
@@ -23,8 +24,8 @@
    "stale": false,
    "newest": "2026-10-30",
    "stale_days": 75,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 1,
@@ -39,17 +40,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 2,
@@ -64,17 +65,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-09-23",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 3,
@@ -89,17 +90,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 4,
@@ -114,17 +115,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 5,
@@ -139,17 +140,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 6,
@@ -164,17 +165,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-18",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 7,
@@ -189,17 +190,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 8,
@@ -214,17 +215,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 21,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 9,
@@ -239,9 +240,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
@@ -266,15 +267,15 @@
    "manual_note": "The DoD IG site does not permit automated reading. This source is checked by hand.",
    "last_success": "",
    "fail_streak": 8,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-18",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 11,
@@ -289,17 +290,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 12,
@@ -314,17 +315,17 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. CourtListener search: CourtListener requires a free account token for automated searches",
    "manual_note": "Westlaw requires a login. A public case search runs automatically; the Westlaw check is manual.",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 13,
@@ -339,9 +340,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
@@ -366,7 +367,7 @@
    "manual_note": "Consortium member portals require a login. This source is checked by hand.",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
@@ -391,15 +392,15 @@
    "manual_note": "",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 21,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 16,
@@ -414,17 +415,17 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. GAO recent bid protest decisions page: robots.txt does not allow automated access to this page",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 30,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 17,
@@ -439,17 +440,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-20",
    "stale_days": 14,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 18,
@@ -458,23 +459,23 @@
    "cadence": "Weekly",
    "covers": "Recent COFC opinions on bid protests and contract disputes",
    "url": "https://law.justia.com/cases/federal/district-courts/federal-claims/",
-   "status": "none",
+   "status": "new",
    "route": "COFC opinions feed",
    "items_read": 157,
-   "new_count": 0,
+   "new_count": 4,
    "message": "Primary route failed, backup used. CourtListener (COFC opinions): CourtListener requires a free account token for automated searches",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 14,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 19,
@@ -489,17 +490,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 20,
@@ -514,17 +515,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": true,
    "last_manual_check": "",
    "id": 21,
@@ -539,17 +540,17 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. ASBCA decisions page: robots.txt does not allow automated access to this page",
    "manual_note": "The ASBCA site does not permit automated reading. Law blog coverage is read automatically, and the ASBCA decision list is also checked by hand.",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 22,
@@ -564,17 +565,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "passed",
    "stale": false,
    "newest": "2026-10-05",
    "stale_days": 120,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 23,
@@ -589,17 +590,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "passed",
    "stale": false,
    "newest": "2026-10-20",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 24,
@@ -614,17 +615,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "passed",
    "stale": false,
    "newest": "2026-11-02",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 25,
@@ -639,17 +640,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 26,
@@ -664,17 +665,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "passed",
    "stale": false,
    "newest": "2026-11-05",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 27,
@@ -689,9 +690,9 @@
    "new_count": 0,
    "message": "Partial read; these routes failed. NIST cybersecurity news feed: RuntimeError: www.nist.gov: feed had no entries",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
@@ -716,15 +717,15 @@
    "manual_note": "The DCAA and DCMA sites do not permit automated reading. This source is checked by hand.",
    "last_success": "",
    "fail_streak": 4,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 29,
@@ -739,17 +740,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 30,
@@ -764,17 +765,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "passed",
    "stale": false,
    "newest": "2026-11-17",
    "stale_days": 0,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 31,
@@ -789,17 +790,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 120,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 32,
@@ -814,17 +815,17 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   },
   {
    "selftest": "",
    "stale": false,
    "newest": "2026-11-19",
    "stale_days": 14,
-   "runs": 1,
-   "runs_ok": 1,
+   "runs": 2,
+   "runs_ok": 2,
    "manual_check": false,
    "last_manual_check": "",
    "id": 33,
@@ -839,9 +840,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:42:41Z",
+   "last_success": "2026-11-20T05:00:56Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:42:41Z"
+   "checked_at": "2026-11-20T05:00:56Z"
   }
  ]
 }

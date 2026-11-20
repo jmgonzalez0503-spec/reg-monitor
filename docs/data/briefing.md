@@ -1,9 +1,17 @@
 # Regulatory monitor briefing
-Generated 2026-11-20 02:42 UTC
+Generated 2026-11-20 05:00 UTC
 
 ## New items found in the last 7 days
 - [Court of Federal Claims opinions] 2026-11-20: 1:24-cv-01832 MAIMON et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50999
   Summary: [Response to Cross Motion] ( 95 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01411 SOC LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55003
+  Summary: [Response to Cross Motion] ( 42 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-01594 EAGLE HILL CONSULTING, LLC v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55192
+  Summary: [Notice (Other)] ( 31 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:26-cv-00357 TAYLOR v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53923
+  Summary: [Extension of Time to File Reply] ( 23 )
+- [Court of Federal Claims opinions] 2026-11-20: 1:19-cv-00859 E-NUMERATE SOLUTIONS, INC. et al v. USA | https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?39038
+  Summary: [Amend Schedule] ( 265 )
 
 ## Open deadlines
 - 2026-11-20: Small Business Size Standards (Proposed Rule) [SBA contracting rules] | https://www.federalregister.gov/documents/2026/09/24/2026-19546/small-business-size-standards

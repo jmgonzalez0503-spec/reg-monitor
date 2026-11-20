@@ -204,6 +204,74 @@
   "priority": "normal"
  },
  {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55003&172",
+  "title": "1:26-cv-01411 SOC LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55003",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Response to Cross Motion] ( 42 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55192&95",
+  "title": "1:26-cv-01594 EAGLE HILL CONSULTING, LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55192",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Notice (Other)] ( 31 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53923&94",
+  "title": "1:26-cv-00357 TAYLOR v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53923",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Extension of Time to File Reply] ( 23 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?39038&856",
+  "title": "1:19-cv-00859 E-NUMERATE SOLUTIONS, INC. et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?39038",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Amend Schedule] ( 265 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
   "source_id": 9,
   "source": "GAO reports: OT and acquisition",
   "type": "Oversight",
