@@ -1,10 +1,9 @@
 {
- "generated_at": "2026-11-20T02:05:55Z",
+ "generated_at": "2026-11-20T02:08:17Z",
  "new_total": 0,
  "counts": {
-  "none": 11,
-  "failed": 6,
-  "blocked": 1,
+  "none": 17,
+  "failed": 1,
   "manual": 1,
   "needs_key": 1
  },
@@ -20,11 +19,11 @@
    "route": "Federal Register API",
    "items_read": 40,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 2,
@@ -34,14 +33,14 @@
    "covers": "Class deviations issued by DPCAP, including FAR overhaul deviations",
    "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
    "status": "none",
-   "route": "acquisition.gov DoD deviation guide",
-   "items_read": 1472,
+   "route": "DARS class deviations page",
+   "items_read": 111,
    "new_count": 0,
-   "message": "Primary route failed, backup used. DARS class deviations page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /dpap/dars/class_deviations.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED]; DARS FAR overhaul deviations page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /dpap/dars/dfars_far_overhaul_class_deviations.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFI First successful read by this route; existing items recorded as the baseline.",
+   "message": "First successful read by this route; existing items recorded as the baseline.",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 3,
@@ -54,11 +53,11 @@
    "route": "Federal Register API (FAR overhaul rules)",
    "items_read": 15,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 4,
@@ -67,15 +66,15 @@
    "cadence": "Weekly",
    "covers": "OT policy memoranda and guidebooks from DPCAP",
    "url": "https://www.acq.osd.mil/asda/dpc/cp/policy/other-policy-areas.html",
-   "status": "failed",
-   "route": "",
-   "items_read": 0,
+   "status": "none",
+   "route": "DPCAP policy page",
+   "items_read": 34,
    "new_count": 0,
-   "message": "DPCAP policy page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/cp/policy/other-policy-areas.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VER | DPCAP guidebooks page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/cp/guidebooks/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILE",
+   "message": "First successful read by this route; existing items recorded as the baseline.",
    "manual_note": "",
-   "last_success": "",
-   "fail_streak": 1,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "last_success": "2026-11-20T02:08:17Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 5,
@@ -84,15 +83,15 @@
    "cadence": "As released",
    "covers": "The DoD prototype OT guide and any new version",
    "url": "https://www.acq.osd.mil/asda/dpc/cp/guidebooks/prototypeots.html",
-   "status": "failed",
-   "route": "",
-   "items_read": 0,
+   "status": "none",
+   "route": "DPCAP prototype OT guide page",
+   "items_read": 1,
    "new_count": 0,
-   "message": "DPCAP prototype OT guide page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/cp/guidebooks/prototypeots.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIF | DAU OT guide page: site returned HTTP 403",
+   "message": "First successful read by this route; existing items recorded as the baseline.",
    "manual_note": "",
-   "last_success": "",
-   "fail_streak": 1,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "last_success": "2026-11-20T02:08:17Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 6,
@@ -105,11 +104,11 @@
    "route": "Congress.gov API",
    "items_read": 62,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 7,
@@ -118,15 +117,15 @@
    "cadence": "Monthly",
    "covers": "CRS analyses of acquisition reform and defense procurement",
    "url": "https://www.everycrsreport.com/",
-   "status": "failed",
-   "route": "",
+   "status": "none",
+   "route": "EveryCRSReport feed",
    "items_read": 0,
    "new_count": 0,
-   "message": "EveryCRSReport feed: RuntimeError: returned 0 items; expected at least 1 | Congress.gov API (CRS reports): RuntimeError: returned 0 items; expected at least 1",
+   "message": "First successful read by this route; existing items recorded as the baseline.",
    "manual_note": "",
-   "last_success": "",
-   "fail_streak": 1,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "last_success": "2026-11-20T02:08:17Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 8,
@@ -139,11 +138,11 @@
    "route": "Rules Committee site",
    "items_read": 47,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 9,
@@ -156,11 +155,11 @@
    "route": "GAO reports feed",
    "items_read": 11,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 10,
@@ -173,11 +172,11 @@
    "route": "",
    "items_read": 0,
    "new_count": 0,
-   "message": "DoD IG reports page: robots.txt does not allow automated access to this page | DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries",
+   "message": "DoD IG reports page: robots.txt does not allow automated access to this page | DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries | Oversight.gov (Defense OIG reports): site returned HTTP 406",
    "manual_note": "",
    "last_success": "",
-   "fail_streak": 1,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "fail_streak": 2,
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 11,
@@ -190,11 +189,11 @@
    "route": "EveryCRSReport feed",
    "items_read": 0,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 12,
@@ -203,15 +202,15 @@
    "cadence": "Monthly",
    "covers": "COFC, GAO, and Federal Circuit decisions involving OT agreements",
    "url": "https://www.courtlistener.com/",
-   "status": "blocked",
-   "route": "",
+   "status": "none",
+   "route": "Law blog feeds (OT decisions)",
    "items_read": 0,
    "new_count": 0,
-   "message": "CourtListener search: site returned HTTP 401",
+   "message": "Primary route failed, backup used. CourtListener search: CourtListener requires a free account token for automated searches First successful read by this route; existing items recorded as the baseline.",
    "manual_note": "Westlaw requires a login. A public case search runs automatically; the Westlaw check is manual.",
-   "last_success": "",
-   "fail_streak": 1,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "last_success": "2026-11-20T02:08:17Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 13,
@@ -224,11 +223,11 @@
    "route": "DIU open solicitations page",
    "items_read": 1,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 14,
@@ -245,7 +244,7 @@
    "manual_note": "Consortium member portals require a login. This source is checked manually.",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 15,
@@ -262,7 +261,7 @@
    "manual_note": "",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 16,
@@ -271,15 +270,15 @@
    "cadence": "Weekly",
    "covers": "Published GAO bid protest decisions",
    "url": "https://www.gao.gov/legal/bid-protests",
-   "status": "failed",
-   "route": "",
-   "items_read": 0,
+   "status": "none",
+   "route": "GAO legal products feed",
+   "items_read": 25,
    "new_count": 0,
-   "message": "GAO legal decisions feed: RuntimeError: www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/legal.xml; www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/bid_protest_decisions.xml | GAO bid protest search page: robots.txt does not allow automated access to this page",
+   "message": "Primary route failed, backup used. GAO recent bid protest decisions page: robots.txt does not allow automated access to this page First successful read by this route; existing items recorded as the baseline.",
    "manual_note": "",
-   "last_success": "",
-   "fail_streak": 1,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "last_success": "2026-11-20T02:08:17Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 17,
@@ -292,11 +291,11 @@
    "route": "Fed Circuit Blog feed",
    "items_read": 2,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 18,
@@ -309,11 +308,11 @@
    "route": "COFC opinions feed",
    "items_read": 563,
    "new_count": 0,
-   "message": "Primary route failed, backup used. CourtListener (COFC opinions): site returned HTTP 401 First successful read by this route; existing items recorded as the baseline.",
+   "message": "Primary route failed, backup used. CourtListener (COFC opinions): CourtListener requires a free account token for automated searches",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 19,
@@ -326,11 +325,11 @@
    "route": "Law blog feeds",
    "items_read": 10,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:05:55Z",
+   "last_success": "2026-11-20T02:08:17Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "checked_at": "2026-11-20T02:08:17Z"
   },
   {
    "id": 20,
@@ -339,15 +338,15 @@
    "cadence": "Weekly",
    "covers": "Status of every pending FAR and DFARS case, including the FAR CUI rule",
    "url": "https://www.acq.osd.mil/dpap/dars/case_status.html",
-   "status": "failed",
-   "route": "",
-   "items_read": 0,
+   "status": "none",
+   "route": "DARS open case PDFs",
+   "items_read": 2,
    "new_count": 0,
-   "message": "DARS open case PDFs: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /dpap/dars/opencases/farcasenum/far.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_",
+   "message": "First successful read by this route; existing items recorded as the baseline.",
    "manual_note": "",
-   "last_success": "",
-   "fail_streak": 1,
-   "checked_at": "2026-11-20T02:05:55Z"
+   "last_success": "2026-11-20T02:08:17Z",
+   "fail_streak": 0,
+   "checked_at": "2026-11-20T02:08:17Z"
   }
  ]
 }

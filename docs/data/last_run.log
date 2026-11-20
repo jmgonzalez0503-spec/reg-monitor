@@ -1,49 +1,47 @@
-02:05:55 Source 1: Federal Register: DARS notices
-02:05:55    ok via Federal Register API: 40 items
-02:05:55 Source 2: DFARS class deviations
-02:05:56    route failed: DARS class deviations page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /dpap/dars/class_deviations.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED]
-02:05:56    route failed: DARS FAR overhaul deviations page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /dpap/dars/dfars_far_overhaul_class_deviations.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFI
-02:05:56    ok via acquisition.gov DoD deviation guide: 1472 items
-02:05:56 Source 3: FAR overhaul tracker
-02:05:56    ok via Federal Register API (FAR overhaul rules): 15 items
-02:05:56 Source 4: DPCAP OT policy and guidebooks
-02:05:56    route failed: DPCAP policy page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/cp/policy/other-policy-areas.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VER
-02:05:57    route failed: DPCAP guidebooks page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/cp/guidebooks/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILE
-02:05:57 Source 5: Guide to Prototype Other Transactions
-02:05:57    route failed: DPCAP prototype OT guide page: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /asda/dpc/cp/guidebooks/prototypeots.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIF
-02:05:57    route failed: DAU OT guide page: site returned HTTP 403
-02:05:57 Source 6: NDAA bill actions
-02:06:03    ok via Congress.gov API: 62 items
-02:06:03 Source 7: CRS reports: acquisition and defense procurement
-02:06:03    route failed: EveryCRSReport feed: RuntimeError: returned 0 items; expected at least 1
-02:06:10    route failed: Congress.gov API (CRS reports): RuntimeError: returned 0 items; expected at least 1
-02:06:10 Source 8: House Rules Committee
-02:06:10    ok via Rules Committee site: 47 items
-02:06:10 Source 9: GAO reports: OT and acquisition
-02:06:10    ok via GAO reports feed: 11 items
-02:06:10 Source 10: DoD Inspector General reports
-02:06:11    route failed: DoD IG reports page: robots.txt does not allow automated access to this page
-02:06:11    route failed: DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries
-02:06:11 Source 11: CRS reports: Other Transaction authority
-02:06:11    ok via EveryCRSReport feed: 0 items
-02:06:11 Source 12: OT case law
-02:06:11    route failed: CourtListener search: site returned HTTP 401
-02:06:11 Source 13: DIU open solicitations
-02:06:13    ok via DIU open solicitations page: 1 items
-02:06:13 Source 14: Consortium OT activity
-02:06:13 Source 15: SAM.gov: OT and CSO solicitations
-02:06:13    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
-02:06:13 Source 16: GAO bid protest decisions
-02:06:13    route failed: GAO legal decisions feed: RuntimeError: www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/legal.xml; www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/bid_protest_decisions.xml
-02:06:13    route failed: GAO bid protest search page: robots.txt does not allow automated access to this page
-02:06:13 Source 17: Federal Circuit blog
-02:06:13    ok via Fed Circuit Blog feed: 2 items
-02:06:13 Source 18: Court of Federal Claims opinions
-02:06:13    route failed: CourtListener (COFC opinions): site returned HTTP 401
-02:06:14    ok via COFC opinions feed: 563 items
-02:06:14 Source 19: Government contracts law blogs
-02:06:15    partial: www.governmentcontractslawblog.com: site returned HTTP 429
-02:06:15    ok via Law blog feeds: 10 items
-02:06:15 Source 20: DARS open case reports
-02:06:15    route failed: DARS open case PDFs: SSLError: HTTPSConnectionPool(host='www.acq.osd.mil', port=443): Max retries exceeded with url: /dpap/dars/opencases/farcasenum/far.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_
-02:06:15 Done. 0 new items. Status counts: {'none': 11, 'failed': 6, 'blocked': 1, 'manual': 1, 'needs_key': 1}
+02:08:17 Source 1: Federal Register: DARS notices
+02:08:17    ok via Federal Register API: 40 items
+02:08:17 Source 2: DFARS class deviations
+02:08:18    ok via DARS class deviations page: 111 items
+02:08:18 Source 3: FAR overhaul tracker
+02:08:18    ok via Federal Register API (FAR overhaul rules): 15 items
+02:08:18 Source 4: DPCAP OT policy and guidebooks
+02:08:19    ok via DPCAP policy page: 34 items
+02:08:19 Source 5: Guide to Prototype Other Transactions
+02:08:19    ok via DPCAP prototype OT guide page: 1 items
+02:08:19 Source 6: NDAA bill actions
+02:08:19    ok via Congress.gov API: 62 items
+02:08:19 Source 7: CRS reports: acquisition and defense procurement
+02:08:19    ok via EveryCRSReport feed: 0 items
+02:08:19 Source 8: House Rules Committee
+02:08:20    ok via Rules Committee site: 47 items
+02:08:20 Source 9: GAO reports: OT and acquisition
+02:08:20    ok via GAO reports feed: 11 items
+02:08:20 Source 10: DoD Inspector General reports
+02:08:20    route failed: DoD IG reports page: robots.txt does not allow automated access to this page
+02:08:20    route failed: DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries
+02:08:21    route failed: Oversight.gov (Defense OIG reports): site returned HTTP 406
+02:08:21 Source 11: CRS reports: Other Transaction authority
+02:08:21    ok via EveryCRSReport feed: 0 items
+02:08:21 Source 12: OT case law
+02:08:21    route failed: CourtListener search: CourtListener requires a free account token for automated searches
+02:08:23    ok via Law blog feeds (OT decisions): 0 items
+02:08:23 Source 13: DIU open solicitations
+02:08:23    ok via DIU open solicitations page: 1 items
+02:08:23 Source 14: Consortium OT activity
+02:08:23 Source 15: SAM.gov: OT and CSO solicitations
+02:08:23    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
+02:08:23 Source 16: GAO bid protest decisions
+02:08:23    route failed: GAO recent bid protest decisions page: robots.txt does not allow automated access to this page
+02:08:24    partial: www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/legalproducts.xml; www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/decisions.xml
+02:08:24    ok via GAO legal products feed: 25 items
+02:08:24 Source 17: Federal Circuit blog
+02:08:25    ok via Fed Circuit Blog feed: 2 items
+02:08:25 Source 18: Court of Federal Claims opinions
+02:08:25    route failed: CourtListener (COFC opinions): CourtListener requires a free account token for automated searches
+02:08:26    ok via COFC opinions feed: 563 items
+02:08:26 Source 19: Government contracts law blogs
+02:08:27    partial: www.governmentcontractslawblog.com: site returned HTTP 429
+02:08:27    ok via Law blog feeds: 10 items
+02:08:27 Source 20: DARS open case reports
+02:08:28    ok via DARS open case PDFs: 2 items
+02:08:28 Done. 0 new items. Status counts: {'none': 17, 'failed': 1, 'manual': 1, 'needs_key': 1}
