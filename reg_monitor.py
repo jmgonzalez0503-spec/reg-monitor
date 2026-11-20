@@ -217,6 +217,8 @@ def f_rss(f, src):
             for e in d.entries:
                 raw += 1
                 title = e.get("title", "")
+                if f.get("exclude_regex") and re.search(f["exclude_regex"], title):
+                    continue
                 if not kw_match(title + " " + clean(e.get("summary", ""), 2000), keywords):
                     continue
                 date = ""
@@ -245,7 +247,9 @@ def f_html_links(f, src):
     for a in soup.find_all("a", href=True):
         href = urljoin(f["url"], a["href"].strip())
         text = clean(a.get_text(" "))
-        if not text or href.startswith(("mailto:", "javascript:")):
+        if not text or href.startswith(("mailto:", "javascript:")) or a["href"].strip().startswith("#"):
+            continue
+        if re.match(r"(?i)^(skip to|image$|home$|menu$|search$)", text):
             continue
         if not (rx.search(href) or rx.search(text)):
             continue
@@ -456,7 +460,8 @@ def main():
     log(f"Done. {new_total} new items. Status counts: {counts}")
     with open(os.path.join(DATA, "last_run.log"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(LOG) + "\n")
-    repeated = [r["name"] for r in rows if r["status"] in ("failed", "blocked") and r["fail_streak"] >= 2]
+    quiet = {x["id"] for x in CFG["sources"] if x.get("alarm") is False}
+    repeated = [r["name"] for r in rows if r["status"] in ("failed", "blocked") and r["fail_streak"] >= 2 and r["id"] not in quiet]
     if repeated:
         print("Sources unreadable on two or more runs in a row: " + "; ".join(repeated))
         return 1

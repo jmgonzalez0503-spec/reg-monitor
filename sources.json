@@ -62,13 +62,13 @@
      "label": "DARS class deviations page",
      "kind": "html_links",
      "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
-     "link_regex": "(?i)(20\\d\\d-O\\d{4}|deviation)"
+     "link_regex": "(?i)(20\\d\\d-O\\d{4}|classdev)"
     },
     {
      "label": "DARS FAR overhaul deviations page",
      "kind": "html_links",
      "url": "https://www.acq.osd.mil/dpap/dars/dfars_far_overhaul_class_deviations.html",
-     "link_regex": "(?i)(20\\d\\d-O\\d{4}|deviation)"
+     "link_regex": "(?i)(20\\d\\d-O\\d{4}|classdev)"
     },
     {
      "label": "acquisition.gov DoD deviation guide",
@@ -314,7 +314,9 @@
      "url": "https://www.oversight.gov/inspectors-general/department-war-oig",
      "link_regex": "(?i)/reports/(audit|inspection|evaluation|review|other|investigation|management)"
     }
-   ]
+   ],
+   "alarm": false,
+   "manual_note": "The DoD IG site does not permit automated reading and no official feed is currently available. Check this source manually until a permitted route is found."
   },
   {
    "id": 11,
@@ -500,7 +502,8 @@
      "kind": "rss",
      "urls": [
       "https://ecf.cofc.uscourts.gov/cgi-bin/rss_outside.pl"
-     ]
+     ],
+     "exclude_regex": "(?i)(-vv-|SECRETARY OF HEALTH AND HUMAN SERVICES)"
     }
    ]
   },
