@@ -295,6 +295,20 @@
      ]
     },
     {
+     "label": "DoD IG audits and evaluations page",
+     "kind": "html_links",
+     "url": "https://www.dodig.mil/Reports/Audits-Evaluations-and-Administrative-Investigations/",
+     "link_regex": "(?i)/Article/\\d+"
+    },
+    {
+     "label": "DoD IG reports feed (alternate)",
+     "kind": "rss",
+     "urls": [
+      "https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1077&isdashboardselected=0&max=20",
+      "https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077"
+     ]
+    },
+    {
      "label": "Oversight.gov (Defense OIG reports)",
      "kind": "html_links",
      "url": "https://www.oversight.gov/inspectors-general/department-war-oig",
