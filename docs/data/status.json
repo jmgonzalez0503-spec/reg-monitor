@@ -1,11 +1,12 @@
 {
- "generated_at": "2026-11-20T02:25:27Z",
- "new_total": 0,
+ "generated_at": "2026-11-20T02:32:29Z",
+ "new_total": 1,
  "counts": {
-  "none": 29,
+  "none": 28,
   "failed": 1,
   "manual": 1,
   "needs_key": 1,
+  "new": 1,
   "blocked": 1
  },
  "tags": [
@@ -33,9 +34,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 2,
@@ -50,9 +51,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 3,
@@ -67,9 +68,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 4,
@@ -84,9 +85,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 5,
@@ -101,9 +102,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 6,
@@ -118,9 +119,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 7,
@@ -135,9 +136,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 8,
@@ -152,9 +153,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 9,
@@ -169,9 +170,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 10,
@@ -187,8 +188,8 @@
    "message": "DoD IG reports page: robots.txt does not allow automated access to this page | DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries | DoD IG audits and evaluations page: robots.txt does not allow automated access to this page | DoD IG reports feed (alternate): RuntimeError: www.dodig.mil: feed had no entries; www.dodig.mil: 404 Client Error: Not Found for url: https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077 | Oversight.gov (Defense OIG reports): site returned HTTP 406",
    "manual_note": "The DoD IG site does not permit automated reading and no official feed is currently available. Check this source manually until a permitted route is found.",
    "last_success": "",
-   "fail_streak": 6,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "fail_streak": 7,
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 11,
@@ -203,9 +204,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 12,
@@ -220,9 +221,9 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. CourtListener search: CourtListener requires a free account token for automated searches",
    "manual_note": "Westlaw requires a login. A public case search runs automatically; the Westlaw check is manual.",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 13,
@@ -237,9 +238,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 14,
@@ -256,7 +257,7 @@
    "manual_note": "Consortium member portals require a login. This source is checked manually.",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 15,
@@ -273,7 +274,7 @@
    "manual_note": "",
    "last_success": "",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 16,
@@ -288,9 +289,9 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. GAO recent bid protest decisions page: robots.txt does not allow automated access to this page",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 17,
@@ -305,9 +306,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 18,
@@ -316,15 +317,15 @@
    "cadence": "Weekly",
    "covers": "Recent COFC opinions on bid protests and contract disputes",
    "url": "https://law.justia.com/cases/federal/district-courts/federal-claims/",
-   "status": "none",
+   "status": "new",
    "route": "COFC opinions feed",
-   "items_read": 156,
-   "new_count": 0,
+   "items_read": 157,
+   "new_count": 1,
    "message": "Primary route failed, backup used. CourtListener (COFC opinions): CourtListener requires a free account token for automated searches",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 19,
@@ -339,9 +340,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 20,
@@ -356,9 +357,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 21,
@@ -373,9 +374,9 @@
    "new_count": 0,
    "message": "Primary route failed, backup used. ASBCA decisions page: robots.txt does not allow automated access to this page",
    "manual_note": "The ASBCA site does not permit automated reading. This source currently relies on law blog coverage of ASBCA decisions, so check the ASBCA site directly for a complete list.",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 22,
@@ -390,9 +391,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 23,
@@ -405,11 +406,11 @@
    "route": "Federal Register API (FAR rules)",
    "items_read": 36,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 24,
@@ -422,11 +423,11 @@
    "route": "Federal Register API (OFPP), Federal Register API (Cost Accounting Standards)",
    "items_read": 27,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 25,
@@ -441,9 +442,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 26,
@@ -456,11 +457,11 @@
    "route": "Reginfo.gov data file",
    "items_read": 0,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 27,
@@ -473,11 +474,11 @@
    "route": "Federal Register API (CMMC and CUI)",
    "items_read": 0,
    "new_count": 0,
-   "message": "Partial read; these routes failed. NIST cybersecurity news feed: RuntimeError: www.nist.gov: feed had no entries First successful read by this route; existing items recorded as the baseline.",
+   "message": "Partial read; these routes failed. NIST cybersecurity news feed: RuntimeError: www.nist.gov: feed had no entries",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 28,
@@ -493,8 +494,8 @@
    "message": "DCAA audit guidance page: robots.txt does not allow automated access to this page | DCMA commercial item group page: robots.txt does not allow automated access to this page",
    "manual_note": "The DCAA and DCMA sites do not permit automated reading. Check this source manually until a permitted route is found.",
    "last_success": "",
-   "fail_streak": 2,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "fail_streak": 3,
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 29,
@@ -507,11 +508,11 @@
    "route": "House Armed Services calendar, Senate Armed Services hearings, House Appropriations defense releases",
    "items_read": 46,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 30,
@@ -524,11 +525,11 @@
    "route": "acquisition.gov DAFFARS archive list, acquisition.gov AFARS archive list, acquisition.gov NMCARS archive list",
    "items_read": 3,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 31,
@@ -543,9 +544,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 32,
@@ -560,9 +561,9 @@
    "new_count": 0,
    "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   },
   {
    "id": 33,
@@ -575,11 +576,11 @@
    "route": "DOJ news feed",
    "items_read": 0,
    "new_count": 0,
-   "message": "First successful read by this route; existing items recorded as the baseline.",
+   "message": "",
    "manual_note": "",
-   "last_success": "2026-11-20T02:25:27Z",
+   "last_success": "2026-11-20T02:32:29Z",
    "fail_streak": 0,
-   "checked_at": "2026-11-20T02:25:27Z"
+   "checked_at": "2026-11-20T02:32:29Z"
   }
  ]
 }
