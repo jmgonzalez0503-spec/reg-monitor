@@ -576,6 +576,788 @@
   "priority": "normal"
  },
  {
+  "source_id": 16,
+  "source": "GAO bid protest decisions",
+  "type": "Legal",
+  "id": "/products/b-338895",
+  "title": "Department of Labor, Employee Benefits Security Administration: Improving Transparency Into Pharmacy Benefit Manager Fee Disclosure",
+  "url": "https://www.gao.gov/products/b-338895",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "GAO reviewed the Department of Labor, Employee Benefits Security Administration's (EBSA) new rule entitled \"Improving Transparency Into Pharmacy…",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54719&220",
+  "title": "1:26-cv-01126 TETRA TECH, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54719",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Certified Transcript] ( 56 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53891&77",
+  "title": "1:26-cv-00325 CHUNN v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53891",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Judgment] ( 16 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54728&116",
+  "title": "1:26-cv-01133 CHANDLER v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54728",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Administrative Record] ( 41 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54708&29",
+  "title": "1:26-cv-01116 SAMUELI et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54708",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Answer] ( 9 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53007&108",
+  "title": "1:25-cv-01651 BATTLE et al. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53007",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Transmission of Notice of Appeal and Docket Sheet to CAFC]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54719&218",
+  "title": "1:26-cv-01126 TETRA TECH, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54719",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Notice of Filing Certified Transcript] ( 55 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?39989&576",
+  "title": "1:19-cv-01747 DOE NO. 1, et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?39989",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Reported Opinion (Federal Reporter)] ( 189 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53335&51",
+  "title": "1:25-cv-01971 MAUI LAND & PINEAPPLE COMPANY, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53335",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Status Report (JOINT)] ( 17 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?46739&207",
+  "title": "1:22-cv-01791 A. WEST ENTERPRISE, LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?46739",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Set Scheduled Proceeding Hearing Deadline]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53439&77",
+  "title": "1:25-cv-02073 ADAMS v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53439",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Response to Motion] ( 24 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53774&161",
+  "title": "1:26-cv-00207 DAWSON-PASCHALL v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53774",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Transmission of Notice of Appeal and Docket Sheet to CAFC]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53774&159",
+  "title": "1:26-cv-00207 DAWSON-PASCHALL v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53774",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Notice of Appeal] ( 40 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53007&105",
+  "title": "1:25-cv-01651 BATTLE et al. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53007",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Notice of Appeal] ( 20 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?49116&37",
+  "title": "1:23-cv-02189 WEST POINT APARTMENTS, A LIMITED PARTNERSHIP v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?49116",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Terminate Civil Case - Stip (ECF ONLY)]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?47848&207",
+  "title": "1:23-cv-00946 WHITNEY et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?47848",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Status Report (JOINT)] ( 48 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53981&115",
+  "title": "1:26-cv-00414 H.M. NABAVIAN & SONS, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53981",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Oral Argument]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558&3636",
+  "title": "1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Attorney Bid Protest Complaint] ( 1815 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?32304&590",
+  "title": "1:16-cv-00141 REAVES v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?32304",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Order on Motion for Judgment on the Admin. Record]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?30710&1613",
+  "title": "1:15-cv-00211 ABBOTT et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?30710",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Trial - Held]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?30710&1611",
+  "title": "1:15-cv-00211 ABBOTT et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?30710",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Site Visit(Unrecorded Proceedings)]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54657&266",
+  "title": "1:26-cv-01067 CHAINALYSIS GOVERNMENT SOLUTIONS, LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54657",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Redacted Transcript] ( 68 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55194&69",
+  "title": "1:26-cv-01596 GSI PACIFIC, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55194",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Notice (Other)] ( 21 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54657&263",
+  "title": "1:26-cv-01067 CHAINALYSIS GOVERNMENT SOLUTIONS, LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54657",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Notice of Filing Redacted Transcript] ( 67 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54042&47",
+  "title": "1:26-cv-00474 VAN DE BEEK v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54042",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Status Report] ( 14 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?46739&205",
+  "title": "1:22-cv-01791 A. WEST ENTERPRISE, LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?46739",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Scheduling Order] ( 53 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53923&96",
+  "title": "1:26-cv-00357 TAYLOR v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53923",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Order on Motion for Extension of Time to File Reply] ( 24 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53755&107",
+  "title": "1:26-cv-00193 TAINO CONSTRUCTION GROUP, LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53755",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Oral Argument]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?49091&183",
+  "title": "1:23-cv-02164 ICM S.P.A. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?49091",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Scheduling Order - ADR] ( 56 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?52148&137",
+  "title": "1:25-cv-00804 SMITH et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?52148",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Status Conference Order] ( 45 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54021&131",
+  "title": "1:26-cv-00458 SUBLIME SYSTEMS, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54021",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Certified Transcript] ( 35 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54146&74",
+  "title": "1:26-cv-00578 WANG et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54146",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Unreported Order Dismissing Case] ( 22 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558&3634",
+  "title": "1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Over the Counter Complaint/Petition] ( 1814 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54021&129",
+  "title": "1:26-cv-00458 SUBLIME SYSTEMS, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54021",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Notice of Filing Certified Transcript] ( 34 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53230&93",
+  "title": "1:25-cv-01868 GRANTHAM UNIVERSITY, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53230",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Extension of Time to Complete Discovery] ( 23 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558&3632",
+  "title": "1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Attorney Petition] ( 1813 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55052&43",
+  "title": "1:26-cv-01456 EBH, INC. et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55052",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Response to Motion] ( 9 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54981&164",
+  "title": "1:26-cv-01384 RED CEDAR HARMONIA, LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54981",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Scheduled Proceeding Hearing Cancelled]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558&3630",
+  "title": "1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Attorney Petition] ( 1812 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54533&132",
+  "title": "1:26-cv-00946 ROCKY PATEL PREMIUM CIGARS, INC. et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54533",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Order on Motion for Extension of Time to File Response]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54893&39",
+  "title": "1:26-cv-01304 LGC GLOBAL INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54893",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Status Report (JOINT)] ( 16 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53706&72",
+  "title": "1:26-cv-00142 LGC GLOBAL, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53706",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Status Report (JOINT)] ( 30 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558&3628",
+  "title": "1:26-cv-10000 PLAINTIFF/PETITIONER v. USA/HHS",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Attorney Petition] ( 1811 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54146&71",
+  "title": "1:26-cv-00578 WANG et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54146",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Reply to Response to Supplemental Brief] ( 21 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51420&589",
+  "title": "1:25-cv-00082 BEAT-LDI JV LLC v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51420",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Hearing]",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54468&59",
+  "title": "1:26-cv-00880 MOTEMONA v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54468",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Scheduling Order - Discovery] ( 22 )",
+  "first_seen": "2026-11-20",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
   "source_id": 9,
   "source": "GAO reports: OT and acquisition",
   "type": "Oversight",
