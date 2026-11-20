@@ -1,49 +1,49 @@
-02:09:28 Source 1: Federal Register: DARS notices
-02:09:28    ok via Federal Register API: 40 items
-02:09:28 Source 2: DFARS class deviations
-02:09:29    ok via DARS class deviations page: 111 items
-02:09:29 Source 3: FAR overhaul tracker
-02:09:29    ok via Federal Register API (FAR overhaul rules): 15 items
-02:09:29 Source 4: DPCAP OT policy and guidebooks
-02:09:29    ok via DPCAP policy page: 34 items
-02:09:29 Source 5: Guide to Prototype Other Transactions
-02:09:29    ok via DPCAP prototype OT guide page: 1 items
-02:09:29 Source 6: NDAA bill actions
-02:09:30    ok via Congress.gov API: 62 items
-02:09:30 Source 7: CRS reports: acquisition and defense procurement
-02:09:30    ok via EveryCRSReport feed: 0 items
-02:09:30 Source 8: House Rules Committee
-02:09:30    ok via Rules Committee site: 47 items
-02:09:30 Source 9: GAO reports: OT and acquisition
-02:09:30    ok via GAO reports feed: 11 items
-02:09:30 Source 10: DoD Inspector General reports
-02:09:30    route failed: DoD IG reports page: robots.txt does not allow automated access to this page
-02:09:30    route failed: DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries
-02:09:30    route failed: DoD IG audits and evaluations page: robots.txt does not allow automated access to this page
-02:09:31    route failed: DoD IG reports feed (alternate): RuntimeError: www.dodig.mil: feed had no entries; www.dodig.mil: 404 Client Error: Not Found for url: https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077
-02:09:31    route failed: Oversight.gov (Defense OIG reports): site returned HTTP 406
-02:09:31 Source 11: CRS reports: Other Transaction authority
-02:09:31    ok via EveryCRSReport feed: 0 items
-02:09:31 Source 12: OT case law
-02:09:31    route failed: CourtListener search: CourtListener requires a free account token for automated searches
-02:09:32    ok via Law blog feeds (OT decisions): 0 items
-02:09:32 Source 13: DIU open solicitations
-02:09:34    ok via DIU open solicitations page: 1 items
-02:09:34 Source 14: Consortium OT activity
-02:09:34 Source 15: SAM.gov: OT and CSO solicitations
-02:09:34    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
-02:09:34 Source 16: GAO bid protest decisions
-02:09:34    route failed: GAO recent bid protest decisions page: robots.txt does not allow automated access to this page
-02:09:34    partial: www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/legalproducts.xml; www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/decisions.xml
-02:09:34    ok via GAO legal products feed: 25 items
-02:09:34 Source 17: Federal Circuit blog
-02:09:34    ok via Fed Circuit Blog feed: 2 items
-02:09:34 Source 18: Court of Federal Claims opinions
-02:09:34    route failed: CourtListener (COFC opinions): CourtListener requires a free account token for automated searches
-02:09:35    ok via COFC opinions feed: 563 items
-02:09:35 Source 19: Government contracts law blogs
-02:09:36    partial: www.governmentcontractslawblog.com: site returned HTTP 429
-02:09:36    ok via Law blog feeds: 10 items
-02:09:36 Source 20: DARS open case reports
-02:09:36    ok via DARS open case PDFs: 2 items
-02:09:36 Done. 0 new items. Status counts: {'none': 17, 'failed': 1, 'manual': 1, 'needs_key': 1}
+02:10:26 Source 1: Federal Register: DARS notices
+02:10:26    ok via Federal Register API: 40 items
+02:10:26 Source 2: DFARS class deviations
+02:10:29    ok via DARS class deviations page: 81 items
+02:10:29 Source 3: FAR overhaul tracker
+02:10:29    ok via Federal Register API (FAR overhaul rules): 15 items
+02:10:29 Source 4: DPCAP OT policy and guidebooks
+02:10:29    ok via DPCAP policy page: 33 items
+02:10:29 Source 5: Guide to Prototype Other Transactions
+02:10:29    ok via DPCAP prototype OT guide page: 1 items
+02:10:29 Source 6: NDAA bill actions
+02:10:30    ok via Congress.gov API: 62 items
+02:10:30 Source 7: CRS reports: acquisition and defense procurement
+02:10:30    ok via EveryCRSReport feed: 0 items
+02:10:30 Source 8: House Rules Committee
+02:10:30    ok via Rules Committee site: 45 items
+02:10:30 Source 9: GAO reports: OT and acquisition
+02:10:31    ok via GAO reports feed: 11 items
+02:10:31 Source 10: DoD Inspector General reports
+02:10:32    route failed: DoD IG reports page: robots.txt does not allow automated access to this page
+02:10:32    route failed: DoD IG feed: RuntimeError: www.dodig.mil: feed had no entries
+02:10:32    route failed: DoD IG audits and evaluations page: robots.txt does not allow automated access to this page
+02:10:33    route failed: DoD IG reports feed (alternate): RuntimeError: www.dodig.mil: feed had no entries; www.dodig.mil: 404 Client Error: Not Found for url: https://www.dodig.mil/DesktopModules/ArticleCS/RSS.ashx?max=20&Site=1077
+02:10:33    route failed: Oversight.gov (Defense OIG reports): site returned HTTP 406
+02:10:33 Source 11: CRS reports: Other Transaction authority
+02:10:33    ok via EveryCRSReport feed: 0 items
+02:10:33 Source 12: OT case law
+02:10:33    route failed: CourtListener search: CourtListener requires a free account token for automated searches
+02:10:35    ok via Law blog feeds (OT decisions): 0 items
+02:10:35 Source 13: DIU open solicitations
+02:10:36    ok via DIU open solicitations page: 1 items
+02:10:36 Source 14: Consortium OT activity
+02:10:36 Source 15: SAM.gov: OT and CSO solicitations
+02:10:36    route failed: SAM.gov opportunities API: SAM.gov API key is not configured
+02:10:36 Source 16: GAO bid protest decisions
+02:10:36    route failed: GAO recent bid protest decisions page: robots.txt does not allow automated access to this page
+02:10:37    partial: www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/legalproducts.xml; www.gao.gov: 404 Client Error: Not Found for url: https://www.gao.gov/rss/decisions.xml
+02:10:37    ok via GAO legal products feed: 25 items
+02:10:37 Source 17: Federal Circuit blog
+02:10:37    ok via Fed Circuit Blog feed: 2 items
+02:10:37 Source 18: Court of Federal Claims opinions
+02:10:37    route failed: CourtListener (COFC opinions): CourtListener requires a free account token for automated searches
+02:10:38    ok via COFC opinions feed: 156 items
+02:10:38 Source 19: Government contracts law blogs
+02:10:40    partial: www.governmentcontractslawblog.com: site returned HTTP 429
+02:10:40    ok via Law blog feeds: 10 items
+02:10:40 Source 20: DARS open case reports
+02:10:41    ok via DARS open case PDFs: 2 items
+02:10:41 Done. 0 new items. Status counts: {'none': 17, 'failed': 1, 'manual': 1, 'needs_key': 1}
