@@ -467,9 +467,7 @@
      "label": "GAO legal products feed",
      "kind": "rss",
      "urls": [
-      "https://www.gao.gov/rss/reportslegal.xml",
-      "https://www.gao.gov/rss/legalproducts.xml",
-      "https://www.gao.gov/rss/decisions.xml"
+      "https://www.gao.gov/rss/reportslegal.xml"
      ]
     }
    ],
@@ -611,7 +609,8 @@
       "https://smallgovcon.com/feed/"
      ]
     }
-   ]
+   ],
+   "manual_note": "The ASBCA site does not permit automated reading. This source currently relies on law blog coverage of ASBCA decisions, so check the ASBCA site directly for a complete list."
   },
   {
    "id": 22,
@@ -656,7 +655,13 @@
        "RULE",
        "PRORULE"
       ]
-     }
+     },
+     "keywords": [
+      "Federal Acquisition Regulation"
+     ],
+     "exclude_regex": "(?i)(^Information Collection|Submission for OMB Review|General Services Administration Acquisition Regulation|GSAR)",
+     "min_items": 0,
+     "min_raw": 1
     }
    ]
   },
@@ -674,9 +679,25 @@
      "kind": "federal_register",
      "params": {
       "conditions[agencies][]": "federal-procurement-policy-office"
+     },
+     "exclude_regex": "(?i)(^Information Collection|Submission for OMB Review)",
+     "min_items": 0,
+     "min_raw": 1
+    },
+    {
+     "label": "Federal Register API (Cost Accounting Standards)",
+     "kind": "federal_register",
+     "min_items": 0,
+     "min_raw": 1,
+     "keywords": [
+      "Cost Accounting Standards"
+     ],
+     "params": {
+      "conditions[term]": "\"Cost Accounting Standards\""
      }
     }
-   ]
+   ],
+   "combine": true
   },
   {
    "id": 25,
@@ -724,7 +745,7 @@
      "label": "Reginfo.gov data file",
      "kind": "oira_xml",
      "url": "https://www.reginfo.gov/public/do/XMLViewFileAction?f=EO_RULES_UNDER_REVIEW.xml",
-     "match_regex": "(?i)(acquisition regulation|DFARS|\\bFAR\\b|procurement|cost accounting|controlled unclassified|cybersecurity maturity|\\b9000-|\\b0750-)",
+     "match_regex": "(?i)(acquisition regulation|DFARS|\\bFAR\\b|federal procurement|cost accounting|controlled unclassified|cybersecurity maturity|\\b9000-|\\b0750-)",
      "min_items": 0,
      "min_raw": 1
     }
@@ -747,14 +768,22 @@
      "kind": "federal_register",
      "params": {
       "conditions[term]": "\"Cybersecurity Maturity Model Certification\" | \"controlled unclassified information\""
-     }
+     },
+     "keywords": [
+      "CMMC",
+      "Cybersecurity Maturity",
+      "Controlled Unclassified",
+      "CUI",
+      "800-171",
+      "Safeguarding Covered Defense"
+     ],
+     "min_items": 0,
+     "min_raw": 1
     },
     {
-     "label": "NIST CSRC publications feed",
+     "label": "NIST cybersecurity news feed",
      "kind": "rss",
      "urls": [
-      "https://csrc.nist.gov/CSRC/media/feeds/metafeeds/all.rss",
-      "https://csrc.nist.gov/feeds/publications/drafts",
       "https://www.nist.gov/news-events/cybersecurity/rss.xml"
      ],
      "keywords": [
@@ -792,7 +821,9 @@
      "url": "https://www.dcma.mil/Commercial-Item-Group/",
      "link_regex": "(?i)(\\.pdf|guid|/Article/)"
     }
-   ]
+   ],
+   "alarm": false,
+   "manual_note": "The DCAA and DCMA sites do not permit automated reading. Check this source manually until a permitted route is found."
   },
   {
    "id": 29,
@@ -810,19 +841,19 @@
      "label": "House Armed Services calendar",
      "kind": "html_links",
      "url": "https://armedservices.house.gov/calendar/",
-     "link_regex": "(?i)(/calendar/eventsingle|hearing|markup)"
+     "link_regex": "(?i)EventSingle"
     },
     {
      "label": "Senate Armed Services hearings",
      "kind": "html_links",
      "url": "https://www.armed-services.senate.gov/hearings",
-     "link_regex": "(?i)/hearings/"
+     "link_regex": "(?i)/hearings/(?!calendar$|witnesses$).+"
     },
     {
-     "label": "House Appropriations releases",
+     "label": "House Appropriations defense releases",
      "kind": "html_links",
-     "url": "https://appropriations.house.gov/news/press-releases",
-     "link_regex": "(?i)defense",
+     "url": "https://appropriations.house.gov/subcommittees/defense-0/press-releases",
+     "link_regex": "(?i)/news/press-releases/.+",
      "min_items": 0
     }
    ]
@@ -833,26 +864,26 @@
    "type": "Regulatory",
    "cadence": "Monthly",
    "combine": true,
-   "covers": "Changes to DAFFARS, AFARS, and NMCARS",
+   "covers": "New versions of DAFFARS, AFARS, and NMCARS, detected from the published version lists",
    "url": "https://www.acquisition.gov/content/regulations",
    "fetchers": [
     {
-     "label": "acquisition.gov DAFFARS",
-     "kind": "html_links",
-     "url": "https://www.acquisition.gov/daffars",
-     "link_regex": "(?i)(dafac|change|revision|archive|what.?s new|policy)"
+     "label": "acquisition.gov DAFFARS archive list",
+     "kind": "page_version",
+     "url": "https://www.acquisition.gov/archives?type=DAFFARS",
+     "title": "DAFFARS version list"
     },
     {
-     "label": "acquisition.gov AFARS",
-     "kind": "html_links",
-     "url": "https://www.acquisition.gov/afars",
-     "link_regex": "(?i)(change|revision|archive|what.?s new|policy)"
+     "label": "acquisition.gov AFARS archive list",
+     "kind": "page_version",
+     "url": "https://www.acquisition.gov/archives?type=AFARS",
+     "title": "AFARS version list"
     },
     {
-     "label": "acquisition.gov NMCARS",
-     "kind": "html_links",
-     "url": "https://www.acquisition.gov/nmcars",
-     "link_regex": "(?i)(change|revision|archive|what.?s new|policy)"
+     "label": "acquisition.gov NMCARS archive list",
+     "kind": "page_version",
+     "url": "https://www.acquisition.gov/archives?type=NMCARS",
+     "title": "NMCARS version list"
     }
    ]
   },
@@ -944,16 +975,20 @@
      "label": "DOJ news feed",
      "kind": "rss",
      "urls": [
-      "https://www.justice.gov/news/rss?type=press_release&m=1",
-      "https://www.justice.gov/feeds/opa/justice-news.xml"
+      "https://www.justice.gov/news/rss?type=press_release&m=1"
      ],
      "keywords": [
-      "False Claims Act",
       "procurement fraud",
       "defense contractor",
       "government contractor",
+      "Department of Defense",
+      "Department of War",
+      "military contract",
       "cyber-fraud",
-      "kickback"
+      "Navy contract",
+      "Army contract",
+      "Air Force contract",
+      "bid rigging"
      ],
      "min_items": 0,
      "min_raw": 1

@@ -226,6 +226,8 @@ def f_federal_register(f, src):
     for d in results:
         if not kw_match(d.get("title", ""), f.get("keywords")):
             continue
+        if f.get("exclude_regex") and re.search(f["exclude_regex"], d.get("title", "")):
+            continue
         out.append(item(d["document_number"], f"{d.get('title', '')} ({d.get('type', '')})", d.get("html_url"),
                         d.get("publication_date"), d.get("comments_close_on")))
     return out, len(results)
