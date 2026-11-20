@@ -109,6 +109,7 @@
    "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0044_Attachment.docx",
    "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0051_Attachment_1.docx",
    "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0051_Attachment_2.docx",
+   "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2027-O0001_Attachment.docx",
    "https://www.acq.osd.mil/dpap/policy/policyvault/TAB A1 Attachment to Deviation 2023-O0008.docx",
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA000189-21-DPC.pdf",
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA000205-26-DPCAP.pdf",
@@ -147,6 +148,7 @@
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA002677-25-DPCAP.pdf",
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA002760-23-DPC.pdf",
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA002821-20-DPC.pdf",
+   "https://www.acq.osd.mil/dpap/policy/policyvault/USA003348-26-DPCAP.pdf",
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA003462-17-DPAP.pdf",
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA003844-12-DPAP.pdf",
    "https://www.acq.osd.mil/dpap/policy/policyvault/USA004064-12-DPAP.pdf",
@@ -1753,8 +1755,10 @@
    "https://x.com/RulesReps"
   ],
   "9": [
+   "/products/gao-27-107854",
    "/products/gao-27-107934",
    "/products/gao-27-108433",
+   "/products/gao-27-108458",
    "/products/gao-27-108656",
    "/products/gao-27-108665",
    "/products/gao-27-108683",
@@ -1784,6 +1788,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?35866&2627",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?36169&949",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?36169&951",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?36169&954",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?36898&255",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?37649&300",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?37968&317",
@@ -1894,6 +1899,8 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50111&181",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50116&170",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50152&188",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50196&128",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50197&118",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50243&112",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50310&190",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?50445&227",
@@ -1927,11 +1934,13 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51126&188",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51161&133",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51280&45",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51280&47",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51281&42",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51358&134",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51359&82",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51370&129",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51381&150",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51420&587",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51509&99",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51576&113",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51707&119",
@@ -2028,6 +2037,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53558&3626",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53576&56",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53591&133",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53592&308",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53616&58",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53621&35",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53675&66",
@@ -2053,6 +2063,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53946&46",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53955&74",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53968&62",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53981&113",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?53991&59",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54017&295",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54017&299",
@@ -2068,6 +2079,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54031&48",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54036&45",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54094&42",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54146&69",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54160&59",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54160&61",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54162&58",
@@ -2096,6 +2108,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54444&56",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54445&36",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54451&48",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54453&300",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54455&37",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54457&33",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54468&57",
@@ -2104,6 +2117,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54498&142",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54526&31",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54532&82",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54532&85",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54533&129",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54536&35",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54575&176",
@@ -2117,10 +2131,12 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54611&31",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54611&33",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54612&35",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54613&378",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54621&37",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54622&33",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54629&36",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54651&99",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54659&32",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54696&32",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54711&25",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54752&35",
@@ -2133,6 +2149,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54810&51",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54810&54",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54812&102",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54812&104",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54840&24",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54850&28",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54861&39",
@@ -2150,6 +2167,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54969&26",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54976&26",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54981&160",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54981&162",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54985&28",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54989&34",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?54991&25",
@@ -2159,6 +2177,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55001&39",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55001&43",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55003&172",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55016&22",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55025&23",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55028&34",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55039&26",
@@ -2167,6 +2186,7 @@
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55070&26",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55074&28",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55083&35",
+   "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55090&18",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55098&32",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55107&24",
    "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55126&27",
@@ -6392,150 +6412,179 @@
   "33": 0
  },
  "last_success": {
-  "1": "2026-11-20T05:00:56Z",
-  "2": "2026-11-20T05:00:56Z",
-  "3": "2026-11-20T05:00:56Z",
-  "6": "2026-11-20T05:00:56Z",
-  "8": "2026-11-20T05:00:56Z",
-  "9": "2026-11-20T05:00:56Z",
-  "11": "2026-11-20T05:00:56Z",
-  "13": "2026-11-20T05:00:56Z",
-  "17": "2026-11-20T05:00:56Z",
-  "18": "2026-11-20T05:00:56Z",
-  "19": "2026-11-20T05:00:56Z",
-  "4": "2026-11-20T05:00:56Z",
-  "5": "2026-11-20T05:00:56Z",
-  "7": "2026-11-20T05:00:56Z",
-  "12": "2026-11-20T05:00:56Z",
-  "16": "2026-11-20T05:00:56Z",
-  "20": "2026-11-20T05:00:56Z",
-  "21": "2026-11-20T05:00:56Z",
-  "22": "2026-11-20T05:00:56Z",
-  "23": "2026-11-20T05:00:56Z",
-  "24": "2026-11-20T05:00:56Z",
-  "25": "2026-11-20T05:00:56Z",
-  "26": "2026-11-20T05:00:56Z",
-  "27": "2026-11-20T05:00:56Z",
-  "29": "2026-11-20T05:00:56Z",
-  "30": "2026-11-20T05:00:56Z",
-  "31": "2026-11-20T05:00:56Z",
-  "32": "2026-11-20T05:00:56Z",
-  "33": "2026-11-20T05:00:56Z"
+  "1": "2026-11-20T15:39:31Z",
+  "2": "2026-11-20T15:39:31Z",
+  "3": "2026-11-20T15:39:31Z",
+  "6": "2026-11-20T15:39:31Z",
+  "8": "2026-11-20T15:39:31Z",
+  "9": "2026-11-20T15:39:31Z",
+  "11": "2026-11-20T15:39:31Z",
+  "13": "2026-11-20T15:39:31Z",
+  "17": "2026-11-20T15:39:31Z",
+  "18": "2026-11-20T15:39:31Z",
+  "19": "2026-11-20T15:39:31Z",
+  "4": "2026-11-20T15:39:31Z",
+  "5": "2026-11-20T15:39:31Z",
+  "7": "2026-11-20T15:39:31Z",
+  "12": "2026-11-20T15:39:31Z",
+  "16": "2026-11-20T15:39:31Z",
+  "20": "2026-11-20T15:39:31Z",
+  "21": "2026-11-20T15:39:31Z",
+  "22": "2026-11-20T15:39:31Z",
+  "23": "2026-11-20T15:39:31Z",
+  "24": "2026-11-20T15:39:31Z",
+  "25": "2026-11-20T15:39:31Z",
+  "26": "2026-11-20T15:39:31Z",
+  "27": "2026-11-20T15:39:31Z",
+  "29": "2026-11-20T15:39:31Z",
+  "30": "2026-11-20T15:39:31Z",
+  "31": "2026-11-20T15:39:31Z",
+  "32": "2026-11-20T15:39:31Z",
+  "33": "2026-11-20T15:39:31Z"
  },
  "history": {
   "1": [
+   1,
    1,
    1
   ],
   "2": [
    1,
+   1,
    1
   ],
   "3": [
+   1,
    1,
    1
   ],
   "4": [
    1,
+   1,
    1
   ],
   "5": [
+   1,
    1,
    1
   ],
   "6": [
    1,
+   1,
    1
   ],
   "7": [
+   1,
    1,
    1
   ],
   "8": [
    1,
+   1,
    1
   ],
   "9": [
+   1,
    1,
    1
   ],
   "11": [
    1,
+   1,
    1
   ],
   "12": [
+   1,
    1,
    1
   ],
   "13": [
    1,
+   1,
    1
   ],
   "16": [
+   1,
    1,
    1
   ],
   "17": [
    1,
+   1,
    1
   ],
   "18": [
+   1,
    1,
    1
   ],
   "19": [
    1,
+   1,
    1
   ],
   "20": [
+   1,
    1,
    1
   ],
   "21": [
    1,
+   1,
    1
   ],
   "22": [
+   1,
    1,
    1
   ],
   "23": [
    1,
+   1,
    1
   ],
   "24": [
+   1,
    1,
    1
   ],
   "25": [
    1,
+   1,
    1
   ],
   "26": [
+   1,
    1,
    1
   ],
   "27": [
    1,
+   1,
    1
   ],
   "29": [
+   1,
    1,
    1
   ],
   "30": [
    1,
+   1,
    1
   ],
   "31": [
+   1,
    1,
    1
   ],
   "32": [
    1,
+   1,
    1
   ],
   "33": [
+   1,
    1,
    1
   ]
