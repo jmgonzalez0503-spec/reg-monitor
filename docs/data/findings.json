@@ -1,5 +1,56 @@
 [
  {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?46126&205",
+  "title": "1:22-cv-01201 WIXSON v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?46126",
+  "date": "2026-11-21",
+  "due": "",
+  "summary": "[Order] ( 57 )",
+  "first_seen": "2026-11-21",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55371&26",
+  "title": "1:26-cv-01791 WRG FIRE TRAINING & SIMULATION SYSTEMS, INC. v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?55371",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Order] ( 9 )",
+  "first_seen": "2026-11-21",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
+  "source_id": 18,
+  "source": "Court of Federal Claims opinions",
+  "type": "Legal",
+  "id": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51343&102",
+  "title": "1:25-cv-00007 BEVERLY CAMPER et al v. USA",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/DktRpt.pl?51343",
+  "date": "2026-11-20",
+  "due": "",
+  "summary": "[Order]",
+  "first_seen": "2026-11-21",
+  "baseline": false,
+  "tags": [
+   "Protests and disputes"
+  ],
+  "priority": "normal"
+ },
+ {
   "source_id": 9,
   "source": "GAO reports: OT and acquisition",
   "type": "Oversight",
@@ -25,7 +76,7 @@
   "url": "https://www.gao.gov/products/gao-27-107854",
   "date": "2026-11-20",
   "due": "",
-  "summary": "What GAO Found When service members move to a new base, the Department of Defense (DOD) requires that the military services provide information about educational benefits, including tuition assistance, during orientation. However, GAO reviewed the education and orientation policies and practices for the military services and found that two of the services\u2014the Navy and Air Force\u2014do not require their military bases to ",
+  "summary": "What GAO Found When service members move to a new base, the Department of Defense (DOD) requires that the military services provide information about educational benefits, including tuition assistance, during orientation. However, GAO reviewed the education and orientation policies and practices for the military services and found that two of the services—the Navy and Air Force—do not require their military bases to ",
   "first_seen": "2026-11-20",
   "baseline": false,
   "tags": [],
@@ -91,7 +142,7 @@
   "url": "https://www.gao.gov/products/b-338895",
   "date": "2026-11-20",
   "due": "",
-  "summary": "GAO reviewed the Department of Labor, Employee Benefits Security Administration's (EBSA) new rule entitled \"Improving Transparency Into Pharmacy\u2026",
+  "summary": "GAO reviewed the Department of Labor, Employee Benefits Security Administration's (EBSA) new rule entitled \"Improving Transparency Into Pharmacy…",
   "first_seen": "2026-11-20",
   "baseline": false,
   "tags": [
@@ -377,7 +428,7 @@
    "CUI and cyber"
   ],
   "due": "",
-  "summary": "What GAO Found Increased use of technologies in the food and agriculture sector has made the sector more vulnerable to cybersecurity incidents, such as ransomware attacks. For example, a 2021 ransomware attack on a global meat processing company shut down some of the world\u2019s largest slaughterhouses and caused a shortage in meat supplies in the U.S. and other countries. The U.S. Department of Agriculture (USDA) and th",
+  "summary": "What GAO Found Increased use of technologies in the food and agriculture sector has made the sector more vulnerable to cybersecurity incidents, such as ransomware attacks. For example, a 2021 ransomware attack on a global meat processing company shut down some of the world’s largest slaughterhouses and caused a shortage in meat supplies in the U.S. and other countries. The U.S. Department of Agriculture (USDA) and th",
   "priority": "normal"
  },
  {
@@ -511,7 +562,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "The following is an installment in Crowell & Moring\u2019s Bid Protest Sustain of the Month Series . In this series, Crowell\u2019s Government Contracts Practice keeps you up to date with a summary of one of the most notable bid protest sustain decisions each month. Below, Crowell Consultant (and former GAO Bid Protest Hearing Officer), Cherie Owen, discusses GAO\u2019s decision in Michael Baker-International Stantec JV , where the",
+  "summary": "The following is an installment in Crowell & Moring’s Bid Protest Sustain of the Month Series . In this series, Crowell’s Government Contracts Practice keeps you up to date with a summary of one of the most notable bid protest sustain decisions each month. Below, Crowell Consultant (and former GAO Bid Protest Hearing Officer), Cherie Owen, discusses GAO’s decision in Michael Baker-International Stantec JV , where the",
   "priority": "normal"
  },
  {
@@ -528,7 +579,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "GAO reviewed the Department of the Treasury, Office of the Comptroller of the Currency's (OCC) new rule entitled \"Implementing the Guiding and\u2026",
+  "summary": "GAO reviewed the Department of the Treasury, Office of the Comptroller of the Currency's (OCC) new rule entitled \"Implementing the Guiding and…",
   "priority": "normal"
  },
  {
@@ -545,7 +596,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "RAS Enterprises, LLC, an SDVOSB of Gulfport, Mississippi, challenges the terms of request for quotations (RFQ) No. 36C77626Q0016, issued by the\u2026",
+  "summary": "RAS Enterprises, LLC, an SDVOSB of Gulfport, Mississippi, challenges the terms of request for quotations (RFQ) No. 36C77626Q0016, issued by the…",
   "priority": "normal"
  },
  {
@@ -577,7 +628,7 @@
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "What GAO Found The Centers for Medicare & Medicaid Services (CMS)\u2014within the Department of Health and Human Services (HHS)\u2014and its various contractors oversee the traditional Medicare Fee-for-Service program (Medicare). CMS reported spending nearly $481 billion on benefits for about 34 million Medicare beneficiaries in 2025. CMS uses the Vulnerability Management (VM) Process within the Center for Program Integrity (C",
+  "summary": "What GAO Found The Centers for Medicare & Medicaid Services (CMS)—within the Department of Health and Human Services (HHS)—and its various contractors oversee the traditional Medicare Fee-for-Service program (Medicare). CMS reported spending nearly $481 billion on benefits for about 34 million Medicare beneficiaries in 2025. CMS uses the Vulnerability Management (VM) Process within the Center for Program Integrity (C",
   "priority": "normal"
  },
  {
@@ -592,7 +643,7 @@
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "What GAO Found Of the 24 Chief Financial Officers Act agencies, 21 reported having data centers. Those 21 agencies varied in incorporating the Office of Management and Budget\u2019s (OMB) five acquisition and operational requirements into the management and planning of their data centers. As of August 2026, none of the agencies had fully addressed all five requirements. For example, nine agencies reported using automated ",
+  "summary": "What GAO Found Of the 24 Chief Financial Officers Act agencies, 21 reported having data centers. Those 21 agencies varied in incorporating the Office of Management and Budget’s (OMB) five acquisition and operational requirements into the management and planning of their data centers. As of August 2026, none of the agencies had fully addressed all five requirements. For example, nine agencies reported using automated ",
   "priority": "normal"
  },
  {
@@ -609,7 +660,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "GAO reviewed the Department of Health and Human Services, Centers for Medicare & Medicaid Services' (CMS) new rule entitled \"Medicare Program; CY\u2026",
+  "summary": "GAO reviewed the Department of Health and Human Services, Centers for Medicare & Medicaid Services' (CMS) new rule entitled \"Medicare Program; CY…",
   "priority": "normal"
  },
  {
@@ -624,7 +675,7 @@
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "What GAO Found To help maintain space-power superiority, the Department of Defense (DOD) relies on satellites in Earth\u2019s orbit that provide important capabilities to the warfighter. The space industrial base and associated supply chains consist of a global network of companies that provide the hardware and software for space technologies and are critical to DOD\u2019s ability to buy and use these satellites. The three Spa",
+  "summary": "What GAO Found To help maintain space-power superiority, the Department of Defense (DOD) relies on satellites in Earth’s orbit that provide important capabilities to the warfighter. The space industrial base and associated supply chains consist of a global network of companies that provide the hardware and software for space technologies and are critical to DOD’s ability to buy and use these satellites. The three Spa",
   "priority": "normal"
  },
  {
@@ -641,7 +692,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "GAO reviewed the Department of Health and Human Services' (HHS) new rule entitled \"Health Data, Technology, and Interoperability: ONC Deregulatory\u2026",
+  "summary": "GAO reviewed the Department of Health and Human Services' (HHS) new rule entitled \"Health Data, Technology, and Interoperability: ONC Deregulatory…",
   "priority": "normal"
  },
  {
@@ -658,7 +709,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "The Ross Group Construction Corporation LLC, of Tulsa, Oklahoma, protests its exclusion from the competition under request for proposals (RFP) No.\u2026",
+  "summary": "The Ross Group Construction Corporation LLC, of Tulsa, Oklahoma, protests its exclusion from the competition under request for proposals (RFP) No.…",
   "priority": "normal"
  },
  {
@@ -675,7 +726,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "American Veteran Contracting Solutions, LLC, a service-disabled veteran-owned small business (SDVOSB) of Mesa, Arizona, protests the award of a\u2026",
+  "summary": "American Veteran Contracting Solutions, LLC, a service-disabled veteran-owned small business (SDVOSB) of Mesa, Arizona, protests the award of a…",
   "priority": "normal"
  },
  {
@@ -683,7 +734,7 @@
   "source": "GAO bid protest decisions",
   "type": "Legal",
   "id": "/products/b-337988",
-  "title": "Application of the Antideficiency Act\u2014Designation of Amounts as an Emergency Requirement",
+  "title": "Application of the Antideficiency Act—Designation of Amounts as an Emergency Requirement",
   "url": "https://www.gao.gov/products/b-337988",
   "date": "2026-11-17",
   "first_seen": "2026-11-20",
@@ -692,7 +743,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "On March 24, 2025, the President issued a message to Congress designating some of the appropriations Congress had designated as emergency accounts\u2026",
+  "summary": "On March 24, 2025, the President issued a message to Congress designating some of the appropriations Congress had designated as emergency accounts…",
   "priority": "normal"
  },
  {
@@ -700,14 +751,14 @@
   "source": "GAO reports: OT and acquisition",
   "type": "Oversight",
   "id": "/products/gao-27-108840",
-  "title": "Financial Audit: Securities and Exchange Commission\u2019s FY 2026 and FY 2025 Financial Statements",
+  "title": "Financial Audit: Securities and Exchange Commission’s FY 2026 and FY 2025 Financial Statements",
   "url": "https://www.gao.gov/products/gao-27-108840",
   "date": "2026-11-16",
   "first_seen": "2026-11-20",
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "What GAO Found GAO found (1) the United States Securities and Exchange Commission\u2019s (SEC) and its Investor Protection Fund\u2019s (IPF) financial statements as of and for the fiscal year ended September 30, 2026, and 2025, are presented fairly, in all material respects, in accordance with U.S. generally accepted accounting principles; (2) SEC maintained, in all material respects, effective internal control over financial ",
+  "summary": "What GAO Found GAO found (1) the United States Securities and Exchange Commission’s (SEC) and its Investor Protection Fund’s (IPF) financial statements as of and for the fiscal year ended September 30, 2026, and 2025, are presented fairly, in all material respects, in accordance with U.S. generally accepted accounting principles; (2) SEC maintained, in all material respects, effective internal control over financial ",
   "priority": "normal"
  },
  {
@@ -715,14 +766,14 @@
   "source": "Government contracts law blogs",
   "type": "Legal",
   "id": "https://www.insidegovernmentcontracts.com/?p=11218",
-  "title": "What\u2019s New About Proposed FAR Part 15? Episode 3: Negotiations and Adverse Past Performance",
+  "title": "What’s New About Proposed FAR Part 15? Episode 3: Negotiations and Adverse Past Performance",
   "url": "https://www.insidegovernmentcontracts.com/2026/11/whats-new-about-proposed-far-part-15-episode-3-negotiations-and-adverse-past-performance/",
   "date": "2026-11-16",
   "first_seen": "2026-11-20",
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "As part of the Revolutionary FAR Overhaul (\u201cRFO\u201d), the FAR Council issued a proposed rule that would implement \u2014 with some notable changes \u2014 the Council\u2019s model deviation for FAR Part 15, Contracting by Negotiation. A number of those proposed changes to the deviation version have the potential to materially impact how procurements are run... Continue Reading\u2026",
+  "summary": "As part of the Revolutionary FAR Overhaul (“RFO”), the FAR Council issued a proposed rule that would implement — with some notable changes — the Council’s model deviation for FAR Part 15, Contracting by Negotiation. A number of those proposed changes to the deviation version have the potential to materially impact how procurements are run... Continue Reading…",
   "priority": "normal"
  },
  {
@@ -739,7 +790,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "GAO reviewed the Department of Health and Human Services, Food and Drug Administration's (FDA) new rule entitled \"Use of Salt Substitutes To Reduce\u2026",
+  "summary": "GAO reviewed the Department of Health and Human Services, Food and Drug Administration's (FDA) new rule entitled \"Use of Salt Substitutes To Reduce…",
   "priority": "normal"
  },
  {
@@ -756,7 +807,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "GAO reviewed the Environmental Protection Agency's (EPA) new rule entitled \"Clean Water Act Hazardous Substance Facility Response Plans: Compliance\u2026",
+  "summary": "GAO reviewed the Environmental Protection Agency's (EPA) new rule entitled \"Clean Water Act Hazardous Substance Facility Response Plans: Compliance…",
   "priority": "normal"
  },
  {
@@ -773,7 +824,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "HII Mission Technologies Corporation (HII MTC), of McLean, Virginia, protests the issuance of a task order to Amentum Services, Inc., of Chantilly,\u2026",
+  "summary": "HII Mission Technologies Corporation (HII MTC), of McLean, Virginia, protests the issuance of a task order to Amentum Services, Inc., of Chantilly,…",
   "priority": "normal"
  },
  {
@@ -796,7 +847,7 @@
   "source": "Federal Circuit blog",
   "type": "Legal",
   "id": "https://fedcircuitblog.com/?p=45545",
-  "title": "Opinions & Orders \u2013 November 13, 2026",
+  "title": "Opinions & Orders – November 13, 2026",
   "url": "https://fedcircuitblog.com/2026/11/13/opinions-orders-november-13-2026/",
   "date": "2026-11-13",
   "first_seen": "2026-11-20",
@@ -820,7 +871,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "SureScan Corporation, a small business of Binghamton, New York, protests the exercise of an option under delivery order No. 70T04022F7672N004, issued\u2026",
+  "summary": "SureScan Corporation, a small business of Binghamton, New York, protests the exercise of an option under delivery order No. 70T04022F7672N004, issued…",
   "priority": "normal"
  },
  {
@@ -837,7 +888,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Applied Research Associates, Inc. (ARA), of Albuquerque, New Mexico, protests the issuance a task order to Leidos, Inc., of Reston, Virginia, under\u2026",
+  "summary": "Applied Research Associates, Inc. (ARA), of Albuquerque, New Mexico, protests the issuance a task order to Leidos, Inc., of Reston, Virginia, under…",
   "priority": "normal"
  },
  {
@@ -845,7 +896,7 @@
   "source": "Government contracts law blogs",
   "type": "Legal",
   "id": "https://www.insidegovernmentcontracts.com/?p=11214",
-  "title": "The Covington Monthly Protest 3-Pack \u2014 Inaugural Edition",
+  "title": "The Covington Monthly Protest 3-Pack — Inaugural Edition",
   "url": "https://www.insidegovernmentcontracts.com/2026/11/the-covington-monthly-protest-3-pack-inaugural-edition/",
   "date": "2026-11-11",
   "first_seen": "2026-11-20",
@@ -854,7 +905,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Welcome to The Covington Monthly Protest 3-Pack, which highlights (in 500 words or less) three significant bid protest decisions released in the prior month and offers key takeaways. The October 2026 picks illustrate: (1) How an ill-designed attempt to fix an inadvertent spill of contractor proprietary information can doom a procurement award; (2) The dangers... Continue Reading\u2026",
+  "summary": "Welcome to The Covington Monthly Protest 3-Pack, which highlights (in 500 words or less) three significant bid protest decisions released in the prior month and offers key takeaways. The October 2026 picks illustrate: (1) How an ill-designed attempt to fix an inadvertent spill of contractor proprietary information can doom a procurement award; (2) The dangers... Continue Reading…",
   "priority": "normal"
  },
  {
@@ -871,7 +922,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "SkyMate, Inc., a small business of Reston, Virginia, requests that we reconsider our decision, SkyMate, Inc., B-424591.2, Sept. 17, 2026, dismissing\u2026",
+  "summary": "SkyMate, Inc., a small business of Reston, Virginia, requests that we reconsider our decision, SkyMate, Inc., B-424591.2, Sept. 17, 2026, dismissing…",
   "priority": "normal"
  },
  {
@@ -888,7 +939,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Castro & Company, LLC, a small business located in Alexandria, Virginia, protests the issuance of a call order to Guidehouse, Inc., of Alexandria\u2026",
+  "summary": "Castro & Company, LLC, a small business located in Alexandria, Virginia, protests the issuance of a call order to Guidehouse, Inc., of Alexandria…",
   "priority": "normal"
  },
  {
@@ -905,7 +956,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Guardian Construction, Inc., of Layton, Utah, protests the issuance of a purchase order to SD Resources, Inc., of Evansville, Illinois, under request\u2026",
+  "summary": "Guardian Construction, Inc., of Layton, Utah, protests the issuance of a purchase order to SD Resources, Inc., of Evansville, Illinois, under request…",
   "priority": "normal"
  },
  {
@@ -939,7 +990,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "GAO reviewed the Department of Homeland Security's (DHS) new rule entitled \"Removal of Automatic Extensions for Certain Employment Authorization\u2026",
+  "summary": "GAO reviewed the Department of Homeland Security's (DHS) new rule entitled \"Removal of Automatic Extensions for Certain Employment Authorization…",
   "priority": "normal"
  },
  {
@@ -956,7 +1007,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "NDCHealth Corporation, doing business as RelayHealth, of Atlanta, Georgia, protests the terms of request for quotations (RFQ) No. 75FCMC26Q0067,\u2026",
+  "summary": "NDCHealth Corporation, doing business as RelayHealth, of Atlanta, Georgia, protests the terms of request for quotations (RFQ) No. 75FCMC26Q0067,…",
   "priority": "normal"
  },
  {
@@ -964,14 +1015,14 @@
   "source": "Government contracts law blogs",
   "type": "Legal",
   "id": "https://www.insidegovernmentcontracts.com/?p=11206",
-  "title": "What\u2019s New About Proposed FAR Part 15?Episode 2: New Line-Drawing Questions for Clarifications vs. Negotiations",
+  "title": "What’s New About Proposed FAR Part 15?Episode 2: New Line-Drawing Questions for Clarifications vs. Negotiations",
   "url": "https://www.insidegovernmentcontracts.com/2026/11/whats-new-about-proposed-far-part-15episode-2-new-line-drawing-questions-for-clarifications-vs-negotiations/",
   "date": "2026-11-05",
   "first_seen": "2026-11-20",
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "As part of the Revolutionary FAR Overhaul (\u201cRFO\u201d), the FAR Council issued a proposed rule that would implement \u2014 with some notable changes \u2014 the Council\u2019s model deviation for FAR Part 15, Contracting by Negotiation. A number of those proposed changes to the deviation version have the potential to materially impact how procurements are run... Continue Reading\u2026",
+  "summary": "As part of the Revolutionary FAR Overhaul (“RFO”), the FAR Council issued a proposed rule that would implement — with some notable changes — the Council’s model deviation for FAR Part 15, Contracting by Negotiation. A number of those proposed changes to the deviation version have the potential to materially impact how procurements are run... Continue Reading…",
   "priority": "normal"
  },
  {
@@ -979,7 +1030,7 @@
   "source": "GAO bid protest decisions",
   "type": "Legal",
   "id": "/products/b-338536",
-  "title": "U.S. Department of Education\u2014Applicability of the Congressional Review Act to an Interagency Agreement with the U.S. Department of Health and Human Services",
+  "title": "U.S. Department of Education—Applicability of the Congressional Review Act to an Interagency Agreement with the U.S. Department of Health and Human Services",
   "url": "https://www.gao.gov/products/b-338536",
   "date": "2026-11-05",
   "first_seen": "2026-11-20",
@@ -988,7 +1039,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "In June 2026, the U.S. Department of Education announced an interagency agreement (IAA) with the U.S. Department of Health and Human Services for\u2026",
+  "summary": "In June 2026, the U.S. Department of Education announced an interagency agreement (IAA) with the U.S. Department of Health and Human Services for…",
   "priority": "normal"
  },
  {
@@ -1005,7 +1056,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Priority 1 Air Rescue Operations (Arizona), LP, a small business of Mesa, Arizona, protests the terms of request for proposals (RFP) No.\u2026",
+  "summary": "Priority 1 Air Rescue Operations (Arizona), LP, a small business of Mesa, Arizona, protests the terms of request for proposals (RFP) No.…",
   "priority": "normal"
  },
  {
@@ -1022,7 +1073,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Michael Baker-International Stantec JV (MBIS), of Moon Township, Pennsylvania, protests its elimination from consideration under synopsis No.\u2026",
+  "summary": "Michael Baker-International Stantec JV (MBIS), of Moon Township, Pennsylvania, protests its elimination from consideration under synopsis No.…",
   "priority": "normal"
  },
  {
@@ -1030,14 +1081,14 @@
   "source": "Government contracts law blogs",
   "type": "Legal",
   "id": "https://www.insidegovernmentcontracts.com/?p=11199",
-  "title": "What\u2019s New About Proposed FAR Part 15?Episode 1: More \u201cLeeway\u201d for Late Proposals",
+  "title": "What’s New About Proposed FAR Part 15?Episode 1: More “Leeway” for Late Proposals",
   "url": "https://www.insidegovernmentcontracts.com/2026/11/whats-new-about-proposed-far-part-15episode-1-more-leeway-for-late-proposals/",
   "date": "2026-11-02",
   "first_seen": "2026-11-20",
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "As part of the Revolutionary FAR Overhaul (\u201cRFO\u201d), the FAR Council issued a proposed rule that would implement \u2014 with some notable changes \u2014 the Council\u2019s model deviation for FAR Part 15, Contracting by Negotiation. A number of those proposed changes to the deviation version have the potential to materially impact how procurements are run... Continue Reading\u2026",
+  "summary": "As part of the Revolutionary FAR Overhaul (“RFO”), the FAR Council issued a proposed rule that would implement — with some notable changes — the Council’s model deviation for FAR Part 15, Contracting by Negotiation. A number of those proposed changes to the deviation version have the potential to materially impact how procurements are run... Continue Reading…",
   "priority": "normal"
  },
  {
@@ -1086,7 +1137,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Sawdey Solution Services, Inc., of Beavercreek, Ohio, protests the terms of request for proposals (RFP) No. FA7014-26-R-0024, issued by the\u2026",
+  "summary": "Sawdey Solution Services, Inc., of Beavercreek, Ohio, protests the terms of request for proposals (RFP) No. FA7014-26-R-0024, issued by the…",
   "priority": "normal"
  },
  {
@@ -1103,7 +1154,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Veteran Design and Construction Inc. (VDCI), a service-disabled, veteran-owned small business (SDVOSB) of Catonsville, Maryland, protests the award\u2026",
+  "summary": "Veteran Design and Construction Inc. (VDCI), a service-disabled, veteran-owned small business (SDVOSB) of Catonsville, Maryland, protests the award…",
   "priority": "normal"
  },
  {
@@ -1120,7 +1171,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "SAVE THE AMERICAN COMMUNITIES, LLC (STAC), a small business of Thomasville, Georgia, requests reconsideration of our decision SAVE THE AM.\u2026",
+  "summary": "SAVE THE AMERICAN COMMUNITIES, LLC (STAC), a small business of Thomasville, Georgia, requests reconsideration of our decision SAVE THE AM.…",
   "priority": "normal"
  },
  {
@@ -1137,7 +1188,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "Symons Emergency Specialties, Inc. d/b/a Symbiosis (Symbiosis), a small business located in Redlands, California, protests the termination of its\u2026",
+  "summary": "Symons Emergency Specialties, Inc. d/b/a Symbiosis (Symbiosis), a small business located in Redlands, California, protests the termination of its…",
   "priority": "normal"
  },
  {
@@ -1154,7 +1205,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "GAO reviewed the Department of Health and Human Services, Centers for Medicare & Medicaid Services' (CMS) new rule entitled \"Patient Protection\u2026",
+  "summary": "GAO reviewed the Department of Health and Human Services, Centers for Medicare & Medicaid Services' (CMS) new rule entitled \"Patient Protection…",
   "priority": "normal"
  },
  {
@@ -1171,7 +1222,7 @@
    "CUI and cyber"
   ],
   "due": "",
-  "summary": "On September 28, 2026, the General Services Administration (GSA) announced the final version of a new class deviation, titled \u201cBasic Safeguarding of Data within Large Language Model Artificial Intelligence Systems,\u201d that applies compliance requirements to contracts involving the use of large language models (LLMs). The new clause went into effect on October 19, 2026, and... Continue Reading\u2026",
+  "summary": "On September 28, 2026, the General Services Administration (GSA) announced the final version of a new class deviation, titled “Basic Safeguarding of Data within Large Language Model Artificial Intelligence Systems,” that applies compliance requirements to contracts involving the use of large language models (LLMs). The new clause went into effect on October 19, 2026, and... Continue Reading…",
   "priority": "high"
  },
  {
@@ -1233,7 +1284,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "The following is an installment in Crowell & Moring\u2019s Bid Protest Sustain of the Month Series. In this series, Crowell\u2019s Government Contracts Practice keeps you up to date with a summary of one of the most notable bid protest sustain decisions each month. Below, Crowell Consultant (and former GAO Bid Protest Hearing Officer) Cherie Owen discusses GAO\u2019s decision in Ares Enterprise, LLC , B-424548 et al. , Sept. 3, 202",
+  "summary": "The following is an installment in Crowell & Moring’s Bid Protest Sustain of the Month Series. In this series, Crowell’s Government Contracts Practice keeps you up to date with a summary of one of the most notable bid protest sustain decisions each month. Below, Crowell Consultant (and former GAO Bid Protest Hearing Officer) Cherie Owen discusses GAO’s decision in Ares Enterprise, LLC , B-424548 et al. , Sept. 3, 202",
   "priority": "normal"
  },
  {
@@ -1250,7 +1301,7 @@
    "Protests and disputes"
   ],
   "due": "",
-  "summary": "The Rule of Two is a vital mechanism for ensuring that contracting officers satisfy the federal government\u2019s statutory requirement that 23% of U.S. prime contracts be issued to small businesses. FAR 19.502-2(b) (19.104-1(a) of the RFO) requires that agencies set aside procurements for small businesses when there is a reasonable expectation that at least two responsible small businesses will submit offers at fair mark",
+  "summary": "The Rule of Two is a vital mechanism for ensuring that contracting officers satisfy the federal government’s statutory requirement that 23% of U.S. prime contracts be issued to small businesses. FAR 19.502-2(b) (19.104-1(a) of the RFO) requires that agencies set aside procurements for small businesses when there is a reasonable expectation that at least two responsible small businesses will submit offers at fair mark",
   "priority": "normal"
  },
  {
@@ -1265,7 +1316,7 @@
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "GSA & AI, Anthropic, Bid Protests This week\u2019s episode covers GSA\u2019s clause on AI procurements, a Hill letter involving government contractors, a new Anthropic ruling, a memorandum proposing changes to government cost accounting, and a Federal Circuit protest decision, and is hosted by Peter Eyre and Yuan Zhou. Crowell & Moring\u2019s \u201cFastest 5 Minutes\u201d is a biweekly podcast that provides a brief summary of significant gov",
+  "summary": "GSA & AI, Anthropic, Bid Protests This week’s episode covers GSA’s clause on AI procurements, a Hill letter involving government contractors, a new Anthropic ruling, a memorandum proposing changes to government cost accounting, and a Federal Circuit protest decision, and is hosted by Peter Eyre and Yuan Zhou. Crowell & Moring’s “Fastest 5 Minutes” is a biweekly podcast that provides a brief summary of significant gov",
   "priority": "normal"
  },
  {
@@ -1391,7 +1442,7 @@
   "baseline": true,
   "tags": [],
   "due": "",
-  "summary": "When an agency conducts a multiple-award indefinite delivery, indefinite quantity (IDIQ) competition, successful awardees often wonder whether they can protest the agency\u2019s award to other companies at the U.S. Court of Federal Claims. For over a decade, the answer has been a murky \u201cmaybe\u201d with various Court of Federal Claims decisions divided over the issue. But in a precedential September 16, 2026, decision, the U.S",
+  "summary": "When an agency conducts a multiple-award indefinite delivery, indefinite quantity (IDIQ) competition, successful awardees often wonder whether they can protest the agency’s award to other companies at the U.S. Court of Federal Claims. For over a decade, the answer has been a murky “maybe” with various Court of Federal Claims decisions divided over the issue. But in a precedential September 16, 2026, decision, the U.S",
   "priority": "normal"
  },
  {
@@ -1943,7 +1994,7 @@
   "source": "Federal Register: DARS notices",
   "type": "Regulatory",
   "id": "2026-16682",
-  "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Supplement (DFARS), DoD Mentor-Prot\u00e9g\u00e9 Program (Notice)",
+  "title": "Information Collection Requirement; Defense Federal Acquisition Regulation Supplement (DFARS), DoD Mentor-Protégé Program (Notice)",
   "url": "https://www.federalregister.gov/documents/2026/08/17/2026-16682/information-collection-requirement-defense-federal-acquisition-regulation-supplement-dfars-dod",
   "date": "2026-08-17",
   "first_seen": "2026-11-20",
@@ -4528,7 +4579,7 @@
   "source": "SBA contracting rules",
   "type": "Regulatory",
   "id": "2025-08294",
-  "title": "Tribal Consultation for 8(a) Business Development Program and Mentor-Prot\u00e9g\u00e9 Program Issues and Best Practices (Proposed Rule)",
+  "title": "Tribal Consultation for 8(a) Business Development Program and Mentor-Protégé Program Issues and Best Practices (Proposed Rule)",
   "url": "https://www.federalregister.gov/documents/2025/05/12/2025-08294/tribal-consultation-for-8a-business-development-program-and-mentor-protg-program-issues-and-best",
   "date": "2025-05-12",
   "due": "",
@@ -28290,7 +28341,7 @@
   "source": "House Rules Committee",
   "type": "Legislative",
   "id": "https://rules.house.gov/bill/119/hr-5267",
-  "title": "H.R. 5267 \u2014 American Franchise Act",
+  "title": "H.R. 5267 — American Franchise Act",
   "url": "https://rules.house.gov/bill/119/hr-5267",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28305,7 +28356,7 @@
   "source": "House Rules Committee",
   "type": "Legislative",
   "id": "https://rules.house.gov/bill/119/hr-3495",
-  "title": "H.R. 3495 \u2014 Direct Seller and Real Estate Agent Harmonization Act",
+  "title": "H.R. 3495 — Direct Seller and Real Estate Agent Harmonization Act",
   "url": "https://rules.house.gov/bill/119/hr-3495",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28485,7 +28536,7 @@
   "source": "DIU open solicitations",
   "type": "Market",
   "id": "https://www.diu.mil/work-with-us/submit-solution/PROJ00721",
-  "title": "Autonomous Warfare Suitable Warfighting Adaptive Payloads (SWAP)-USV Sprint 2 Closing: 2026-11-30 23:59:59 US/Eastern Time \u2197 01",
+  "title": "Autonomous Warfare Suitable Warfighting Adaptive Payloads (SWAP)-USV Sprint 2 Closing: 2026-11-30 23:59:59 US/Eastern Time ↗ 01",
   "url": "https://www.diu.mil/work-with-us/submit-solution/PROJ00721",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28517,7 +28568,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001438-26-DPCAP.pdf",
-  "title": "Class Deviation 2026-O0051 \u00e2\u0080\u0093 Implementation of Vendor Threat Mitigation Support Authorities",
+  "title": "Class Deviation 2026-O0051 â Implementation of Vendor Threat Mitigation Support Authorities",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001438-26-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28532,7 +28583,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0051_Attachment_1.docx",
-  "title": "Attachment 1, Class Deviation 2026-O0051 \u00e2\u0080\u0093 Implementation of Vendor Threat Mitigation Support Authorities",
+  "title": "Attachment 1, Class Deviation 2026-O0051 â Implementation of Vendor Threat Mitigation Support Authorities",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0051_Attachment_1.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28547,7 +28598,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0051_Attachment_2.docx",
-  "title": "Attachment 2, Class Deviation 2026-O0051 \u00e2\u0080\u0093 Implementation of Vendor Threat Mitigation Support Authorities",
+  "title": "Attachment 2, Class Deviation 2026-O0051 â Implementation of Vendor Threat Mitigation Support Authorities",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0051_Attachment_2.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28562,7 +28613,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000205-26-DPCAP.pdf",
-  "title": "Class Deviation 2026-O0044 \u00e2\u0080\u0093 Contract Obligations in Advance of Fiscal Year 2026 Funds",
+  "title": "Class Deviation 2026-O0044 â Contract Obligations in Advance of Fiscal Year 2026 Funds",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000205-26-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28577,7 +28628,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0044_Attachment.docx",
-  "title": "Attachment, Class Deviation 2026-O0044 \u00e2\u0080\u0093 Contract Obligations in Advance of Fiscal Year 2026 Funds",
+  "title": "Attachment, Class Deviation 2026-O0044 â Contract Obligations in Advance of Fiscal Year 2026 Funds",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0044_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28592,7 +28643,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002677-25-DPCAP.pdf",
-  "title": "Class Deviation 2026-O0033 \u00e2\u0080\u0093 Acquisition of Dinnerware and Stainless-Steel Flatware",
+  "title": "Class Deviation 2026-O0033 â Acquisition of Dinnerware and Stainless-Steel Flatware",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002677-25-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28607,7 +28658,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0033_Attachment_1.docx",
-  "title": "Attachment 1, Class Deviation 2026-O0033 \u00e2\u0080\u0093 Acquisition of Dinnerware and Stainless-Steel Flatware",
+  "title": "Attachment 1, Class Deviation 2026-O0033 â Acquisition of Dinnerware and Stainless-Steel Flatware",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2026-O0033_Attachment_1.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28622,7 +28673,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002057-25-DPCAP.pdf",
-  "title": "Class Deviation 2025-O0007 \u00e2\u0080\u0093 Prohibition on the Procurement of Covered Semiconductor Products and Services from Companies Providing Covered Semiconductor Products and Services to Huawei",
+  "title": "Class Deviation 2025-O0007 â Prohibition on the Procurement of Covered Semiconductor Products and Services from Companies Providing Covered Semiconductor Products and Services to Huawei",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002057-25-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28637,7 +28688,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0007_Attachment_1.docx",
-  "title": "Attachment 1, Class Deviation 2025-O0007 \u00e2\u0080\u0093 Prohibition on the Procurement of Covered Semiconductor Products and Services from Companies Providing Covered Semiconductor Products and Services to Huawei",
+  "title": "Attachment 1, Class Deviation 2025-O0007 â Prohibition on the Procurement of Covered Semiconductor Products and Services from Companies Providing Covered Semiconductor Products and Services to Huawei",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0007_Attachment_1.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28652,7 +28703,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0007_Attachment_2.docx",
-  "title": "Attachment 2, Class Deviation 2025-O0007 \u00e2\u0080\u0093 Prohibition on the Procurement of Covered Semiconductor Products and Services from Companies Providing Covered Semiconductor Products and Services to Huawei",
+  "title": "Attachment 2, Class Deviation 2025-O0007 â Prohibition on the Procurement of Covered Semiconductor Products and Services from Companies Providing Covered Semiconductor Products and Services to Huawei",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0007_Attachment_2.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28667,7 +28718,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000393-25-DPCAP.pdf",
-  "title": "Class Deviation 2025-O0005 \u00e2\u0080\u0093 Prohibition on Procurement of Paper Straws",
+  "title": "Class Deviation 2025-O0005 â Prohibition on Procurement of Paper Straws",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000393-25-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28682,7 +28733,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000392-25-DPCAP.pdf",
-  "title": "Class Deviation 2025-O0004 \u00e2\u0080\u0093 Revocation of Executive Order on Sustainability",
+  "title": "Class Deviation 2025-O0004 â Revocation of Executive Order on Sustainability",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000392-25-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28697,7 +28748,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0004_Attachment_1.docx",
-  "title": "Attachment 1, Class Deviation 2025-O0004 \u00e2\u0080\u0093 Revocation of Executive Order on Sustainability",
+  "title": "Attachment 1, Class Deviation 2025-O0004 â Revocation of Executive Order on Sustainability",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0004_Attachment_1.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28712,7 +28763,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0004_Attachment_2.docx",
-  "title": "Attachment 2, Class Deviation 2025-O0004 \u00e2\u0080\u0093 Revocation of Executive Order on Sustainability",
+  "title": "Attachment 2, Class Deviation 2025-O0004 â Revocation of Executive Order on Sustainability",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0004_Attachment_2.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28727,7 +28778,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000368-25-DPCAP.pdf",
-  "title": "Class Deviation 2025-O0003 \u00e2\u0080\u0093 Restoring Merit-Based Opportunity in Federal Contracts",
+  "title": "Class Deviation 2025-O0003 â Restoring Merit-Based Opportunity in Federal Contracts",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000368-25-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28742,7 +28793,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0003_Attachment.docx",
-  "title": "Attachment, Class Deviation 2025-O0003 \u00e2\u0080\u0093 Restoring Merit-Based Opportunity in Federal Contracts",
+  "title": "Attachment, Class Deviation 2025-O0003 â Restoring Merit-Based Opportunity in Federal Contracts",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2025-O0003_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28757,7 +28808,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001173-25-DPCAP.pdf",
-  "title": "Rescission of Class Deviation 2025-O0002 \u00e2\u0080\u0093 Waiver of Project Labor Agreement Requirements",
+  "title": "Rescission of Class Deviation 2025-O0002 â Waiver of Project Labor Agreement Requirements",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001173-25-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28772,7 +28823,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001878-24-DPCAP.pdf",
-  "title": "Class Deviation 2024-O0014 \u00e2\u0080\u0093 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems",
+  "title": "Class Deviation 2024-O0014 â Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001878-24-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28787,7 +28838,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0014_Attachment.docx",
-  "title": "Attachment, Class Deviation 2024-O0014 \u00e2\u0080\u0093 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems",
+  "title": "Attachment, Class Deviation 2024-O0014 â Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0014_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28802,7 +28853,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000468-24-DPC.pdf",
-  "title": "Class Deviation 2024-O0011 \u00e2\u0080\u0093 Special Acquisition Authority for Rapid Contracting for Combatant Commanders",
+  "title": "Class Deviation 2024-O0011 â Special Acquisition Authority for Rapid Contracting for Combatant Commanders",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000468-24-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28817,7 +28868,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000404-25-DPCAP.pdf",
-  "title": "Class Deviation 2024-O0009, Revision 1 \u00e2\u0080\u0093 Prohibition on Required Disclosure of Information Relating to Greenhouse Gas Emissions",
+  "title": "Class Deviation 2024-O0009, Revision 1 â Prohibition on Required Disclosure of Information Relating to Greenhouse Gas Emissions",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000404-25-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28832,7 +28883,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000557-24-DPC.pdf",
-  "title": "Class Deviation 2024-O0008, Revision 1 \u00e2\u0080\u0093 Revision of Small Purchase Exception for the Acquisition of U.S. Flags",
+  "title": "Class Deviation 2024-O0008, Revision 1 â Revision of Small Purchase Exception for the Acquisition of U.S. Flags",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000557-24-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28847,7 +28898,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0008_Rev_1_Attachment.docx",
-  "title": "Attachment, Class Deviation 2024-O0008, Revision 1 \u00e2\u0080\u0093 Revision of Small Purchase Exception for the Acquisition of U.S. Flags",
+  "title": "Attachment, Class Deviation 2024-O0008, Revision 1 â Revision of Small Purchase Exception for the Acquisition of U.S. Flags",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0008_Rev_1_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28862,7 +28913,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000248-24-DPC.pdf",
-  "title": "Class Deviation 2024-O0007 \u00e2\u0080\u0093 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
+  "title": "Class Deviation 2024-O0007 â Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000248-24-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28877,7 +28928,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_1.docx",
-  "title": "Attachment 1, Class Deviation 2024-O0007 \u00e2\u0080\u0093 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
+  "title": "Attachment 1, Class Deviation 2024-O0007 â Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_1.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28892,7 +28943,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_2.docx",
-  "title": "Attachment 2, Class Deviation 2024-O0007 \u00e2\u0080\u0093 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
+  "title": "Attachment 2, Class Deviation 2024-O0007 â Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_2.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28907,7 +28958,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_3.docx",
-  "title": "Attachment 3, Class Deviation 2024-O0007 \u00e2\u0080\u0093 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
+  "title": "Attachment 3, Class Deviation 2024-O0007 â Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_3.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28922,7 +28973,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_4.docx",
-  "title": "Attachment 4, Class Deviation 2024-O0007 \u00e2\u0080\u0093 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
+  "title": "Attachment 4, Class Deviation 2024-O0007 â Section 890 Pilot Program to Accelerate Contracting and Pricing Processes",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0007_Attachment_4.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28937,7 +28988,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002550-26-DPCAP.pdf",
-  "title": "Class Deviation 2024-O0006, Revision 2 \u00e2\u0080\u0093 Prohibition Regarding Russian Fossil Fuel and Fossil Fuel Business Operations",
+  "title": "Class Deviation 2024-O0006, Revision 2 â Prohibition Regarding Russian Fossil Fuel and Fossil Fuel Business Operations",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002550-26-DPCAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28952,7 +29003,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0006_Rev_2_Attachment.docx",
-  "title": "Attachment, Class Deviation 2024-O0006, Revision 2 \u00e2\u0080\u0093 Prohibition Regarding Russian Fossil Fuel and Fossil Fuel Business Operations",
+  "title": "Attachment, Class Deviation 2024-O0006, Revision 2 â Prohibition Regarding Russian Fossil Fuel and Fossil Fuel Business Operations",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2024-O0006_Rev_2_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28967,7 +29018,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002760-23-DPC.pdf",
-  "title": "Class Deviation 2024-O0005 \u00e2\u0080\u0093 Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel",
+  "title": "Class Deviation 2024-O0005 â Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002760-23-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28982,7 +29033,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002172-23-DPC.pdf",
-  "title": "Class Deviation 2024-O0001 \u00e2\u0080\u0093 Implementation of Injunction of Executive Order 14026, Increasing the Minimum Wage for Federal Contractors",
+  "title": "Class Deviation 2024-O0001 â Implementation of Injunction of Executive Order 14026, Increasing the Minimum Wage for Federal Contractors",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002172-23-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -28997,7 +29048,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001954-23-DPC.pdf",
-  "title": "Class Deviation 2023-O0008 \u00e2\u0080\u0093 Commercial Products and Commercial Services Omnibus Clause for Acquisitions Using the Procurement Desktop-Defense System",
+  "title": "Class Deviation 2023-O0008 â Commercial Products and Commercial Services Omnibus Clause for Acquisitions Using the Procurement Desktop-Defense System",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001954-23-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29014,7 +29065,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/TAB A1 Attachment to Deviation 2023-O0008.docx",
-  "title": "Attachment 1, Class Deviation 2023-O0008 \u00e2\u0080\u0093 Commercial Products and Commercial Services Omnibus Clause for Acquisitions Using the Procurement Desktop-Defense System",
+  "title": "Attachment 1, Class Deviation 2023-O0008 â Commercial Products and Commercial Services Omnibus Clause for Acquisitions Using the Procurement Desktop-Defense System",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/TAB A1 Attachment to Deviation 2023-O0008.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29031,7 +29082,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000779-23-DPC.pdf",
-  "title": "Class Deviation 2023-O0006 \u00e2\u0080\u0093 Limitations on the Procurement of DoD Non-Tactical Vehicles",
+  "title": "Class Deviation 2023-O0006 â Limitations on the Procurement of DoD Non-Tactical Vehicles",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000779-23-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29046,7 +29097,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002305-22-DPC.pdf",
-  "title": "Class Deviation 2022-O0010, Revision 1 \u00e2\u0080\u0093 Prohibition on Procurement of Certain Items Containing Perfluorooctane Sulfonate or Perfluorooctanoic Acid",
+  "title": "Class Deviation 2022-O0010, Revision 1 â Prohibition on Procurement of Certain Items Containing Perfluorooctane Sulfonate or Perfluorooctanoic Acid",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002305-22-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29061,7 +29112,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/2022-O0010_Rev_1_TAB_A1-Attachments_1_&_2-r2-final.docx",
-  "title": "Attachment 1, Class Deviation 2022-O0010, Revision 1 \u00e2\u0080\u0093 Prohibition on Procurement of Certain Items Containing Perfluorooctane Sulfonate or Perfluorooctanoic Acid",
+  "title": "Attachment 1, Class Deviation 2022-O0010, Revision 1 â Prohibition on Procurement of Certain Items Containing Perfluorooctane Sulfonate or Perfluorooctanoic Acid",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/2022-O0010_Rev_1_TAB_A1-Attachments_1_&_2-r2-final.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29076,7 +29127,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000697-23-DPC.pdf",
-  "title": "Class Deviation 2022-O0005, Revision 2\u00e2\u0080\u0094Pilot Program for Streamlining Awards for Innovative Technology Projects",
+  "title": "Class Deviation 2022-O0005, Revision 2âPilot Program for Streamlining Awards for Innovative Technology Projects",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000697-23-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29091,7 +29142,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002274-21-DPC.pdf",
-  "title": "Class Deviation 2022-O0004 \u00e2\u0080\u0093 Requirements for Nonavailability Waiver Determinations Under the Buy American Statute",
+  "title": "Class Deviation 2022-O0004 â Requirements for Nonavailability Waiver Determinations Under the Buy American Statute",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002274-21-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29106,7 +29157,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002033-21-DPC.pdf",
-  "title": "Class Deviation 2022-O0001 - Revision 1 \u00e2\u0080\u0093 Threshold for Obtaining Certified Cost or Pricing Data for Subcontracts and Price Adjustments",
+  "title": "Class Deviation 2022-O0001 - Revision 1 â Threshold for Obtaining Certified Cost or Pricing Data for Subcontracts and Price Adjustments",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002033-21-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29123,7 +29174,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2022-O0001_Rev1_Attachment.docx",
-  "title": "Attachment, Class Deviation 2022-O0001 - Revision 1 \u00e2\u0080\u0093 Threshold for Obtaining Certified Cost or Pricing Data for Subcontracts and Price Adjustments",
+  "title": "Attachment, Class Deviation 2022-O0001 - Revision 1 â Threshold for Obtaining Certified Cost or Pricing Data for Subcontracts and Price Adjustments",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2022-O0001_Rev1_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29140,7 +29191,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001182-23-DPC.pdf",
-  "title": "Rescission of Class Deviation 2021-O0009 \u00e2\u0080\u0093 Ensuring Adequate COVID-19 Safety Protocols for Federal Contractors",
+  "title": "Rescission of Class Deviation 2021-O0009 â Ensuring Adequate COVID-19 Safety Protocols for Federal Contractors",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001182-23-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29264,7 +29315,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000941-20-DPC.pdf",
-  "title": "Class Deviation 2020-O0016 \u00e2\u0080\u0093 Original Documents, Signatures, Seals, and Notarization",
+  "title": "Class Deviation 2020-O0016 â Original Documents, Signatures, Seals, and Notarization",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000941-20-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29279,7 +29330,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0016_Attachment_1.docx",
-  "title": "Attachment 1, Class Deviation 2020-O0016 \u00e2\u0080\u0093 Original Documents, Signatures, Seals, and Notarization",
+  "title": "Attachment 1, Class Deviation 2020-O0016 â Original Documents, Signatures, Seals, and Notarization",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0016_Attachment_1.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29294,7 +29345,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0016_Attachment_2.docx",
-  "title": "Attachment 2, Class Deviation 2020-O0016 \u00e2\u0080\u0093 Original Documents, Signatures, Seals, and Notarization",
+  "title": "Attachment 2, Class Deviation 2020-O0016 â Original Documents, Signatures, Seals, and Notarization",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0016_Attachment_2.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29309,7 +29360,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000802-20-DPC.pdf",
-  "title": "Class Deviation 2020-O0014 \u00e2\u0080\u0093 Flexibilities for Electronic Delivery of Information Related to Suspensions and Debarments",
+  "title": "Class Deviation 2020-O0014 â Flexibilities for Electronic Delivery of Information Related to Suspensions and Debarments",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000802-20-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29324,7 +29375,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000594-21-DPC.pdf",
-  "title": "Class Deviation 2020-O0013 \u00e2\u0080\u0093 Revision 4 - CARES Act Section 3610 Implementation",
+  "title": "Class Deviation 2020-O0013 â Revision 4 - CARES Act Section 3610 Implementation",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000594-21-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29339,7 +29390,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0013_Rev4_Attachment.docx",
-  "title": "Attachment, Class Deviation 2020-O0013 \u00e2\u0080\u0093 Revision 4 - CARES Act Section 3610 Implementation",
+  "title": "Attachment, Class Deviation 2020-O0013 â Revision 4 - CARES Act Section 3610 Implementation",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0013_Rev4_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29354,7 +29405,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001851-22-DPC.pdf",
-  "title": "Rescission of Class Deviation 2020-O0011 \u00e2\u0080\u0093 Revision 1 - Submission of Interim Vouchers Under Classified Contracts, effective December 31, 2022",
+  "title": "Rescission of Class Deviation 2020-O0011 â Revision 1 - Submission of Interim Vouchers Under Classified Contracts, effective December 31, 2022",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001851-22-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29369,7 +29420,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000983-23-DPC.pdf",
-  "title": "Class Deviation 2020-O0010 \u00e2\u0080\u0093 Revision 2 - Progress Payment Rates",
+  "title": "Class Deviation 2020-O0010 â Revision 2 - Progress Payment Rates",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA000983-23-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29384,7 +29435,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0010_Rev_2_Attachment.docx",
-  "title": "Attachment, Class Deviation 2020-O0010 \u00e2\u0080\u0093 Revision 2 - Progress Payment Rates",
+  "title": "Attachment, Class Deviation 2020-O0010 â Revision 2 - Progress Payment Rates",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/Class_Deviation_2020-O0010_Rev_2_Attachment.docx",
   "date": "",
   "first_seen": "2026-11-20",
@@ -29429,7 +29480,7 @@
   "source": "DFARS class deviations",
   "type": "Regulatory",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA003462-17-DPAP.pdf",
-  "title": "Class Deviation 2018-O0002 - One Time Deviations\u00e2\u0080\u0093\u00e2\u0080\u0093Section 830(d) Pilot Program for Acceleration of Foreign Military Sales",
+  "title": "Class Deviation 2018-O0002 - One Time DeviationsââSection 830(d) Pilot Program for Acceleration of Foreign Military Sales",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA003462-17-DPAP.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -30671,7 +30722,7 @@
   "source": "DPCAP OT policy and guidebooks",
   "type": "Policy",
   "id": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001435-22-DPC.pdf",
-  "title": "DoD Contracting Officer\u00e2\u0080\u0099s Representatives Guidebook",
+  "title": "DoD Contracting Officerâs Representatives Guidebook",
   "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001435-22-DPC.pdf",
   "date": "",
   "first_seen": "2026-11-20",
@@ -33317,7 +33368,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2026/SULLIVAN_01-13-26_8306__CAYRE_JEMALS_NICK_LLC (DISMISSAL).pdf",
-  "title": "Cayre Jemal\u00e2\u0080\u0099s Nick, LLC",
+  "title": "Cayre Jemalâs Nick, LLC",
   "url": "https://www.cbca.gov/files/decisions/2026/SULLIVAN_01-13-26_8306__CAYRE_JEMALS_NICK_LLC (DISMISSAL).pdf",
   "date": "",
   "due": "",
@@ -33963,7 +34014,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2025/SULLIVAN_10-06-25_8223__APTIM-NORTH_WIND_CONSTRUCTION_JV_LLC (DISMISSAL).pdf",
-  "title": "Aptim\u00e2\u0080\u0093North Wind Construction JV, LLC",
+  "title": "AptimâNorth Wind Construction JV, LLC",
   "url": "https://www.cbca.gov/files/decisions/2025/SULLIVAN_10-06-25_8223__APTIM-NORTH_WIND_CONSTRUCTION_JV_LLC (DISMISSAL).pdf",
   "date": "",
   "due": "",
@@ -33980,7 +34031,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2025/SULLIVAN_10-06-25_8224__APTIM-NORTH_WIND_CONSTRUCTION_JV_LLC (DISMISSAL).pdf",
-  "title": "Aptim\u00e2\u0080\u0093North Wind Construction JV, LLC",
+  "title": "AptimâNorth Wind Construction JV, LLC",
   "url": "https://www.cbca.gov/files/decisions/2025/SULLIVAN_10-06-25_8224__APTIM-NORTH_WIND_CONSTRUCTION_JV_LLC (DISMISSAL).pdf",
   "date": "",
   "due": "",
@@ -34099,7 +34150,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2025/NEWSOM_09-17-25_8430__BLANCHARDS_CONTRACTING_LLC (DECISION).pdf",
-  "title": "Blanchard\u00e2\u0080\u0099s Contracting LLC",
+  "title": "Blanchardâs Contracting LLC",
   "url": "https://www.cbca.gov/files/decisions/2025/NEWSOM_09-17-25_8430__BLANCHARDS_CONTRACTING_LLC (DECISION).pdf",
   "date": "",
   "due": "",
@@ -36138,9 +36189,9 @@
   "source_id": 22,
   "source": "CBCA decisions",
   "type": "Legal",
-  "id": "https://www.cbca.gov/files/decisions/2024/KULLBERG_10-24-24_8001__VETERANS_1ST\u00e2\u0082\u00ac\u00e2\u0082\u00ac_ARCHITECTURE_LLC (DISMISSAL).pdf",
+  "id": "https://www.cbca.gov/files/decisions/2024/KULLBERG_10-24-24_8001__VETERANS_1STâ¬â¬_ARCHITECTURE_LLC (DISMISSAL).pdf",
   "title": "Veterans 1st Architecture, LLC",
-  "url": "https://www.cbca.gov/files/decisions/2024/KULLBERG_10-24-24_8001__VETERANS_1ST\u00e2\u0082\u00ac\u00e2\u0082\u00ac_ARCHITECTURE_LLC (DISMISSAL).pdf",
+  "url": "https://www.cbca.gov/files/decisions/2024/KULLBERG_10-24-24_8001__VETERANS_1STâ¬â¬_ARCHITECTURE_LLC (DISMISSAL).pdf",
   "date": "",
   "due": "",
   "first_seen": "2026-11-20",
@@ -40354,9 +40405,9 @@
   "source_id": 22,
   "source": "CBCA decisions",
   "type": "Legal",
-  "id": "https://www.cbca.gov/files/decisions/2023/BEARDSLEY_04-28-23_7479__L\u00e2\u0080\u0099ENFANT_OWNER_LLC (DISMISSAL).pdf",
+  "id": "https://www.cbca.gov/files/decisions/2023/BEARDSLEY_04-28-23_7479__LâENFANT_OWNER_LLC (DISMISSAL).pdf",
   "title": "L'Enfant Owner LLC",
-  "url": "https://www.cbca.gov/files/decisions/2023/BEARDSLEY_04-28-23_7479__L\u00e2\u0080\u0099ENFANT_OWNER_LLC (DISMISSAL).pdf",
+  "url": "https://www.cbca.gov/files/decisions/2023/BEARDSLEY_04-28-23_7479__LâENFANT_OWNER_LLC (DISMISSAL).pdf",
   "date": "",
   "due": "",
   "first_seen": "2026-11-20",
@@ -41749,7 +41800,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2022/DRUMMOND_10-21-22_7367__RAYS_ELECTRIC_AND_GENERAL_CONTRACTING_INC (Decision).pdf",
-  "title": "Ray\u00e2\u0080\u0099s Electric and General Contracting, Inc.",
+  "title": "Rayâs Electric and General Contracting, Inc.",
   "url": "https://www.cbca.gov/files/decisions/2022/DRUMMOND_10-21-22_7367__RAYS_ELECTRIC_AND_GENERAL_CONTRACTING_INC (Decision).pdf",
   "date": "",
   "due": "",
@@ -50096,7 +50147,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2019/SHERIDAN_12-05-19_6517, 6601__CH2M-WG_IDAHO,_LLC (Dismissal).pdf",
-  "title": "CH2M\u00ef\u0081\u009fWG Idaho, LLC",
+  "title": "CH2MïWG Idaho, LLC",
   "url": "https://www.cbca.gov/files/decisions/2019/SHERIDAN_12-05-19_6517, 6601__CH2M-WG_IDAHO,_LLC (Dismissal).pdf",
   "date": "",
   "due": "",
@@ -57865,7 +57916,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2017/LESTER_06-02-17_4747__AD_RENDON.pdf",
-  "title": "Ad Rend\u00f3n",
+  "title": "Ad Rendón",
   "url": "https://www.cbca.gov/files/decisions/2017/LESTER_06-02-17_4747__AD_RENDON.pdf",
   "date": "",
   "due": "",
@@ -61504,7 +61555,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2016/HYATT_06-14-16_4867__JOSE_GUSTAVO_ZENO.pdf",
-  "title": "Jos\u00e9 Gustavo Zeno",
+  "title": "José Gustavo Zeno",
   "url": "https://www.cbca.gov/files/decisions/2016/HYATT_06-14-16_4867__JOSE_GUSTAVO_ZENO.pdf",
   "date": "",
   "due": "",
@@ -61878,7 +61929,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2016/HYATT_05-06-16_4867__JOSE_GUSTAVO_ZENO.pdf",
-  "title": "Jos\u00e9 Gustavo Zeno",
+  "title": "José Gustavo Zeno",
   "url": "https://www.cbca.gov/files/decisions/2016/HYATT_05-06-16_4867__JOSE_GUSTAVO_ZENO.pdf",
   "date": "",
   "due": "",
@@ -78301,7 +78352,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2011/BORWICK_04-11-11_2115-2229__OCE_NORTH_AMERICA,_INC_508.pdf",
-  "title": "Oc\u00e9 North America, Inc.",
+  "title": "Océ North America, Inc.",
   "url": "https://www.cbca.gov/files/decisions/2011/BORWICK_04-11-11_2115-2229__OCE_NORTH_AMERICA,_INC_508.pdf",
   "date": "",
   "due": "",
@@ -78998,7 +79049,7 @@
   "source": "CBCA decisions",
   "type": "Legal",
   "id": "https://www.cbca.gov/files/decisions/2011/BORWICK_02-03-11_2115__OCE_NORTH_AMERICA,_INC_508.pdf",
-  "title": "Oc\u00e9 North America, Inc.",
+  "title": "Océ North America, Inc.",
   "url": "https://www.cbca.gov/files/decisions/2011/BORWICK_02-03-11_2115__OCE_NORTH_AMERICA,_INC_508.pdf",
   "date": "",
   "due": "",
@@ -92889,7 +92940,7 @@
   "source": "Defense committees and appropriations",
   "type": "Legislative",
   "id": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6464",
-  "title": "ISO Subcommittee Hearing: Defense Intelligence Enterprise \u2013 Challenges, Priorities, and Resourcing for Fiscal Year 2027",
+  "title": "ISO Subcommittee Hearing: Defense Intelligence Enterprise – Challenges, Priorities, and Resourcing for Fiscal Year 2027",
   "url": "https://armedservices.house.gov/calendar/EventSingle.aspx?EventID=6464",
   "date": "",
   "due": "",
@@ -93076,7 +93127,7 @@
   "source": "Defense committees and appropriations",
   "type": "Legislative",
   "id": "https://www.armed-services.senate.gov/hearings/to-consider-the-nominations-of-honorable-jules-w-hurst-iii-to-be-under-secretary-of-defense-comptroller-mr-richard-m-omalley-to-be-deputy-under-secretary-of-defense-for-acquisition-and-sustainment-dr-l-roger-mason-jr-to-be-director-of-the-national-reconnaissance-office-and-dr-erich-d-hernandez-baquero-to-be-assistant-secretary-of-the-air-force-for-space-acquisition-and-integration",
-  "title": "To consider the nominations of: Honorable Jules W. Hurst III to be Under Secretary of Defense (Comptroller); Mr. Richard M. O\u2019Malley to be Deputy Under Secretary of Defense for Acquisition and Sustainment; Dr. L. Roger Mason, Jr. to be Director of the National Reconnaissance Office; and Dr. Erich D.",
+  "title": "To consider the nominations of: Honorable Jules W. Hurst III to be Under Secretary of Defense (Comptroller); Mr. Richard M. O’Malley to be Deputy Under Secretary of Defense for Acquisition and Sustainment; Dr. L. Roger Mason, Jr. to be Director of the National Reconnaissance Office; and Dr. Erich D.",
   "url": "https://www.armed-services.senate.gov/hearings/to-consider-the-nominations-of-honorable-jules-w-hurst-iii-to-be-under-secretary-of-defense-comptroller-mr-richard-m-omalley-to-be-deputy-under-secretary-of-defense-for-acquisition-and-sustainment-dr-l-roger-mason-jr-to-be-director-of-the-national-reconnaissance-office-and-dr-erich-d-hernandez-baquero-to-be-assistant-secretary-of-the-air-force-for-space-acquisition-and-integration",
   "date": "",
   "due": "",
@@ -93298,7 +93349,7 @@
   "source": "Defense committees and appropriations",
   "type": "Legislative",
   "id": "https://appropriations.house.gov/news/press-releases/reinforcing-americas-defense-appropriators-focus-industrial-capacity-workforce",
-  "title": "Reinforcing America\u2019s Defense: Appropriators Focus on Industrial Capacity, Workforce, and Critical Resources",
+  "title": "Reinforcing America’s Defense: Appropriators Focus on Industrial Capacity, Workforce, and Critical Resources",
   "url": "https://appropriations.house.gov/news/press-releases/reinforcing-americas-defense-appropriators-focus-industrial-capacity-workforce",
   "date": "",
   "due": "",
@@ -93481,7 +93532,7 @@
   "source": "House Rules Committee",
   "type": "Legislative",
   "id": "https://rules.house.gov/bill/119/s-4668",
-  "title": "S. 4668 \u2014 Protect College Sports Act of 2026",
+  "title": "S. 4668 — Protect College Sports Act of 2026",
   "url": "https://rules.house.gov/bill/119/s-4668",
   "date": "",
   "due": "",
@@ -93496,7 +93547,7 @@
   "source": "House Rules Committee",
   "type": "Legislative",
   "id": "https://rules.house.gov/media/announcement/announcement-s-4668-protect-college-sports-act-2026",
-  "title": "Announcement for S. 4668 \u2013 Protect College Sports Act of 2026",
+  "title": "Announcement for S. 4668 – Protect College Sports Act of 2026",
   "url": "https://rules.house.gov/media/announcement/announcement-s-4668-protect-college-sports-act-2026",
   "date": "",
   "due": "",
