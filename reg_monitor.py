@@ -292,6 +292,8 @@ def f_rss(f, src):
                     newest = max(newest, time.strftime("%Y-%m-%d", tp0))
                 if f.get("exclude_regex") and re.search(f["exclude_regex"], title):
                     continue
+                if f.get("include_regex") and not re.search(f["include_regex"], title + " " + clean(e.get("summary", ""), 2000)):
+                    continue
                 if not kw_match(title + " " + clean(e.get("summary", ""), 2000), keywords):
                     continue
                 date = ""

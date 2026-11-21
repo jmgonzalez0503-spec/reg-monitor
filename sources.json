@@ -538,7 +538,8 @@
      "urls": [
       "https://ecf.cofc.uscourts.gov/cgi-bin/rss_outside.pl"
      ],
-     "exclude_regex": "(?i)(-vv-|SECRETARY OF HEALTH AND HUMAN SERVICES)"
+     "exclude_regex": "(?i)(-vv-|SECRETARY OF HEALTH AND HUMAN SERVICES)",
+     "include_regex": "(?i)(\\[Opinion\\]|\\[Order\\]|\\[Judgment\\]|\\[Decision\\]|\\[Memorandum Opinion\\]|\\[Attorney Bid Protest Complaint\\]|\\[Attorney Complaint\\]|bid protest|contract dispute|procurement)"
     }
    ],
    "tags": [
